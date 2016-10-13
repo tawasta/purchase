@@ -8,7 +8,8 @@
       <field name="arch" type="xml">
         <field name='partner_id' position='after'>
           <field name='supplier_contact_id'
-                 domain="[('is_company', '=', False), ('id', 'child_of', partner_id),('type','=','contact')]"/>
+                 domain="[('is_company', '=', False), ('id', 'child_of', partner_id),('type','=','contact')]" 
+                 context="{'name_without_company':True}" options="{'always_reload':True}"/>
         </field>
       </field>
     </record>
