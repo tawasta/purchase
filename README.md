@@ -8,6 +8,7 @@ Available addons
 **Addon** | **Summary**
 --- | ---
 [purchase_order_internal_reference/](purchase_order_internal_reference/) | Internal reference field for Purchase Orders
+[purchase_order_description/](purchase_order_description/) | Freetext internal comment field for Purchase Orders
 
 
 Unported addons
