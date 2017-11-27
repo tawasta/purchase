@@ -1,0 +1,65 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* purchase_order_set_product_prices_from_po
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-27 12:54+0000\n"
+"PO-Revision-Date: 2017-11-27 12:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_order_set_product_prices_from_po
+#: code:addons/purchase_order_set_product_prices_from_po/models/purchase_order.py:15
+#, python-format
+msgid "Cannot update cost price that is in {} when purchasing it in {}."
+msgstr "Ei voitu päivittää tuoterekisteriin ostohintaa, joka on valuutassa {}, kun ostotilauksen valuutta on {}."
+
+#. module: purchase_order_set_product_prices_from_po
+#: model:ir.model.fields,help:purchase_order_set_product_prices_from_po.field_purchase_order_line_update_price
+msgid "Checked lines' products will have their Cost Prices updated according to the price on the line when Purchase Order's 'Update Prices' button is clicked. "
+msgstr "Rastitettujen rivien tuotteiden 'Kulut' -kentän hinta päivitetään tuoterekisteriin rivin hinnan mukaiseksi, kun 'Päivitä ostohinnat' -nappia klikataan. "
+
+#. module: purchase_order_set_product_prices_from_po
+#: code:addons/purchase_order_set_product_prices_from_po/models/purchase_order.py:37
+#, python-format
+msgid "Cost price should not be updated manually if Real-Time Inventory Valuation is in use together with Standard Price or Average Price costing."
+msgstr "Cost price should not be updated manually if Real-Time Inventory Valuation is in use together with Standard Price or Average Price costing."
+
+#. module: purchase_order_set_product_prices_from_po
+#: code:addons/purchase_order_set_product_prices_from_po/models/purchase_order.py:24
+#, python-format
+msgid "Please add some Purchase Order lines first."
+msgstr "Ole hyvä ja lisää ensin ostotilausrivejä"
+
+#. module: purchase_order_set_product_prices_from_po
+#: code:addons/purchase_order_set_product_prices_from_po/models/purchase_order.py:27
+#, python-format
+msgid "Please check the 'Update Cost Price' field on some Purchase Order lines first."
+msgstr "Ole hyvä ja rastita Päivitä Ostohinta -kenttä ensin joillekin riveille."
+
+#. module: purchase_order_set_product_prices_from_po
+#: model:ir.model,name:purchase_order_set_product_prices_from_po.model_purchase_order
+msgid "Purchase Order"
+msgstr "Ostotilaus"
+
+#. module: purchase_order_set_product_prices_from_po
+#: model:ir.model,name:purchase_order_set_product_prices_from_po.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Ostotilausrivi"
+
+#. module: purchase_order_set_product_prices_from_po
+#: model:ir.model.fields,field_description:purchase_order_set_product_prices_from_po.field_purchase_order_line_update_price
+msgid "Update Cost Price"
+msgstr "Päivitä ostohinta"
+
+#. module: purchase_order_set_product_prices_from_po
+#: model:ir.ui.view,arch_db:purchase_order_set_product_prices_from_po.purchase_order_set_product_prices_form
+msgid "Update Cost Prices"
+msgstr "Päivitä ostohinnat"
