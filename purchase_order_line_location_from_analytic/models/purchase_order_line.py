@@ -5,7 +5,8 @@
 # 2. Known third party imports:
 
 # 3. Odoo imports (openerp):
-from openerp import api, fields, models
+from odoo import api, fields, models
+
 
 # 4. Imports from Odoo modules:
 
@@ -15,7 +16,6 @@ from openerp import api, fields, models
 
 
 class PurchaseOrderLine(models.Model):
-    
     # 1. Private attributes
     _inherit = 'purchase.order.line'
 
@@ -30,8 +30,9 @@ class PurchaseOrderLine(models.Model):
     @api.onchange('account_analytic_id')
     def onchange_analytic_account_id(self):
         if self.account_analytic_id and self.account_analytic_id.location_ids:
-            self.location_dest_id = self.account_analytic_id.location_ids[0].id
-        else: 
+            self.location_dest_id = \
+                self.account_analytic_id.default_location_id.id
+        else:
             self.location_dest_id = False
 
     # 6. CRUD methods
