@@ -22,7 +22,7 @@
 {
     'name': 'PO Line Destination From Analytic Account',
     'summary': "Suggest line destination based on line's AA",
-    'version': '10.0.0.2.0',
+    'version': '10.0.0.3.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
