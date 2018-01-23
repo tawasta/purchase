@@ -19,7 +19,7 @@
                 <label string=" " for="set_line_analytic"/>
                 <button name="set_line_analytic"
                       type="object"
-                      string="Set for all order lines"
+                      string="Set project for all order lines"
                       class="oe_edit_only oe_right oe_link"/>
             </field>
 
