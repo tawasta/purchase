@@ -7,6 +7,9 @@ PO Line Analytic Account from Order
 ===================================
 
 * Suggest purchase order line's analytic account based on the project the purchase order is linked to
+* You can also mass update the lines' analytic accounts with a separate button. 
+* If ``stock_location_analytic_account`` and  ``purchase_location_by_line`` are installed, the button also
+  updates the destination location based on the analytic account's default location.
 
 Configuration
 =============
