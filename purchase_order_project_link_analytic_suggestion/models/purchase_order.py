@@ -21,10 +21,12 @@ class PurchaseOrder(models.Model):
 
     # 2. Fields declaration
 
-    # This is just a helper field to be used when passing a default value to PO lines in XML,
-    # since the context attribute does not accept referencing the AA using
-    # a syntax like { 'default_x': project_id.analytic_account_id } there
-    analytic_account_id = fields.Many2one(related='project_id.analytic_account_id', string='Analytic Account')
+    # This is just a helper field to be used when passing a default value to
+    # PO lines in XML since the context attribute does not accept referencing
+    # the AA using a syntax like { 'default_x': project_id.analytic_account_id }
+    analytic_account_id = fields.Many2one(
+        related='project_id.analytic_account_id',
+        string='Analytic Account')
 
     # 3. Default methods
 
