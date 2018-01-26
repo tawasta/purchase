@@ -13,6 +13,7 @@ Available addons
 [purchase_order_project_link/](purchase_order_project_link/) | New field for indicating what Project the PO is related to
 [purchase_order_project_link_analytic_suggestion/](purchase_order_project_link_analytic_suggestion/) | Suggest PO lines' analytic account based on the project the PO is linked to
 [purchase_order_set_product_prices_from_po/](purchase_order_set_product_prices_from_po/) | Update products' cost prices from PO based on the lines' prices
+[purchase_request_analytic_account/](purchase_request_analytic_account/) | New field for indicating what analytic account the purchase request is related to
 
 
 Unported addons
