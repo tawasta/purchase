@@ -20,9 +20,9 @@
 ##############################################################################
 
 {
-    'name': 'PO Line Analytic Account from Order',
-    'summary': "Suggest line AA based on the project the PO is linked to",
-    'version': '10.0.1.1.1',
+    'name': 'Analytic Account for Purchase Order',
+    'summary': 'New field for indicating what AA the PO is related to',
+    'version': '10.0.1.1.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
@@ -34,7 +34,7 @@
         'bin': [],
     },
     'depends': [
-        'purchase_order_project_link',
+        'purchase',
     ],
     'data': [
         'views/purchase_order.xml',

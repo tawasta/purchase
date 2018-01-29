@@ -2,12 +2,13 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==============================
-Link Purchase Order to Project
-==============================
+===================================
+Analytic Account for Purchase Order
+===================================
 
-* New field for indicating what project the purchase order is related to
-* Is only an extra information field by itself - does not contain any analytic accounting functionality
+* New field for indicating what analytic account the purchase order is related to
+* Suggests purchase order line's analytic account based on the analytic account the order is linked to
+* You can also mass update the lines' analytic accounts with a separate button when the order is in draft state 
 
 Configuration
 =============
@@ -15,7 +16,7 @@ Configuration
 
 Usage
 =====
-* You may want to install purchase_order_project_link_analytic_suggestion, which suggests PO lines' analytic accounts based on the field provided by this module
+\-
 
 Known issues / Roadmap
 ======================
