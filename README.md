@@ -7,8 +7,7 @@ Available addons
 ----------------
 **Addon** | **Summary**
 --- | ---
-
-
+[purchase_procurement_vendor_minimum_qty/](purchase_procurement_vendor_minimum_qty/) | New POs from procurements attempt to respect vendors' minimum order quantities
 
 Unported addons
 ----------------
