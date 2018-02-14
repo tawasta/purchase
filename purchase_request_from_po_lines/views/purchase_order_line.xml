@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.values" id="purchase_order_line_make_purchase_request">
+        <field name="model_id" ref="purchase.model_purchase_order_line" />
+        <field name="name">Create Purchase Request</field>
+        <field name="key2">client_action_multi</field>
+        <field name="value" eval="'ir.actions.act_window,' + str(ref('purchase_order_line_to_purchase_request_action'))" />
+        <field name="key">action</field>
+        <field name="model">purchase.order.line</field>
+    </record>
+</odoo>

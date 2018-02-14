@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <record id="po_line_to_request_form" model="ir.ui.view">
+        <field name="name">po_line_to_request.form</field>
+        <field name="model">purchase_request_from_po_lines.po_line_to_request</field>
+        <field name="arch" type="xml">
+            <form string="Create Purchase Request">
+                <sheet>
+                    <group>
+                        <field name="type" widget="radio"/>
+                        <field name="purchase_request_id" 
+                            options="{ 'no_create': True }" 
+                            attrs="{ 'required': [('type', 'in', ['latest_own', 'other'])], 'invisible': [('type', 'not in', ['latest_own', 'other'])] }"/>
+                        <field name="requested_by" 
+                            attrs="{ 'invisible': [('type', 'not in', ['latest_own', 'other'])] }"/>
+                        <field name="assigned_to" 
+                            attrs="{ 'invisible': [('type', 'not in', ['latest_own', 'other'])] }"/>
+                        <field name="date_start" 
+                            attrs="{ 'invisible': [('type', 'not in', ['latest_own', 'other'])] }"/>
+                        <field name="description" 
+                            attrs="{ 'invisible': [('type', 'not in', ['latest_own', 'other'])] }"/>
+                    </group>
+                    <group>
+                        <field name="analytic_account_id" string="Analytic Account for selected lines"/>
+                        <field name="redirect_to_purchase_request"/>
+                    </group>
+                    <footer>
+                        <button string="Create Purchase Request" 
+                            name="create_purchase_request" 
+                            type="object" class="btn-primary"/> or
+                        <button string="Cancel" 
+                            class="btn-default" 
+                            special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="purchase_order_line_to_purchase_request_action" model="ir.actions.act_window">
+        <field name="name">Create Purchase Request</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">purchase_request_from_po_lines.po_line_to_request</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="po_line_to_request_form"/>
+        <field name="target">new</field>
+    </record>
+
+</odoo>
