@@ -73,6 +73,7 @@ class ProcurementOrder(osv.osv):
             supplier = supplierinfo_model.browse(
                 cr, uid, supplier_ids[0], context
             )
+
             qty = uom_obj._compute_qty(
                 cr, uid, procurement.product_uom.id, 
                 procurement.product_qty, uom_id
@@ -81,16 +82,15 @@ class ProcurementOrder(osv.osv):
                 if procurement.location_id.usage != 'customer' \
                 else 0.0
 
-            if seller_qty:
-                qty = max(qty, seller_qty)
+            qty = max(qty, seller_qty)
 
-                # Recalculate also the price to be based on the new qty
-                price = pricelist_obj.price_get(
-                    cr, uid, [pricelist_id], procurement.product_id.id, qty, 
-                    partner.id, dict(context, uom=uom_id)
-                )[pricelist_id]
+            # Recalculate also the price to be based on the new qty
+            price = pricelist_obj.price_get(
+                cr, uid, [pricelist_id], procurement.product_id.id, qty, 
+                partner.id, dict(context, uom=uom_id)
+            )[pricelist_id]
 
-                res['product_qty'] = qty
-                res['price_unit'] = price or 0.0
+            res['product_qty'] = qty
+            res['price_unit'] = price or 0.0
 
         return res
