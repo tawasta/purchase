@@ -6,11 +6,15 @@
 Vendor minimum order quantity for procurements
 ==============================================
 
-New Purchase Orders from procurement orders attempt to respect vendor minimum quantities
+New Purchase Orders from procurement orders attempt to respect vendor minimum 
+quantities
 
-* By default when a product has multiple vendors, the first one on the list is suggested for a new Purchase Order originating from a Procurement Order
-* With this module the procurement order tries to first find a vendor whose minimum order quantity < required procurement quantity
-* If no such vendor is found, the search falls back to Odoo core functionality that suggests the vendor with the highest priority
+* By default when a product has multiple vendors, the first one on the list is 
+  suggested for a new Purchase Order originating from a Procurement Order
+* With this module the procurement order tries to first find a vendor whose 
+  minimum order quantity < required procurement quantity
+* If no such vendor is found, the search falls back to Odoo core functionality 
+  that suggests the vendor with the highest priority
 
 Configuration
 =============
@@ -18,7 +22,8 @@ Configuration
 
 Usage
 =====
-\-
+* Create a new procurement order from the product form view for a purchaseable
+  item
 
 Known issues / Roadmap
 ======================

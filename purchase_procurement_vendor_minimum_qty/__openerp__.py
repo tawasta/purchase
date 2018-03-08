@@ -22,7 +22,7 @@
 {
     'name': 'Vendor minimum order qty for procurements',
     'summary': 'New POs from procurements attempt to respect vendor minimum qties',
-    'version': '8.0.1.0.0',
+    'version': '8.0.2.0.0',
     'category': 'Inventory',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
