@@ -8,6 +8,7 @@ Available addons
 **Addon** | **Summary**
 --- | ---
 [purchase_order_analytic_account/](purchase_order_analytic_account/) | New field for indicating what analytic account the purchase order is related to
+[purchase_order_buyer/](purchase_order_buyer/) | Buyer field for Purchase Orders
 [purchase_order_contact_person/](purchase_order_contact_person/) | Vendor's Contact field for Purchase Orders
 [purchase_order_description/](purchase_order_description/) | Freetext internal comment field for Purchase Orders
 [purchase_order_internal_reference/](purchase_order_internal_reference/) | Internal reference field for Purchase Orders
