@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
-from openerp import models, fields, api, _
-from openerp.tools.translate import _
+from odoo import models, fields, api, _
 
 
 class PurchaseOrder(models.Model):
 
     _inherit = 'purchase.order'
 
-    supplier_contact_id = fields.Many2one('res.partner', "Vendor's contact")
+    supplier_contact_id = fields.Many2one(
+        comodel_name='res.partner', 
+        string="Vendor's contact"
+    )
