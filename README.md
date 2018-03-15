@@ -19,6 +19,8 @@ Available addons
 [purchase_order_standard_clause/](purchase_order_standard_clause/) | Company-specific standard clause for Purchase Orders
 [purchase_procurement_vendor_minimum_qty/](purchase_procurement_vendor_minimum_qty/) | New Purchase Orders from procurement orders attempt to respect vendor minimum quantities
 [purchase_request_analytic_account/](purchase_request_analytic_account/) | New field for indicating what analytic account the purchase request is related to
+[purchase_request_analytic_account_stock_location/](purchase_request_analytic_account_stock_location/) | Adds analytic account stock location field to purchase request
+[purchase_request_check_stock_availability/](purchase_request_check_stock_availability/) | Trigger internal transfers from Purchase Request view
 [purchase_request_from_po_lines/](purchase_request_from_po_lines/) | Create purchase requests from existing purchase order lines
 [purchase_request_line_show_purchases/](purchase_request_line_show_purchases/) | Show related Purchase Orders' numbers on PR lines
 [purchase_request_newest_first/](purchase_request_newest_first/) | Show newest Purchase Requests first
