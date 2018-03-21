@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Tawasta/purchase.svg?branch=10.0)](https://travis-ci.org/Tawasta/purchase)
+
 Purchase-related addons
 =======================
 
