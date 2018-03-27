@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from odoo import models, fields, api, _
+from odoo import models, fields, api
 
 
 class PurchaseOrder(models.Model):
-    
+
     _inherit = 'purchase.order'
 
     @api.onchange('partner_id')
@@ -19,4 +19,3 @@ class PurchaseOrder(models.Model):
             self.standard_clause = False
 
     standard_clause = fields.Text(string='Standard Clause')
-
