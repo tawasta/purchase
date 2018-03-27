@@ -37,6 +37,7 @@
         'purchase_request_analytic_account_location',
     ],
     'data': [
+        'security/ir.model.access.csv',
         'views/purchase_request.xml',
     ],
     'demo': [
