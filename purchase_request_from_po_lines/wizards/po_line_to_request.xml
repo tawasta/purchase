@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <odoo>
     <record id="po_line_to_request_form" model="ir.ui.view">
         <field name="name">po_line_to_request.form</field>
