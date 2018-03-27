@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
-from openerp import models, fields, api, _, exceptions
+from odoo import models, fields
 
 
 class PurchaseOrder(models.Model):
 
     _inherit = 'purchase.order'
 
-    reference = fields.Char('Internal Reference')
+    reference = fields.Char(
+        string='Internal Reference'
+    )

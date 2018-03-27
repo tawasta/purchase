@@ -21,7 +21,7 @@
 
 {
     'name': 'Purchase Order Reference Field',
-    'summary': 'New field for storing an internal reference to PO', 
+    'summary': 'New field for storing an internal reference to PO',
     'version': '10.0.0.1.0',
     'category': 'Purchase',
     'website': 'http://www.tawasta.fi',
