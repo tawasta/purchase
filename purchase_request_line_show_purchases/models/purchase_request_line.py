@@ -5,7 +5,7 @@
 # 2. Known third party imports:
 
 # 3. Odoo imports (openerp):
-from odoo import api, fields, models, exceptions, _
+from odoo import api, fields, models
 
 # 4. Imports from Odoo modules:
 
@@ -15,7 +15,7 @@ from odoo import api, fields, models, exceptions, _
 
 
 class PurchaseRequestLine(models.Model):
-    
+
     # 1. Private attributes
     _inherit = 'purchase.request.line'
 
@@ -33,7 +33,9 @@ class PurchaseRequestLine(models.Model):
     @api.multi
     def _get_purchase_order_ids(self):
         for request_line in self:
-            request_line.purchase_order_ids = [po_line.order_id.id for po_line in request_line.purchase_lines]
+            request_line.purchase_order_ids = [
+                po_line.order_id.id for po_line in request_line.purchase_lines
+            ]
 
     # 5. Constraints and onchanges
 
