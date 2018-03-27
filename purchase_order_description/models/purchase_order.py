@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
-from openerp import models, fields, api, _
+from openerp import models, fields
 
 
 class PurchaseOrder(models.Model):
-    
+
     _inherit = 'purchase.order'
 
-    description = fields.Text('Description',
-                              help='Internal notes')
+    description = fields.Text(
+        string='Description',
+        help='Internal notes'
+    )
