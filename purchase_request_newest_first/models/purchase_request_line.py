@@ -5,7 +5,7 @@
 # 2. Known third party imports:
 
 # 3. Odoo imports (openerp):
-from odoo import api, fields, models, exceptions, _
+from odoo import models
 
 # 4. Imports from Odoo modules:
 
@@ -15,7 +15,7 @@ from odoo import api, fields, models, exceptions, _
 
 
 class PurchaseRequestLine(models.Model):
-    
+
     # 1. Private attributes
     _inherit = 'purchase.request.line'
     _order = 'request_id ASC,id ASC'
