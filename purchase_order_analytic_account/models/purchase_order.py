@@ -15,7 +15,7 @@ from openerp import api, fields, models, exceptions, _
 
 
 class PurchaseOrder(models.Model):
-    
+
     # 1. Private attributes
     _inherit = 'purchase.order'
 
@@ -23,7 +23,7 @@ class PurchaseOrder(models.Model):
 
     # Use same field naming convention as in core Sale
     project_id = fields.Many2one(
-        comodel_name='account.analytic.account', 
+        comodel_name='account.analytic.account',
         string='Project',
         readonly=True,
         states={'draft': [('readonly', False)], 'sent': [('readonly', False)]})
@@ -53,7 +53,7 @@ class PurchaseOrder(models.Model):
             # If stock_location_analytic_account and purchase_location_by_line
             # are installed, set the line destination location also
             if hasattr(purchase_order_line_model, 'location_dest_id') \
-                and hasattr(analytic_account_model, 'default_location_id'):
+                    and hasattr(analytic_account_model, 'default_location_id'):
 
                 line.location_dest_id = \
                     line.account_analytic_id.default_location_id.id or False
