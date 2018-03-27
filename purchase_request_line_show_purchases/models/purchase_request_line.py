@@ -21,7 +21,7 @@ class PurchaseRequestLine(models.Model):
 
     # 2. Fields declaration
     purchase_order_ids = fields.Many2many(
-        compute='_get_purchase_order_ids',
+        compute='_compute_purchase_order_ids',
         comodel_name='purchase.order',
         string='Purchase Orders',
         readonly=True
@@ -31,7 +31,7 @@ class PurchaseRequestLine(models.Model):
 
     # 4. Compute and search fields, in the same order that fields declaration
     @api.multi
-    def _get_purchase_order_ids(self):
+    def _compute_purchase_order_ids(self):
         for request_line in self:
             request_line.purchase_order_ids = [
                 po_line.order_id.id for po_line in request_line.purchase_lines
