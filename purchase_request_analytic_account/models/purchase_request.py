@@ -15,7 +15,7 @@ from openerp import api, fields, models, exceptions, _
 
 
 class PurchaseRequest(models.Model):
-    
+
     # 1. Private attributes
     _inherit = 'purchase.request'
 
