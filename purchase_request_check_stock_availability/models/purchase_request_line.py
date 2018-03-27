@@ -5,10 +5,9 @@
 # 2. Known third party imports:
 
 # 3. Odoo imports (openerp):
-from odoo import api, fields, models, exceptions, _
+from odoo import fields, models
 
 # 4. Imports from Odoo modules:
-import odoo.addons.decimal_precision as dp
 
 # 5. Local imports in the relative form:
 
@@ -16,12 +15,12 @@ import odoo.addons.decimal_precision as dp
 
 
 class PurchaseRequestLine(models.Model):
-    
+
     # 1. Private attributes
     _inherit = "purchase.request.line"
 
     # 2. Fields declaration
-    availability_line_ids =  fields.One2many(
+    availability_line_ids = fields.One2many(
         comodel_name='purchase.request.availability.line',
         inverse_name='request_line_id',
         string='Availability in other Stock Locations',
