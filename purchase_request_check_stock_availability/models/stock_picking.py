@@ -5,7 +5,7 @@
 # 2. Known third party imports:
 
 # 3. Odoo imports (openerp):
-from odoo import api, fields, models, exceptions, _
+from odoo import fields, models
 
 # 4. Imports from Odoo modules:
 
@@ -13,8 +13,9 @@ from odoo import api, fields, models, exceptions, _
 
 # 6. Unknown third party imports:
 
+
 class StockPicking(models.Model):
-    
+
     # 1. Private attributes
     _inherit = 'stock.picking'
 

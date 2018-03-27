@@ -16,7 +16,7 @@ import odoo.addons.decimal_precision as dp
 
 
 class PurchaseRequestAvailabilityLine(models.Model):
-    
+
     # 1. Private attributes
     _name = "purchase.request.availability.line"
     _description = "Purchase Request Availability Line"
@@ -36,7 +36,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
     product_qty = fields.Float(
         related='request_line_id.product_qty',
-        string='Quantity wanted', 
+        string='Quantity wanted',
         digits=dp.get_precision('Product Unit of Measure')
     )
 
@@ -48,7 +48,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
     product_uom_id = fields.Many2one(
         related='request_line_id.product_uom_id',
-        comodel_name='product.uom', 
+        comodel_name='product.uom',
         string='UoM'
     )
 
@@ -59,9 +59,9 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
     available_uom_id = fields.Many2one(
         related='request_line_id.product_id.uom_id',
-        comodel_name='product.uom', 
+        comodel_name='product.uom',
         string='UoM'
-    )    
+    )
 
     request_id = fields.Many2one(
         comodel_name='purchase.request',
@@ -72,7 +72,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
         comodel_name='stock.location',
         string='Location'
     )
-    
+
     company_id = fields.Many2one(
         related='request_id.company_id',
         comodel_name='res.company',
@@ -110,12 +110,14 @@ class PurchaseRequestAvailabilityLine(models.Model):
             'picking_type_id': self._get_picking_type_for_transfer(),
             'location_id': self.location_id.id,
             'location_dest_id': self.request_id.stock_location_id.id or False,
-            'origin': '%s: %s %s' % (self.request_id.name, _('Internal transfer of'), self.product_id.name)
+            'origin': '%s: %s %s' % (self.request_id.name,
+                                     _('Internal transfer of'),
+                                     self.product_id.name)
         }
 
         res = stock_picking_model.create(vals)
 
-        #TODO: UOM handling when using different units of measure
+        # TODO: UOM handling when using different units of measure
         transfer_qty = self._get_transfer_qty()
 
         stock_move_model.create({
@@ -130,8 +132,8 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
         if self.product_qty <= transfer_qty:
             # The whole qty is expected to be transferred, so remove all
-            # availability lines related to the request line. We cannot 
-            # completely delete the lines yet to avoid "Record does not exist 
+            # availability lines related to the request line. We cannot
+            # completely delete the lines yet to avoid "Record does not exist
             # or has been deleted" error, so mark them as inactive instead
             for line in self.request_line_id.availability_line_ids:
                 line.active = False
@@ -157,8 +159,10 @@ class PurchaseRequestAvailabilityLine(models.Model):
         '''What picking type should be used for the new stock picking.
         Default is an internal tranfer for the company of the purchase
         request'''
-        args=[('code', '=', 'internal'),
-              ('warehouse_id.company_id', '=', self.request_id.company_id.id)]
+        args = [
+            ('code', '=', 'internal'),
+            ('warehouse_id.company_id', '=', self.request_id.company_id.id)
+        ]
 
         res = self.env['stock.picking.type'].search(args, limit=1)
 
@@ -171,5 +175,5 @@ class PurchaseRequestAvailabilityLine(models.Model):
         '''How much of the product should be suggested to be transferred
         on the picking. Default is:
         -Total request quantity if available
-        -If total amount is not available, then transfer as much as possible '''
-        return min(self.available_qty, self.product_qty)            
+        -If total amount is not available, then transfer as much as possible'''
+        return min(self.available_qty, self.product_qty)

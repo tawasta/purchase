@@ -5,7 +5,7 @@
 # 2. Known third party imports:
 
 # 3. Odoo imports (openerp):
-from odoo import api, fields, models, exceptions, _
+from odoo import fields, models
 
 # 4. Imports from Odoo modules:
 
@@ -15,7 +15,7 @@ from odoo import api, fields, models, exceptions, _
 
 
 class PurchaseRequest(models.Model):
-    
+
     # 1. Private attributes
     _inherit = 'purchase.request'
 
@@ -44,7 +44,8 @@ class PurchaseRequest(models.Model):
     def check_stock_availability(self):
 
         stock_location_model = self.env['stock.location']
-        availability_line_model = self.env['purchase.request.availability.line']        
+        availability_line_model \
+            = self.env['purchase.request.availability.line']
 
         # Clear current lines
         self.availability_line_ids = False
@@ -53,7 +54,7 @@ class PurchaseRequest(models.Model):
         args = self.get_stock_location_domain()
         locations_to_check = stock_location_model.search(args)
 
-        # Iterate all lines on the PR, check their available quantities in 
+        # Iterate all lines on the PR, check their available quantities in
         # different stock locations, and create availability lines accordingly
         for request_line in self.line_ids:
             for location in locations_to_check:
@@ -71,10 +72,11 @@ class PurchaseRequest(models.Model):
     # 8. Business methods
     def get_stock_location_domain(self):
         ''' What stock locations should be included when checking if materials
-        exist elsewhere. By default included ones are internal physical locations
-        that are linked to an analytic account (i.e. are project locations) and
-        belong to the same company. The location set on the purchase request 
-        is filtered out to avoid suggesting same source/target locations'''
+        exist elsewhere. By default included ones are internal physical
+        locations that are linked to an analytic account (i.e. are project
+        locations) and belong to the same company. The location set on the
+        purchase request is filtered out to avoid suggesting same source/target
+        locations'''
         return [('company_id', '=', self.company_id.id),
                 ('id', '!=', self.stock_location_id.id),
                 ('usage', '=', 'internal'),
