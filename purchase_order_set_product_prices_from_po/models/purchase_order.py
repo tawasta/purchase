@@ -15,7 +15,7 @@ class PurchaseOrder(models.Model):
         if purchase_currency.id != product_currency.id:
             msg = _("Cannot update cost price that is in {} "
                     "when purchasing it in {}.") \
-                    .format(product_currency.name, purchase_currency.name)
+                .format(product_currency.name, purchase_currency.name)
             raise exceptions.ValidationError(msg)
 
     @api.multi
