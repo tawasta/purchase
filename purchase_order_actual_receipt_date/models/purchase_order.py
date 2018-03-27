@@ -18,7 +18,7 @@ class PurchaseOrder(models.Model):
 
                 order.date_receipt_actual = fields.Datetime.now()
 
-    date_receipt_actual = fields.Date(
+    date_receipt_actual = fields.Datetime(
         compute='_compute_date_receipt_actual',
         string='Actual Receipt Date',
         readonly=True,
