@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
-import purchase_order
-import purchase_order_line
+from . import purchase_order
+from . import purchase_order_line

@@ -22,7 +22,7 @@
 {
     'name': 'Update Cost Prices from Purchase Order',
     'summary': "Batch update products' cost prices from PO",
-    'version': '10.0.0.1.0',
+    'version': '10.0.1.0.0',
     'category': 'Purchase',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
