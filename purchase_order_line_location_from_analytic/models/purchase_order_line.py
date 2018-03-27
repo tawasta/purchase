@@ -5,7 +5,7 @@
 # 2. Known third party imports:
 
 # 3. Odoo imports (openerp):
-from odoo import api, fields, models
+from odoo import api, models
 
 
 # 4. Imports from Odoo modules:
@@ -61,7 +61,7 @@ class PurchaseOrderLine(models.Model):
         # creates a PO with a PO line where the destination field is
         # intentionally left empty
         if analytic_id and not destination_id and active_model \
-            and active_model != 'purchase.order':
+                and active_model != 'purchase.order':
             return True
         else:
             return False
