@@ -9,8 +9,7 @@
                 <field name="primary_vendor_code"/>
                 <field name="primary_vendor_price"
                     widget="monetary" 
-                    options="{'currency_field': 'primary_vendor_currency_id'}"
-                    attrs="{ 'invisible': [('supplier_id', '=', False)] }"/>
+                    options="{'currency_field': 'primary_vendor_currency_id'}"/>
                 <field name="primary_vendor_currency_id" invisible="1"/>
             </field>
         </field>
