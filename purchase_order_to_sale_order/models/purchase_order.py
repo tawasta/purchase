@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo import models, fields
+from odoo import models, fields, _
+from odoo.exceptions import UserError
 
 
 class PurchaseOrder(models.Model):
@@ -14,6 +15,10 @@ class PurchaseOrder(models.Model):
 
     def action_create_sale_order(self):
         self.ensure_one()
+
+        if self.sale_order_id:
+            raise UserError(_('A sale order already exists'))
+
         return {
             'type': 'ir.actions.act_window',
             'res_model': 'sale.order',

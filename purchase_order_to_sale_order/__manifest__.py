@@ -22,7 +22,7 @@
 {
     'name': 'Create Sale order from Purchase order',
     'summary': 'Adds a wizard for creating a SO from PO and linking them',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'category': 'Purchase',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
