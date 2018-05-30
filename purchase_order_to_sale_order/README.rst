@@ -2,9 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-======================================
-Create Sale orders from Purchase order
-======================================
+=====================================
+Create Sale order from Purchase order
+=====================================
 
 Adds a wizard for creating a SO from PO and linking them
 

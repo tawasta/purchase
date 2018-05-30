@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    'name': 'Create Sale orders from Purchase order',
+    'name': 'Create Sale order from Purchase order',
     'summary': 'Adds a wizard for creating a SO from PO and linking them',
     'version': '10.0.1.0.0',
     'category': 'Purchase',
