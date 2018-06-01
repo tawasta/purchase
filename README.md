@@ -25,6 +25,7 @@ addon | version | summary
 [purchase_order_set_product_prices_from_po](purchase_order_set_product_prices_from_po/) | 10.0.1.0.0 | Batch update products' cost prices from PO
 [purchase_order_show_dropship_address](purchase_order_show_dropship_address/) | 10.0.1.0.0 | Show the full address below the Drop Ship Address
 [purchase_order_standard_clause](purchase_order_standard_clause/) | 10.0.1.1.0 | Company-specific standard clause for POs
+[purchase_order_to_sale_order](purchase_order_to_sale_order/) | 10.0.1.0.1 | Adds a wizard for creating a SO from PO and linking them
 [purchase_procurement_vendor_minimum_qty](purchase_procurement_vendor_minimum_qty/) | 10.0.1.0.0 | New POs from procurements attempt to respect vendor minimums
 [purchase_request_analytic_account](purchase_request_analytic_account/) | 10.0.1.1.0 | New field for indicating what AA the PR is related to
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 10.0.1.0.0 | Adds analytic account stock location to PR
