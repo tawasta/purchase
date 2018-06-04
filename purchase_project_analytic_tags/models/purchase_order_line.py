@@ -12,4 +12,4 @@ class PurchaseOrderLine(models.Model):
             if record.account_analytic_id and \
                     record.account_analytic_id.tag_ids:
 
-                record.analytic_tag_ids = record.account_analytic_id.tag_ids
+                record.analytic_tag_ids += record.account_analytic_id.tag_ids
