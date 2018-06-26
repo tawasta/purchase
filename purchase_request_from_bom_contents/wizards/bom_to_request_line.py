@@ -31,7 +31,3 @@ class BomToRequestLine(models.TransientModel):
         string='Quantity',
         digits=(6, 2)
     )
-
-    notes = fields.Text(
-        string='Notes'
-    )
