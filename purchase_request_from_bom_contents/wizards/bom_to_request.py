@@ -45,15 +45,18 @@ class BomToRequest(models.TransientModel):
             'request_id': purchase_request_id,
         }
 
+    def get_line_domain(self, line, purchase_request_id):
+        return [('product_id', '=', line.product_id.id),
+                ('product_uom_id', '=', line.uom_id.id),
+                ('request_id', '=', purchase_request_id)]
+
     @api.multi
     def add_request_lines(self):
         purchase_request_line_model = self.env['purchase.request.line']
         purchase_request_id = self._context['active_id']
 
         for line in self.product_line_ids:
-            args = [('product_id', '=', line.product_id.id),
-                    ('product_uom_id', '=', line.uom_id.id),
-                    ('request_id', '=', purchase_request_id)]
+            args = self.get_line_domain(line, purchase_request_id)
 
             matching_request_line \
                 = purchase_request_line_model.search(args=args, limit=1)

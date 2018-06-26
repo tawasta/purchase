@@ -10,7 +10,7 @@
                 </header>
                 <sheet>
 
-                    <group attrs="{'invisible': [('state', '!=', 'bom_selection')]}">
+                    <group name="group_bom" attrs="{'invisible': [('state', '!=', 'bom_selection')]}">
                         <field name="bom_id" options="{ 'no_create': True }" attrs="{'required': [('state', '=', 'bom_selection')]}"/>
                     </group>
 
