@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="purchase.menu_procurement_management" sequence="2" />
+
+    <menuitem
+         id="menu_procurement_management_pending_invoice_top"
+         action="purchase.action_invoice_pending"
+         parent="purchase.menu_purchase_root"
+         sequence="1"
+    />
+
+</odoo>
