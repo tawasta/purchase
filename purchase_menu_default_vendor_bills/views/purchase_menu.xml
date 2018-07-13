@@ -2,7 +2,7 @@
 <odoo>
 
     <menuitem id="purchase.menu_procurement_management" name="Purchase"
-        parent="purhcase.menu_purchase_root" sequence="2" />
+        parent="purchase.menu_purchase_root" sequence="2" />
 
     <menuitem
          id="menu_procurement_management_pending_invoice_top"
