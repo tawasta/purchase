@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-	<record id="purchase_order_standard_clause_config_form" model="ir.ui.view">
-		<field name="name">purchase.order.standard.clause.config.form</field>
-		<field name="model">purchase.config.settings</field>
-		<field name="inherit_id" ref="purchase.view_purchase_configuration"/>
-		<field name="arch" type="xml">
+    <record id="purchase_order_standard_clause_config_form" model="ir.ui.view">
+        <field name="name">purchase.order.standard.clause.config.form</field>
+        <field name="model">purchase.config.settings</field>
+        <field name="inherit_id" ref="purchase.view_purchase_configuration"/>
+        <field name="arch" type="xml">
             <field name="group_warning_purchase" position="after">
                 <field name="purchase_order_standard_clause"/>
             </field>
-		</field>
-	</record>
+        </field>
+    </record>
 </odoo>
