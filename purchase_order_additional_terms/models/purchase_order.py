@@ -8,8 +8,7 @@ class PurchaseOrder(models.Model):
 
     @api.onchange('partner_id')
     def onchange_partner_id_additional_term(self):
-        '''If the partner has an additional term defined, suggest it as a 
-        default'''
+        # If the partner has an additional term defined, suggest it as a default
         if self.partner_id and self.partner_id.additional_term_id:
             self.additional_term_id = self.partner_id.additional_term_id.id
 
