@@ -100,7 +100,9 @@ class PurchaseRequestAvailabilityLine(models.Model):
         self.ensure_one()
 
         if not self.request_id.stock_location_id:
-            raise exceptions.UserError(_('Please set the stock location first'))
+            raise exceptions.UserError(
+                _('Please set the stock location first')
+            )
 
         stock_picking_model = self.env['stock.picking']
         stock_move_model = self.env['stock.move']
