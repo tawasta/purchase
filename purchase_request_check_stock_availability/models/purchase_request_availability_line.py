@@ -100,7 +100,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
         self.ensure_one()
 
         if not self.request_id.stock_location_id:
-            raise exceptions.UserError('Please set the stock location first')
+            raise exceptions.UserError(_('Please set the stock location first'))
 
         stock_picking_model = self.env['stock.picking']
         stock_move_model = self.env['stock.move']
@@ -167,7 +167,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
         res = self.env['stock.picking.type'].search(args, limit=1)
 
         if not res:
-            raise exceptions.UserError('Stock picking type not found!')
+            raise exceptions.UserError(_('Stock picking type not found!'))
         else:
             return res[0].id
 
