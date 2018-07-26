@@ -21,7 +21,7 @@ class PurchaseOrderLine(models.Model):
                     product.supplier_taxes_id,
                     self.taxes_id,
                     self.company_id
-                 )
+                )
             if product and price_unit and product.currency_id \
                     and product.currency_id != self.order_id.currency_id:
 
