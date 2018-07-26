@@ -1,3 +1,4 @@
+mrp https://github.com/tawasta/mrp
 partner https://github.com/tawasta/partner
 product https://github.com/tawasta/product
 purchase-workflow https://github.com/oca/purchase-workflow
