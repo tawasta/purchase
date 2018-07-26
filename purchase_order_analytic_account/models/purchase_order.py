@@ -60,6 +60,7 @@ class PurchaseOrder(models.Model):
                 ) and hasattr(analytic_account_model, 'default_location_id'):
 
                     line.location_dest_id = \
-                        line.account_analytic_id.default_location_id.id or False
+                        line.account_analytic_id.default_location_id.id \
+                        or False
 
     # 8. Business methods
