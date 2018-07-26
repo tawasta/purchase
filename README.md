@@ -1,4 +1,6 @@
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Build Status](https://travis-ci.org/Tawasta/purchase.svg?branch=10.0)](https://travis-ci.org/Tawasta/purchase)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5533f4aeca2045459e731d58c9c324d4)](https://www.codacy.com/app/jarmokortetjarvi/purchase?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Tawasta/purchase&amp;utm_campaign=Badge_Grade)
 
 Purchase-related addons
 =======================
