@@ -36,13 +36,14 @@ class PurchaseRequest(models.Model):
     # 6. CRUD methods
 
     # 7. Action methods
-    @api.one
+    @api.multi
     def set_line_analytic(self):
-        if not self.analytic_account_id:
-            error = _('Please select a project first')
-            raise exceptions.UserError(error)
+        for record in self:
+            if not record.analytic_account_id:
+                error = _('Please select a project first')
+                raise exceptions.UserError(error)
 
-        for line in self.line_ids:
-            line.analytic_account_id = self.analytic_account_id.id
+            for line in record.line_ids:
+                line.analytic_account_id = record.analytic_account_id.id
 
     # 8. Business methods
