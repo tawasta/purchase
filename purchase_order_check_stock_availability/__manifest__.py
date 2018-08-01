@@ -22,7 +22,7 @@
 {
     'name': 'Purchase Order Stock Availability check',
     'summary': 'Trigger internal transfers from Purchase Order view',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.1.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
@@ -35,6 +35,7 @@
     },
     'depends': [
         'purchase',
+        'purchase_location_by_line',
         'stock',
     ],
     'data': [

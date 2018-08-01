@@ -73,9 +73,10 @@ class PurchaseOrderAvailabilityLine(models.Model):
         string='Location'
     )
 
-    destination_location_id = fields.Many2one(
+    location_dest_id = fields.Many2one(
         comodel_name='stock.location',
-        string='Destination'
+        string='Destination',
+        related='order_line_id.location_dest_id'
     )
 
     company_id = fields.Many2one(
@@ -105,7 +106,7 @@ class PurchaseOrderAvailabilityLine(models.Model):
         self.ensure_one()
 
         if not self.location_id or \
-                not self.destination_location_id:
+                not self.location_dest_id:
             raise exceptions.UserError(
                 _('Please set source and destination location first')
             )
@@ -117,7 +118,7 @@ class PurchaseOrderAvailabilityLine(models.Model):
             'purchase_id': self.order_id.id,
             'picking_type_id': self._get_picking_type_for_transfer(),
             'location_id': self.location_id.id,
-            'location_dest_id': self.destination_location_id.id,
+            'location_dest_id': self.location_dest_id.id,
             'origin': '%s: %s %s' % (self.order_id.name,
                                      _('Internal transfer of'),
                                      self.product_id.name)
@@ -131,6 +132,7 @@ class PurchaseOrderAvailabilityLine(models.Model):
         stock_move_model.create({
             'name': self.product_id.name,
             'picking_id': res.id,
+            'purchase_line_id': self.order_line_id.id,
             'product_id': self.product_id.id,
             'product_uom': self.product_uom_id.id,
             'product_uom_qty': transfer_qty,
@@ -146,7 +148,8 @@ class PurchaseOrderAvailabilityLine(models.Model):
             for line in self.order_line_id.availability_line_ids:
                 line.active = False
             # Delete the actual purchase order line
-            self.order_line_id.unlink()
+            #self.order_line_id.unlink()
+            self.order_line_id.product_qty -= transfer_qty
         else:
             # If only a part of the whole qty is expected to be transferred,
             # subtract the transfer amount from the purchase order line

@@ -73,4 +73,4 @@ class PurchaseOrder(models.Model):
         locations'''
         return [('company_id', '=', self.company_id.id),
                 ('usage', '=', 'internal'),
-                ('analytic_account_id', '!=', False)]
+                ]

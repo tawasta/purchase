@@ -27,7 +27,7 @@
                             <field name="available_qty"/>
                             <field name="available_uom_id" groups="product.group_uom"/>
                             <field name="location_id"/>
-                            <field name="destination_location_id"/>
+                            <field name="location_dest_id"/>
                             <button type="object" name="create_transfer"
                                     string="Transfer"/>
                         </tree>
