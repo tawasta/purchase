@@ -148,7 +148,7 @@ class PurchaseOrderAvailabilityLine(models.Model):
             for line in self.order_line_id.availability_line_ids:
                 line.active = False
             # Delete the actual purchase order line
-            #self.order_line_id.unlink()
+            # self.order_line_id.unlink()
             self.order_line_id.product_qty -= transfer_qty
         else:
             # If only a part of the whole qty is expected to be transferred,
