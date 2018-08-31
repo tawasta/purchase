@@ -23,7 +23,7 @@
     'name': 'Vendor bills as default (first) menu item',
     'summary': 'Vendor bills as default (first) menu item',
     'category': 'Purchase',
-    'version': '10.0.1.0.4',
+    'version': '10.0.1.0.5',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
     'license': 'AGPL-3',
