@@ -1,0 +1,16 @@
+<odoo>
+    <record id="purchase_order_view_form" model="ir.ui.view">
+        <field name="name">purchase.order.form.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+            <field name="state" position="before">
+                <button name="%(purchase_order_set_vendor_prices_from_po.price_wizard_action)d"
+                        string="Update Vendor Prices" type="action"
+                        context="{ 'default_order_line_ids': order_line,
+                                   'default_partner_id': partner_id,
+                                   'default_order_id': id }"/>
+            </field>
+        </field>
+    </record>
+</odoo>
