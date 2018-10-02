@@ -23,7 +23,7 @@
     'name': 'Weight on purchase order and PO lines',
     'summary': 'Add weight on PO and PO lines',
     'category': 'Purchase',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
     'license': 'AGPL-3',
