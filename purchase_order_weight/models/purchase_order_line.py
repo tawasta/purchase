@@ -37,7 +37,7 @@ class PurchaseOrderLine(models.Model):
                 record.product_uom,
             )
 
-            weight = record.product_qty * uom_weight
+            weight = abs(record.product_qty) * uom_weight
 
             record.weight = weight
 
