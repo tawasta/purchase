@@ -15,6 +15,7 @@ addon | version | summary
 [purchase_order_actual_receipt_date](purchase_order_actual_receipt_date/) | 10.0.1.1.0 | Logs the date when all lines have been received
 [purchase_order_additional_terms](purchase_order_additional_terms/) | 10.0.1.0.0 | Enables describing additional terms for a PO
 [purchase_order_analytic_account](purchase_order_analytic_account/) | 10.0.1.1.0 | New field for indicating what AA the PO is related to
+[purchase_order_analytic_account_to_notes](purchase_order_analytic_account_to_notes/) | 10.0.1.0.0 | Append analytic account to purchase notes on order validate
 [purchase_order_buyer](purchase_order_buyer/) | 10.0.1.0.0 | Enables setting the buyer for a PO
 [purchase_order_check_stock_availability](purchase_order_check_stock_availability/) | 10.0.1.1.0 | Trigger internal transfers from Purchase Order view
 [purchase_order_confirmation_date](purchase_order_confirmation_date/) | 10.0.1.0.0 | Logs the date when the PO was confirmed
