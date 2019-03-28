@@ -21,7 +21,7 @@
 
 {
     'name': 'Default purchase note (terms and conditions) for partner',
-    'summary': 'Add a default purchase note (terms and conditions) for partner',
+    'summary': 'Add a default purchase note for partner',
     'version': '10.0.1.0.0',
     'category': 'Purchases',
     'website': 'https://tawasta.fi',
@@ -32,6 +32,7 @@
     'depends': [
         'purchase',
     ],
-    'data': ['views/res_partner.xml'
+    'data': [
+        'views/res_partner.xml',
     ],
 }
