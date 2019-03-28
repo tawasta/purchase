@@ -8,6 +8,6 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     purchase_note = fields.Text(
-        string='Purchase note', 
+        string='Purchase note',
         help='Default purchase note',
         )
