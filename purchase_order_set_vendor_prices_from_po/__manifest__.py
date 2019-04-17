@@ -22,7 +22,7 @@
 {
     'name': 'Update Vendor Prices from Purchase Order',
     'summary': "Batch update products' vendor prices from PO",
-    'version': '10.0.1.0.1',
+    'version': '1.0.1',
     'category': 'Purchase',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

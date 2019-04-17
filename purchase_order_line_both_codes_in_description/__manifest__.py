@@ -22,7 +22,7 @@
 {
     'name': 'Supplier and Own Codes in PO Line',
     'summary': "Show both codes in line description field",
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

@@ -23,7 +23,7 @@
     'name': 'Purchase analytic account to purchase notes',
     'summary': 'Append analytic account to purchase notes on order validate',
     'category': 'Purchase',
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
     'license': 'AGPL-3',

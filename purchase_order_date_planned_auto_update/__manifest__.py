@@ -22,7 +22,7 @@
 {
     'name': 'Automatically change the planned date for all order lines',
     'summary': 'Automatically change the planned date for all order lines',
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchase',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

@@ -22,7 +22,7 @@
 {
     'name': 'Standard price as default purchase order line price',
     'summary': 'Use standard price as line price, if no supplier price is set',
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

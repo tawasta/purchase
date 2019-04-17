@@ -22,7 +22,7 @@
 {
     'name': 'Purchase Request Stock Availability check',
     'summary': 'Trigger internal transfers from Purchase Request view',
-    'version': '10.0.1.0.1',
+    'version': '1.0.1',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

@@ -22,7 +22,7 @@
 {
     'name': 'Purchase Order Actual Receipt Date',
     'summary': 'Logs the date when all lines have been received',
-    'version': '10.0.1.1.0',
+    'version': '1.1.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

@@ -22,7 +22,7 @@
 {
     'name': 'Purchase Request from BOM',
     'summary': "Add BOM contents to PR lines",
-    'version': '10.0.1.0.2',
+    'version': '1.0.2',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

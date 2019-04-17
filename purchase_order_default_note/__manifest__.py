@@ -22,7 +22,7 @@
 {
     'name': 'Default purchase note (terms and conditions) for partner',
     'summary': 'Add a default purchase note for partner',
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchases',
     'website': 'https://tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

@@ -22,7 +22,7 @@
 {
     'name': 'Scheduled date in PO header',
     'summary': 'Move scheduled date from notebook tab to header',
-    'version': '10.0.1.0.1',
+    'version': '1.0.1',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

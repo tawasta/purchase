@@ -22,7 +22,7 @@
 {
     'name': 'Vendor Contact For Purchase Orders',
     'summary': "Enables setting the vendor's contact person for a PO",
-    'version': '10.0.1.0.2',
+    'version': '1.0.2',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

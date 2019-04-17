@@ -22,7 +22,7 @@
 {
     'name': "Purchase orders - use current user's email",
     'summary': "Send RFQs/POs from current user's address as default",
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

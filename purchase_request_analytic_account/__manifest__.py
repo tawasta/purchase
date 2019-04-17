@@ -22,7 +22,7 @@
 {
     'name': 'Analytic Account for Purchase Request',
     'summary': 'New field for indicating what AA the PR is related to',
-    'version': '10.0.1.1.0',
+    'version': '1.1.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

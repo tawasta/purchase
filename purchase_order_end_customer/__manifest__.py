@@ -22,7 +22,7 @@
 {
     'name': 'Purchase Order End Customer',
     'summary': "New field for storing the end customer of a PO",
-    'version': '10.0.1.1.0',
+    'version': '1.1.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

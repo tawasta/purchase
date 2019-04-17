@@ -22,7 +22,7 @@
 {
     'name': 'Purchase Request from BOM - Analytic Account',
     'summary': "Analytic Account Support for BOM to PR additions",
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

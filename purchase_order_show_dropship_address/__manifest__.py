@@ -22,7 +22,7 @@
 {
     'name': 'Show Purchase Order Dropship Address',
     'summary': "Show the full address below the Drop Ship Address",
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',

@@ -22,7 +22,7 @@
 {
     'name': 'Purchase Request Sorting',
     'summary': "Shows newest Purchase Requests first",
-    'version': '10.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
     'author': 'Oy Tawasta Technologies Ltd.',
