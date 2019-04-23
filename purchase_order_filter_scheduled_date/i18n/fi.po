@@ -1,0 +1,28 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_order_filter_scheduled_date
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-23 07:43+0000\n"
+"PO-Revision-Date: 2019-04-23 10:47+0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fi\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: purchase_order_filter_scheduled_date
+#: model:ir.ui.view,arch_db:purchase_order_filter_scheduled_date.view_purchase_order_filter
+msgid "Scheduled Date due within next 7 Days"
+msgstr "Suunniteltu pvm seuraavan 7 pv sisällä"
+
+#. module: purchase_order_filter_scheduled_date
+#: model:ir.ui.view,arch_db:purchase_order_filter_scheduled_date.view_purchase_order_filter
+msgid "Scheduled Date is Late"
+msgstr "Myöhässä olevat toimitukset"
