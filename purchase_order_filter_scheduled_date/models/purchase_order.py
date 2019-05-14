@@ -11,11 +11,13 @@ class PurchaseOrder(models.Model):
     @api.multi
     def _get_picking_state(self):
         for order in self:
-            if len(order.picking_ids) != 0:
-                for picking_id in order.picking_ids:
-                    for pick in picking_id:
-                        if pick.state == 'done':
-                            order.has_been_shipped = True
+            has_been_shipped = True
+
+            for picking_id in order.picking_ids:
+                for pick in picking_id:
+                    has_been_shipped = has_been_shipped and pick.state == 'done'
+
+            order.has_been_shipped = has_been_shipped
 
     @api.multi
     def _search_has_been_shipped(self, operator, value):
