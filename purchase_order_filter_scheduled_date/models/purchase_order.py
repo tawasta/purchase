@@ -21,7 +21,8 @@ class PurchaseOrder(models.Model):
 
     @api.multi
     def _search_has_been_shipped(self, operator, value):
-        recs = self.search([]).filtered(lambda x: x.has_been_shipped is False)
+        recs = self.search([]).filtered(
+            lambda x: x.has_been_shipped is False)
         if recs:
             return [('id', 'in', [x.id for x in recs])]
 
