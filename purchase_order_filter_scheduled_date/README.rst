@@ -7,7 +7,8 @@ Scheduled Date Filters to Purchases
 ===================================
 
 Adds two filters on purchase orders that 
-have overdue Scheduled date to current day. 
+have overdue Scheduled date to current day and 
+purchase order's shipment is not in Done-state.
 Second filter filters a time period of next 
 seven days of Scheduled dates.
 

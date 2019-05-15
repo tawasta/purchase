@@ -8,9 +8,9 @@
             <field name="arch" type="xml">
                 <xpath expr="//filter[@name='message_needaction']" position="after">
                     <separator/>
-                    <filter string="Scheduled Date due within next 7 Days" domain="[('date_planned','&lt;=',((context_today()+relativedelta(weeks=0, days=7)).strftime('%Y-%m-%d 23:59:59'))),('date_planned','&gt;=',(context_today().strftime('%Y-%m-%d 00:00:00')))]"/>
+                    <filter name="scheduled_date_seven_days" string="Scheduled Date due within next 7 Days" domain="[('date_planned','&lt;=',((context_today()+relativedelta(weeks=0, days=7)).strftime('%Y-%m-%d 23:59:59'))),('date_planned','&gt;=',(context_today().strftime('%Y-%m-%d 00:00:00')))]"/>
                     <separator/>
-                    <filter string="Scheduled Date is Late" domain="[('date_planned','&lt;',((context_today()).strftime('%Y-%m-%d 00:00:00')))]"/>
+                    <filter name="shipment_is_late" string="Scheduled Date is Late" domain="[('date_planned','&lt;',((context_today()).strftime('%Y-%m-%d 00:00:00'))),('has_been_shipped','=',False)]"/>
                     <separator/>
                 </xpath>
             </field>
