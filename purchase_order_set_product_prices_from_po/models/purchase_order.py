@@ -1,4 +1,4 @@
-from openerp import models, api, _, exceptions
+from odoo import models, api, _, exceptions
 
 
 class PurchaseOrder(models.Model):

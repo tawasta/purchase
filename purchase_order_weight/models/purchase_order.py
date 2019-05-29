@@ -3,7 +3,7 @@
 
 # 2. Known third party imports:
 
-# 3. Odoo imports (openerp):
+# 3. Odoo imports:
 from odoo import fields, models
 from odoo.addons import decimal_precision as dp
 
