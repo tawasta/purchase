@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
 
             <field name="company_id" position="before">
-              <field name="buyer_id"/>
+              <field name="user_id"/>
             </field>
             
         </field>
