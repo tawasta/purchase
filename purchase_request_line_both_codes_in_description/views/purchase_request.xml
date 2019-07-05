@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_purchase_request_form" model="ir.ui.view">
+        <field name="name">purchase.request.form.supplier.code.in.description</field>
+        <field name="model">purchase.request</field>
+        <field name="inherit_id" ref="purchase_request.view_purchase_request_form"/>
+        <field name="arch" type="xml">
+
+            <!-- These won't actually do anything unless purchase request has a partner id -->
+            <xpath expr="//field[@name='line_ids']/form//field[@name='product_id']" position="attributes">
+                <attribute name="context" operation="python_dict" key="replace_supplier_code">1</attribute>
+            </xpath>
+
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='product_id']" position="attributes">
+                <attribute name="context" operation="python_dict" key="replace_supplier_code">1</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
