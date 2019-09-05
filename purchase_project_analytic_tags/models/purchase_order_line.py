@@ -13,3 +13,11 @@ class PurchaseOrderLine(models.Model):
                     record.account_analytic_id.tag_ids:
 
                 record.analytic_tag_ids += record.account_analytic_id.tag_ids
+
+    @api.onchange('project_id')
+    def onchange_project_id_update_analytic_tags(self):
+        for record in self:
+            if record.project_id and \
+                    record.project_id.tag_ids:
+
+                record.analytic_tag_ids += record.project_id.tag_ids
