@@ -1,25 +1,17 @@
 # -*- coding: utf-8 -*-
 
-# 1. Standard library imports:
 
-# 2. Known third party imports:
-
-# 3. Odoo imports (openerp):
 from odoo import fields, models
+from timeit import default_timer as timer_ticker
+import logging
 
-# 4. Imports from Odoo modules:
-
-# 5. Local imports in the relative form:
-
-# 6. Unknown third party imports:
+_logger = logging.getLogger(__name__)
 
 
 class PurchaseRequest(models.Model):
 
-    # 1. Private attributes
     _inherit = 'purchase.request'
 
-    # 2. Fields declaration
     availability_line_ids = fields.One2many(
         comodel_name='purchase.request.availability.line',
         inverse_name='request_id',
@@ -32,16 +24,9 @@ class PurchaseRequest(models.Model):
         string='Internal Transfers',
     )
 
-    # 3. Default methods
-
-    # 4. Compute and search fields, in the same order that fields declaration
-
-    # 5. Constraints and onchanges
-
-    # 6. CRUD methods
-
-    # 7. Action methods
     def check_stock_availability(self):
+
+        start = timer_ticker()
 
         stock_location_model = self.env['stock.location']
         availability_line_model \
@@ -56,12 +41,21 @@ class PurchaseRequest(models.Model):
 
         # Iterate all lines on the PR, check their available quantities in
         # different stock locations, and create availability lines accordingly
+
         for request_line in self.line_ids:
             for location in locations_to_check:
-                qty_available = request_line.product_id \
-                    .with_context(location=location.id).qty_available
 
-                if qty_available > 0:
+                qty_available = False
+
+                quants = self.env['stock.quant'].search([
+                    ('location_id', '=', location.id),
+                    ('product_id', '=', request_line.product_id.id),
+                    ('qty', '>', 0)
+                ])
+
+                if quants:
+                    for quant in quants:
+                        qty_available += quant.qty
                     availability_line_model.create({
                         'request_id': self.id,
                         'request_line_id': request_line.id,
@@ -69,7 +63,13 @@ class PurchaseRequest(models.Model):
                         'location_id': location.id,
                     })
 
-    # 8. Business methods
+        end = timer_ticker()
+        time_spent = end - start
+        _logger.info(
+            ("Time spent on purchase request's method check_stock_avaibility: "
+             "%ss") % time_spent
+        )
+
     def get_stock_location_domain(self):
         ''' What stock locations should be included when checking if materials
         exist elsewhere. By default included ones are internal physical

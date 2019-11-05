@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="purchase.purchase_order_form" />
         <field name="arch" type="xml">
             <xpath expr="//field[@name='date_order']" position="after">
-		    <field name="tax_selection" widget="many2many_tags" options="{ 'no_create': 1 }"/>
+                <field name="tax_selection" widget="many2many_tags" options="{ 'no_create': 1 }"/>
             </xpath>
         </field>
     </record>
