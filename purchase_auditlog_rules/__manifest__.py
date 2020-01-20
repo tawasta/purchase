@@ -19,9 +19,8 @@
 ##############################################################################
 
 {
-    'name': "Futural Log Rules - Purchase",
-    'summary': "",
-    'description': "",
+    'name': "Audit Log Rules - Purchase",
+    'summary': "Audit Log Rules - Purchase",
     'author': 'Oy Tawasta Technologies Ltd.',
     'license': 'AGPL-3',
     'website': "https://tawasta.fi",
