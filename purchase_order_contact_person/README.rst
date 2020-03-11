@@ -2,9 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==================================
-Vendor Contact For Purchase Orders
-==================================
+===================================================
+Vendor Contact For Purchase Orders views and report
+===================================================
 
 Enables setting the vendor's contact person for a purchase order
 
@@ -29,7 +29,9 @@ Credits
 
 Contributors
 ------------
+
 * Jaakko Komulainen <jaakko.komulainen@vizucom.com>
+* Timo Kekäläinen <timo.kekalainen@tawasta.fi>
 * Timo Talvitie <timo.talvitie@tawasta.fi>
 
 Maintainer
