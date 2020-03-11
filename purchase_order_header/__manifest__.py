@@ -28,6 +28,10 @@
     'license': 'AGPL-3',
     'application': False,
     'installable': True,
-    'depends': ["purchase", "report_element_sizes"],
+    'depends': [
+        "purchase",
+        "purchase_order_report_informations_element",
+        "report_element_sizes"
+    ],
     'data': ["report/purchase_order_report.xml", "views/purchase_order.xml"],
 }

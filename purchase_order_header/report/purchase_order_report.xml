@@ -11,8 +11,9 @@
     </template>
 
     <template id="report_purchasequotation_document" inherit_id="purchase.report_purchasequotation_document">
-        <xpath expr="//div[@id='informations']" position="after">
+        <xpath expr="//div[@class='page']/h2" position="after">
             <div t-if="o.header_text" id="header-text">
+                <br/>
                 <h4 t-field="o.header_text"/>
                 <br/>
             </div>
