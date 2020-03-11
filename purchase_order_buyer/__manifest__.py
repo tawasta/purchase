@@ -21,10 +21,10 @@
 {
     'name': 'Buyer For Purchase Orders',
     'summary': "Enables setting the buyer for a PO",
-    'version': '1.0.0',
+    'version': '12.0.1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
+    'author': 'Tawasta',
     'license': 'AGPL-3',
     'application': False,
     'installable': True,
@@ -33,10 +33,12 @@
         'bin': [],
     },
     'depends': [
-        'purchase',
+        "purchase",
+        "purchase_order_report_informations_element",
     ],
     'data': [
-        'views/purchase_order.xml',
+        "report/purchase_order_report.xml",
+        "views/purchase_order.xml",
     ],
     'demo': [
     ],
