@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template id="report_purchasequotation_document" inherit_id="purchase.report_purchasequotation_document">
+        <xpath expr="//div[@class='page']/div[@class='oe_structure']" position="after">
+            <div id="informations" class="row mt32 mb32"/>
+        </xpath>
+    </template>
+</odoo>
