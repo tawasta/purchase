@@ -2,15 +2,12 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-===================================================
-Vendor Contact For Purchase Orders views and report
-===================================================
+==========================================
+Header for Purchase Order report and views
+==========================================
 
-Enables setting the vendor's contact person for a purchase order
+* Adds a header/title field to Purchase Order report and views
 
-Installation
-============
-\-
 
 Configuration
 =============
@@ -22,7 +19,7 @@ Usage
 
 Known issues / Roadmap
 ======================
-* None
+\-
 
 Credits
 =======
@@ -30,15 +27,14 @@ Credits
 Contributors
 ------------
 
-* Jaakko Komulainen <jaakko.komulainen@vizucom.com>
+* Jarmo Kortetjärvi <jarmo.kortetjarvi@tawasta.fi>
 * Timo Kekäläinen <timo.kekalainen@tawasta.fi>
-* Timo Talvitie <timo.talvitie@tawasta.fi>
 
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
+.. image:: https://tawasta.fi/templates/tawastrap/images/logo.png
    :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+   :target: https://tawasta.fi/
 
 This module is maintained by Oy Tawasta OS Technologies Ltd.

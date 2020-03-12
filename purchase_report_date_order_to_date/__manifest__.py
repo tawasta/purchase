@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2018 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,27 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Buyer For Purchase Orders',
-    'summary': "Enables setting the buyer for a PO",
+    'name': 'Purchase Order Report - show Order Date as date only',
+    'summary': 'Purchase Order Report - show Order Date as date only',
     'version': '12.0.1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
+    'category': 'Reporting',
+    'website': 'https://tawasta.fi',
     'author': 'Tawasta',
     'license': 'AGPL-3',
     'application': False,
     'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        "purchase",
-        "purchase_order_report_informations_element",
-    ],
-    'data': [
-        "report/purchase_order_report.xml",
-        "views/purchase_order.xml",
-    ],
-    'demo': [
-    ],
+    'depends': ["purchase"],
+    'data': ["report/purchase_order_report.xml"],
 }

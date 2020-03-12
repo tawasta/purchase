@@ -2,15 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-===================================================
-Vendor Contact For Purchase Orders views and report
-===================================================
+====================================================
+Purchase Order Report - show Order Date as date only
+====================================================
 
-Enables setting the vendor's contact person for a purchase order
-
-Installation
-============
-\-
+Purchase Order Report - show Order Date as date only
 
 Configuration
 =============
@@ -22,7 +18,7 @@ Usage
 
 Known issues / Roadmap
 ======================
-* None
+Just install the module
 
 Credits
 =======
@@ -30,9 +26,7 @@ Credits
 Contributors
 ------------
 
-* Jaakko Komulainen <jaakko.komulainen@vizucom.com>
 * Timo Kekäläinen <timo.kekalainen@tawasta.fi>
-* Timo Talvitie <timo.talvitie@tawasta.fi>
 
 Maintainer
 ----------

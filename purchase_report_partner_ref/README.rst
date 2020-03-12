@@ -2,15 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-===================================================
-Vendor Contact For Purchase Orders views and report
-===================================================
+========================================
+Qweb purchase reports - Vendor Reference
+========================================
 
-Enables setting the vendor's contact person for a purchase order
-
-Installation
-============
-\-
+Show Vendor Reference on Qweb Purchase report.
 
 Configuration
 =============
@@ -18,11 +14,11 @@ Configuration
 
 Usage
 =====
-\-
+Install from Apps
 
 Known issues / Roadmap
 ======================
-* None
+\-
 
 Credits
 =======
@@ -30,9 +26,7 @@ Credits
 Contributors
 ------------
 
-* Jaakko Komulainen <jaakko.komulainen@vizucom.com>
 * Timo Kekäläinen <timo.kekalainen@tawasta.fi>
-* Timo Talvitie <timo.talvitie@tawasta.fi>
 
 Maintainer
 ----------
