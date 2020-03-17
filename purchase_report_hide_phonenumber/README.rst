@@ -2,11 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-====================================
-Hide Phonenumber on Purchase Reports
-====================================
+=====================================
+Hide phone number on Purchase Reports
+=====================================
 
-Use this module to hide Phonenumber and icon on Purchase Reports.
+Use this module to hide phone number and icon on Purchase Reports.
 
 Configuration
 =============

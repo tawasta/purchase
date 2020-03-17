@@ -19,8 +19,8 @@
 ##############################################################################
 
 {
-    'name': 'Hide Phonenumber in Purchase Report',
-    'summary': 'Hide Phonenumber in Purchase Report',
+    'name': 'Hide phone number on Purchase Reports',
+    'summary': 'Hide Phonenumber on Purchase Reports',
     'version': '12.0.1.0.0',
     'category': 'Purchases',
     'website': 'https://tawasta.fi',
