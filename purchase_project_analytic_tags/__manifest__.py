@@ -21,10 +21,10 @@
 {
     'name': 'Analytic account analytic tags on purchase order lines',
     'summary': 'Adds purchase order line analytic tags from analytic account',
-    'version': '1.1.0',
+    'version': '12.0.1.1.0',
     'category': 'Invoicing',
     'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
+    'author': 'Tawasta',
     'license': 'AGPL-3',
     'application': False,
     'installable': True,
