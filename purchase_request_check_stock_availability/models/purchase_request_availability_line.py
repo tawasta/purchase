@@ -47,7 +47,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
     product_uom_id = fields.Many2one(
         related='request_line_id.product_uom_id',
-        comodel_name='product.uom',
+        comodel_name='uom.uom',
         string='UoM'
     )
 
@@ -58,7 +58,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
     available_uom_id = fields.Many2one(
         related='request_line_id.product_id.uom_id',
-        comodel_name='product.uom',
+        comodel_name='uom.uom',
         string='UoM'
     )
 
