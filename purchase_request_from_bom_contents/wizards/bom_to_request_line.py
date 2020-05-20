@@ -22,7 +22,7 @@ class BomToRequestLine(models.TransientModel):
     )
 
     uom_id = fields.Many2one(
-        comodel_name='product.uom',
+        comodel_name='uom.uom',
         string='UoM'
     )
 
