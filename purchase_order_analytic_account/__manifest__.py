@@ -21,10 +21,10 @@
 {
     'name': 'Analytic Account for Purchase Order',
     'summary': 'New field for indicating what AA the PO is related to',
-    'version': '1.1.0',
+    'version': '12.0.1.0.0',
     'category': 'Purchases',
     'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
+    'author': 'Tawasta',
     'license': 'AGPL-3',
     'application': False,
     'installable': True,
