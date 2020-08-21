@@ -37,6 +37,7 @@
         'purchase',
         'purchase_location_by_line',
         'stock',
+        'stock_location_analytic_account',
     ],
     'data': [
         'security/ir.model.access.csv',
