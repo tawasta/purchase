@@ -39,6 +39,11 @@ class PurchaseOrder(models.Model):
 
         for order_line in self.order_line:
             for location in locations_to_check:
+                # Skip stock location that has the same analytic account as PO
+                # Check if PO has project_id to avoid 'False == False' situation
+                if self.project_id and location.analytic_account_id == self.project_id:
+                    continue
+
                 qty_available = False
 
                 quants = self.env['stock.quant'].search([
