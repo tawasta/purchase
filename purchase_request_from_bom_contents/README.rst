@@ -16,7 +16,7 @@ Usage
 =====
 * Create a new Purchase Request and click `Add BOM Contents`
 * Select a BOM and click `Calculate Quantities`
-* If necessary, edit the calculated list of raw materials of the BOM and the 
+* If necessary, edit the calculated list of raw materials of the BOM and the
   multiplier
 * Click `Add to purchase Request` and proceed with handling the PR as usual
 
@@ -35,8 +35,8 @@ Contributors
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
+.. image:: https://tawasta.fi/templates/tawastrap/images/logo.png
    :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+   :target: https://tawasta.fi/
 
 This module is maintained by Oy Tawasta OS Technologies Ltd.

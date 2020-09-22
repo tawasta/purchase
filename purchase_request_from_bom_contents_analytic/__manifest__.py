@@ -19,27 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Request from BOM - Analytic Account',
-    'summary': "Analytic Account Support for BOM to PR additions",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase_request_from_bom_contents',
-        'purchase_request_analytic_account',
-    ],
-    'data': [
-        'views/purchase_request.xml',
-        'wizards/bom_to_request.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Purchase Request from BOM - Analytic Account",
+    "summary": "Analytic Account Support for BOM to PR additions",
+    "version": "12.0.1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": []},
+    "depends": ["purchase_request_from_bom_contents", "purchase_request_analytic"],
+    "data": ["views/purchase_request.xml", "wizards/bom_to_request.xml"],
+    "demo": [],
 }

@@ -6,7 +6,7 @@
 Purchase Request from BOM - Analytic Account
 ============================================
 
-* Enables defining an analytic account that will be used for the Purchase 
+* Enables defining an analytic account that will be used for the Purchase
   Request lines created from BOM contents
 
 Configuration
@@ -34,8 +34,8 @@ Contributors
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
+.. image:: https://tawasta.fi/templates/tawastrap/images/logo.png
    :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+   :target: https://tawasta.fi/
 
 This module is maintained by Oy Tawasta OS Technologies Ltd.
