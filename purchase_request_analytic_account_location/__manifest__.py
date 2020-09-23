@@ -19,26 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Analytic account stock location for purchase requests',
-    'summary': 'Adds analytic account stock location to PR',
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase_request_analytic_account',
-        'stock_location_analytic_account',
-    ],
-    'data': [
-        'views/purchase_request.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Analytic account stock location for purchase requests",
+    "summary": "Adds analytic account stock location to PR",
+    "version": "12.0.1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": []},
+    "depends": ["purchase_request_analytic", "stock_location_analytic_account",],
+    "data": ["views/purchase_request.xml"],
+    "demo": [],
 }
