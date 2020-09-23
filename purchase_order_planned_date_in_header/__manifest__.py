@@ -19,25 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Scheduled date in PO header',
-    'summary': 'Move scheduled date from notebook tab to header',
-    'version': '12.0.1.0.1',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Scheduled date in PO header",
+    "summary": "Move scheduled date from notebook tab to header",
+    "version": "12.0.1.0.1",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": ["views/purchase_order.xml",],
+    "demo": [],
 }

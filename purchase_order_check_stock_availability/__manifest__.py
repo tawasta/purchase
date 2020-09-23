@@ -19,28 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Order Stock Availability check',
-    'summary': 'Trigger internal transfers from Purchase Order view',
-    'version': '1.1.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-        'purchase_location_by_line',
-        'stock',
-    ],
-    'data': [
-        'security/ir.model.access.csv',
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Purchase Order Stock Availability check",
+    "summary": "Trigger internal transfers from Purchase Order view",
+    "version": "1.1.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase", "purchase_location_by_line", "stock",],
+    "data": ["security/ir.model.access.csv", "views/purchase_order.xml",],
+    "demo": [],
 }

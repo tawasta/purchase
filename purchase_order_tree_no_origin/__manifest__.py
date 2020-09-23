@@ -19,25 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'No origin in purchase list views',
-    'summary': "Remove origin field from PO lists",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "No origin in purchase list views",
+    "summary": "Remove origin field from PO lists",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": ["views/purchase_order.xml",],
+    "demo": [],
 }

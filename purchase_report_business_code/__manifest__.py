@@ -19,17 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'QWeb purchase reports business code',
-    'summary': 'QWeb purchase reports business code',
-    'version': '12.0.1.0.0',
-    'category': 'Reporting',
-    'website': 'https://tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': ["l10n_fi_business_code", "purchase"],
-    'data': [
-        'report/purchase_report_business_code.xml',
-    ],
+    "name": "QWeb purchase reports business code",
+    "summary": "QWeb purchase reports business code",
+    "version": "12.0.1.0.0",
+    "category": "Reporting",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["l10n_fi_business_code", "purchase"],
+    "data": ["report/purchase_report_business_code.xml",],
 }

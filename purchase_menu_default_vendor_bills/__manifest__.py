@@ -19,20 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Vendor bills as default (first) menu item',
-    'summary': 'Vendor bills as default (first) menu item',
-    'category': 'Purchase',
-    'version': '1.0.5',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'account',
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_menu.xml',
-    ],
+    "name": "Vendor bills as default (first) menu item",
+    "summary": "Vendor bills as default (first) menu item",
+    "category": "Purchase",
+    "version": "1.0.5",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["account", "purchase",],
+    "data": ["views/purchase_menu.xml",],
 }

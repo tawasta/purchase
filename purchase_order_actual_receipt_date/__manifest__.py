@@ -19,25 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Order Actual Receipt Date',
-    'summary': 'Logs the date when all lines have been received',
-    'version': '1.1.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Purchase Order Actual Receipt Date",
+    "summary": "Logs the date when all lines have been received",
+    "version": "1.1.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": ["views/purchase_order.xml",],
+    "demo": [],
 }

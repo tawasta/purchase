@@ -19,24 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Set PO Line Location Explicitly',
-    'summary': "Confirming a PO sets lines' empty destination locations",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase_location_by_line',
-    ],
-    'data': [
-    ],
-    'demo': [
-    ],
+    "name": "Set PO Line Location Explicitly",
+    "summary": "Confirming a PO sets lines' empty destination locations",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase_location_by_line",],
+    "data": [],
+    "demo": [],
 }

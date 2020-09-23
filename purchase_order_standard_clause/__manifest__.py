@@ -19,26 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Order Standard Clause',
-    'summary': 'Company-specific standard clause for POs',
-    'version': '1.1.0',
-    'category': 'Purchase',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_config_settings.xml',
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ]
+    "name": "Purchase Order Standard Clause",
+    "summary": "Company-specific standard clause for POs",
+    "version": "1.1.0",
+    "category": "Purchase",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": ["views/purchase_config_settings.xml", "views/purchase_order.xml",],
+    "demo": [],
 }

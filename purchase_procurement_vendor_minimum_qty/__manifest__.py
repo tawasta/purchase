@@ -19,24 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Vendor minimum order qty for procurements',
-    'summary': 'New POs from procurements attempt to respect vendor minimums',
-    'version': '12.0.1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': False,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-    ],
-    'demo': [
-    ],
+    "name": "Vendor minimum order qty for procurements",
+    "summary": "New POs from procurements attempt to respect vendor minimums",
+    "version": "12.0.1.0.0",
+    "category": "Purchases",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": False,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": [],
+    "demo": [],
 }

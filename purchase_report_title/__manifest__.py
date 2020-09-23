@@ -19,15 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Report Title',
-    'summary': 'Purchase Report Title',
-    'version': '12.0.1.0.0',
-    'category': 'Reporting',
-    'website': 'https://tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': ["purchase", "report_element_sizes"],
-    'data': ["report/purchase_order_report.xml"],
+    "name": "Purchase Report Title",
+    "summary": "Purchase Report Title",
+    "version": "12.0.1.0.0",
+    "category": "Reporting",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase", "report_element_sizes"],
+    "data": ["report/purchase_order_report.xml"],
 }

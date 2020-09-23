@@ -19,20 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Update Vendor Prices from Purchase Order',
-    'summary': "Batch update products' vendor prices from PO",
-    'version': '1.0.1',
-    'category': 'Purchase',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'wizards/price_wizard.xml',
-        'views/purchase_order.xml',
-    ],
+    "name": "Update Vendor Prices from Purchase Order",
+    "summary": "Batch update products' vendor prices from PO",
+    "version": "1.0.1",
+    "category": "Purchase",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase",],
+    "data": ["wizards/price_wizard.xml", "views/purchase_order.xml",],
 }

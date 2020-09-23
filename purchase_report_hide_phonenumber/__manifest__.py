@@ -19,15 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Hide phone number on Purchase Reports',
-    'summary': 'Hide Phonenumber on Purchase Reports',
-    'version': '12.0.1.0.0',
-    'category': 'Purchases',
-    'website': 'https://tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': ["purchase", "purchase_stock"],
-    'data': ["report/report_heading.xml"],
+    "name": "Hide phone number on Purchase Reports",
+    "summary": "Hide Phonenumber on Purchase Reports",
+    "version": "12.0.1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase", "purchase_stock"],
+    "data": ["report/report_heading.xml"],
 }

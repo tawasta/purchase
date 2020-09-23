@@ -19,18 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Purchase analytic account to purchase notes',
-    'summary': 'Append analytic account to purchase notes on order validate',
-    'category': 'Purchase',
-    'version': '1.0.0',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'purchase_order_analytic_account',
-    ],
-    'data': [
-    ],
+    "name": "Purchase analytic account to purchase notes",
+    "summary": "Append analytic account to purchase notes on order validate",
+    "category": "Purchase",
+    "version": "1.0.0",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase_order_analytic_account",],
+    "data": [],
 }

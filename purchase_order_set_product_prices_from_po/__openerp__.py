@@ -19,19 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Update Cost Prices from Purchase Order',
-    'summary': "Batch update products' cost prices from PO",
-    'version': '10.0.1.0.0',
-    'category': 'Purchase',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
+    "name": "Update Cost Prices from Purchase Order",
+    "summary": "Batch update products' cost prices from PO",
+    "version": "10.0.1.0.0",
+    "category": "Purchase",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase",],
+    "data": ["views/purchase_order.xml",],
 }

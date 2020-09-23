@@ -19,21 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Vendor Contact For Purchase Orders',
-    'summary': "Enables setting the vendor's contact person for a PO",
-    'version': '12.0.0.1.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        "purchase",
-        "purchase_order_report_informations_element",
-    ],
-    'data': [
-        "report/purchase_order_report.xml",
-        "views/purchase_order.xml",
-    ],
+    "name": "Vendor Contact For Purchase Orders",
+    "summary": "Enables setting the vendor's contact person for a PO",
+    "version": "12.0.0.1.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase", "purchase_order_report_informations_element",],
+    "data": ["report/purchase_order_report.xml", "views/purchase_order.xml",],
 }

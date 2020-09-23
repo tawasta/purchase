@@ -19,26 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Supplier and Own Codes in PO Line',
-    'summary': "Show both codes in line description field",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-        'base_view_inheritance_extension',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Supplier and Own Codes in PO Line",
+    "summary": "Show both codes in line description field",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase", "base_view_inheritance_extension",],
+    "data": ["views/purchase_order.xml",],
+    "demo": [],
 }

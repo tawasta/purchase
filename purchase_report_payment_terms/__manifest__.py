@@ -19,18 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'QWeb purchase reports Payment Terms',
-    'summary': 'QWeb purchase reports Payment Terms',
-    'version': '12.0.1.0.0',
-    'category': 'Reporting',
-    'website': 'https://tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        "purchase",
-        "purchase_order_report_informations_element"
-    ],
-    'data': ["report/purchase_order_report.xml"],
+    "name": "QWeb purchase reports Payment Terms",
+    "summary": "QWeb purchase reports Payment Terms",
+    "version": "12.0.1.0.0",
+    "category": "Reporting",
+    "website": "https://tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase", "purchase_order_report_informations_element"],
+    "data": ["report/purchase_order_report.xml"],
 }

@@ -19,25 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Automatically change the planned date for all order lines',
-    'summary': 'Automatically change the planned date for all order lines',
-    'version': '1.0.0',
-    'category': 'Purchase',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Automatically change the planned date for all order lines",
+    "summary": "Automatically change the planned date for all order lines",
+    "version": "1.0.0",
+    "category": "Purchase",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": ["views/purchase_order.xml",],
+    "demo": [],
 }

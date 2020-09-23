@@ -19,24 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Request Sorting',
-    'summary': "Shows newest Purchase Requests first",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase_request_to_rfq',
-    ],
-    'data': [
-    ],
-    'demo': [
-    ],
+    "name": "Purchase Request Sorting",
+    "summary": "Shows newest Purchase Requests first",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase_request_to_rfq",],
+    "data": [],
+    "demo": [],
 }
