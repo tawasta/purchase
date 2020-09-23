@@ -19,15 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Order Report - show Order Date as date only',
-    'summary': 'Purchase Order Report - show Order Date as date only',
-    'version': '12.0.1.0.0',
-    'category': 'Reporting',
-    'website': 'https://tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': ["purchase"],
-    'data': ["report/purchase_order_report.xml"],
+    "name": "Purchase Order Report - show Order Date as date only",
+    "summary": "Purchase Order Report - show Order Date as date only",
+    "version": "12.0.1.0.0",
+    "category": "Reporting",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase"],
+    "data": ["report/purchase_order_report.xml"],
 }

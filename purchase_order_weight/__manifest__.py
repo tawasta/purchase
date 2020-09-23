@@ -19,20 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Weight on purchase order and PO lines',
-    'summary': 'Add weight on PO and PO lines',
-    'category': 'Purchase',
-    'version': '1.2.0',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'product_uom_weight',
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
+    "name": "Weight on purchase order and PO lines",
+    "summary": "Add weight on PO and PO lines",
+    "category": "Purchase",
+    "version": "1.2.0",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["product_uom_weight", "purchase",],
+    "data": ["views/purchase_order.xml",],
 }

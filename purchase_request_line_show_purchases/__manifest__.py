@@ -19,26 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'PO numbers for Purchase Request Lines',
-    'summary': "Show related purchase orders' numbers",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase_request_to_rfq',
-    ],
-    'data': [
-        'views/purchase_request.xml',
-        'views/purchase_request_line.xml',
-    ],
-    'demo': [
-    ],
+    "name": "PO numbers for Purchase Request Lines",
+    "summary": "Show related purchase orders' numbers",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase_request_to_rfq",],
+    "data": ["views/purchase_request.xml", "views/purchase_request_line.xml",],
+    "demo": [],
 }

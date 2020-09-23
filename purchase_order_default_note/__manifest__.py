@@ -19,19 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'Default purchase note (terms and conditions) for partner',
-    'summary': 'Add a default purchase note for partner',
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'https://tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/res_partner.xml',
-    ],
+    "name": "Default purchase note (terms and conditions) for partner",
+    "summary": "Add a default purchase note for partner",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase",],
+    "data": ["views/res_partner.xml",],
 }

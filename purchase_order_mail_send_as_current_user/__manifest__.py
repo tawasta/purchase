@@ -19,25 +19,17 @@
 ##############################################################################
 
 {
-    'name': "Purchase orders - use current user's email",
-    'summary': "Send RFQs/POs from current user's address as default",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'data/mail_template.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Purchase orders - use current user's email",
+    "summary": "Send RFQs/POs from current user's address as default",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": ["data/mail_template.xml",],
+    "demo": [],
 }

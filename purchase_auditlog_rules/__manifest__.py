@@ -19,21 +19,16 @@
 ##############################################################################
 
 {
-    'name': "Audit Log Rules - Purchase",
-    'summary': "Audit Log Rules - Purchase",
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'website': "https://tawasta.fi",
-    'category': 'Logging',
-    'version': '12.0.1.0.0',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'purchase',
-        'auditlog',
-    ],
-    'data': [
-        'data/rules.xml',
-    ],
-    'demo': [],
+    "name": "Audit Log Rules - Purchase",
+    "summary": "Audit Log Rules - Purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "website": "https://github.com/Tawasta/purchase",
+    "category": "Logging",
+    "version": "12.0.1.0.0",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase", "auditlog",],
+    "data": ["data/rules.xml",],
+    "demo": [],
 }

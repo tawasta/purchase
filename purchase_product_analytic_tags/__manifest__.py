@@ -19,26 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Product analytic tags on purchase order lines',
-    'summary': 'Adds purchase order line analytic tags from products',
-    'version': '12.0.1.1.0',
-    'category': 'Invoicing',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-        'product_analytic_tags',
-    ],
-    'data': [
-
-    ],
-    'demo': [
-    ],
+    "name": "Product analytic tags on purchase order lines",
+    "summary": "Adds purchase order line analytic tags from products",
+    "version": "12.0.1.1.0",
+    "category": "Invoicing",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase", "product_analytic_tags",],
+    "data": [],
+    "demo": [],
 }

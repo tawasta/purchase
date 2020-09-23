@@ -19,26 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Create Sale order from Purchase order',
-    'summary': 'Adds a wizard for creating a SO from PO and linking them',
-    'version': '1.0.1',
-    'category': 'Purchase',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-        'sale',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Create Sale order from Purchase order",
+    "summary": "Adds a wizard for creating a SO from PO and linking them",
+    "version": "1.0.1",
+    "category": "Purchase",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase", "sale",],
+    "data": ["views/purchase_order.xml",],
+    "demo": [],
 }

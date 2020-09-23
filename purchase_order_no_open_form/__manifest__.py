@@ -19,20 +19,15 @@
 ##############################################################################
 
 {
-    'name': 'No Open Forms On Purchase',
-    'summary': 'This module prevents to open forms on specified fields.',
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'https://tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'purchase',
-        'base_view_inheritance_extension',
-    ],
-    'data': [
-        'views/no_open_view.xml',
-    ],
+    "name": "No Open Forms On Purchase",
+    "summary": "This module prevents to open forms on specified fields.",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": ["purchase", "base_view_inheritance_extension",],
+    "data": ["views/no_open_view.xml",],
 }

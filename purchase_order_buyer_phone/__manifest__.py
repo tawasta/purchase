@@ -23,7 +23,7 @@
     "summary": "Phone Number of Buyer For Purchase Order Report",
     "version": "12.0.1.0.0",
     "category": "Purchases",
-    "website": "http://www.tawasta.fi",
+    "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

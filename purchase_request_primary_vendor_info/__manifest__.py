@@ -19,27 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Product Primary Vendor Info for Purchase Requests',
-    'summary': "Helper fields for showing primary vendor's info",
-    'version': '1.0.1',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase_request',
-        'product_primary_vendor_info',
-    ],
-    'data': [
-        'views/purchase_request.xml',
-        'views/purchase_request_line.xml',
-    ],
-    'demo': [
-    ]
+    "name": "Product Primary Vendor Info for Purchase Requests",
+    "summary": "Helper fields for showing primary vendor's info",
+    "version": "1.0.1",
+    "category": "Purchases",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase_request", "product_primary_vendor_info",],
+    "data": ["views/purchase_request.xml", "views/purchase_request_line.xml",],
+    "demo": [],
 }

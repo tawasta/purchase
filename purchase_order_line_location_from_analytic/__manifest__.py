@@ -19,25 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'PO Line Destination From Analytic Account',
-    'summary': "Suggest line destination based on line's AA",
-    'version': '0.3.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase_location_by_line',
-        'stock_location_analytic_account',
-    ],
-    'data': [
-    ],
-    'demo': [
-    ],
+    "name": "PO Line Destination From Analytic Account",
+    "summary": "Suggest line destination based on line's AA",
+    "version": "0.3.0",
+    "category": "Purchases",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase_location_by_line", "stock_location_analytic_account",],
+    "data": [],
+    "demo": [],
 }

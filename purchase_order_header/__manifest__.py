@@ -19,19 +19,19 @@
 ##############################################################################
 
 {
-    'name': 'Header for Purchase Order report and form-view',
-    'summary': 'New field for PO header/title and report',
-    'version': '12.0.1.0.0',
-    'category': 'Purchase',
-    'website': 'https://tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
+    "name": "Header for Purchase Order report and form-view",
+    "summary": "New field for PO header/title and report",
+    "version": "12.0.1.0.0",
+    "category": "Purchase",
+    "website": "https://github.com/Tawasta/purchase",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": [
         "purchase",
         "purchase_order_report_informations_element",
-        "report_element_sizes"
+        "report_element_sizes",
     ],
-    'data': ["report/purchase_order_report.xml", "views/purchase_order.xml"],
+    "data": ["report/purchase_order_report.xml", "views/purchase_order.xml"],
 }

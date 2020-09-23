@@ -19,25 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Running Number For Purchase Order lines',
-    'summary': "Simple running number for PO lines",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-        'views/purchase_order_line.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Running Number For Purchase Order lines",
+    "summary": "Simple running number for PO lines",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": ["views/purchase_order_line.xml",],
+    "demo": [],
 }

@@ -19,24 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Standard price as default purchase order line price',
-    'summary': 'Use standard price as line price, if no supplier price is set',
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-    ],
-    'data': [
-    ],
-    'demo': [
-    ],
+    "name": "Standard price as default purchase order line price",
+    "summary": "Use standard price as line price, if no supplier price is set",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase",],
+    "data": [],
+    "demo": [],
 }
