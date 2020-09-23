@@ -19,26 +19,17 @@
 ##############################################################################
 
 {
-    'name': 'Additional Terms for Purchase Orders',
-    'summary': "Enables describing additional terms for a PO",
-    'version': '1.0.0',
-    'category': 'Purchases',
-    'website': 'http://www.tawasta.fi',
-    'author': 'Oy Tawasta Technologies Ltd.',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
-    'depends': [
-        'purchase',
-        'res_partner_additional_terms',
-    ],
-    'data': [
-        'views/purchase_order.xml',
-    ],
-    'demo': [
-    ],
+    "name": "Additional Terms for Purchase Orders",
+    "summary": "Enables describing additional terms for a PO",
+    "version": "1.0.0",
+    "category": "Purchases",
+    "website": "http://www.tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "external_dependencies": {"python": [], "bin": [],},
+    "depends": ["purchase_stock", "res_partner_additional_terms",],
+    "data": ["views/purchase_order.xml",],
+    "demo": [],
 }
