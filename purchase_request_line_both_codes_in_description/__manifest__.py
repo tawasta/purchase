@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2018 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2019 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,17 +19,26 @@
 ##############################################################################
 
 {
-    "name": "Purchase Request Sorting",
-    "summary": "Shows newest Purchase Requests first",
-    "version": "12.0.1.0.0",
-    "category": "Purchases",
+    'name': 'Supplier and Own Codes in Purchase Request Line',
+    'summary': 'Show both codes in Purchase Request line description field',
+    'version': '10.0.1.0.0',
+    'category': 'Purchases',
     "website": "https://github.com/Tawasta/purchase",
-    "author": "Tawasta",
-    "license": "AGPL-3",
-    "application": False,
-    "installable": True,
-    "external_dependencies": {"python": [], "bin": []},
-    "depends": ["purchase_request"],
-    "data": [],
-    "demo": [],
+    'author': 'Tawasta',
+    'license': 'AGPL-3',
+    'application': False,
+    'installable': True,
+    'external_dependencies': {
+        'python': [],
+        'bin': [],
+    },
+    'depends': [
+        'purchase_order_line_both_codes_in_description',
+        'purchase_request',
+    ],
+    'data': [
+        'views/purchase_request.xml',
+    ],
+    'demo': [
+    ],
 }

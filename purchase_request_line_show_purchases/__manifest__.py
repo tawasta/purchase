@@ -21,7 +21,7 @@
 {
     "name": "PO numbers for Purchase Request Lines",
     "summary": "Show related purchase orders' numbers",
-    "version": "1.0.0",
+    "version": "12.0.1.0.0",
     "category": "Purchases",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
@@ -29,7 +29,7 @@
     "application": False,
     "installable": True,
     "external_dependencies": {"python": [], "bin": [],},
-    "depends": ["purchase_request_to_rfq",],
-    "data": ["views/purchase_request.xml", "views/purchase_request_line.xml",],
+    "depends": ["purchase_request"],
+    "data": ["views/purchase_request.xml", "views/purchase_request_line.xml"],
     "demo": [],
 }

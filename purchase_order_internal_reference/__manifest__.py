@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Reference Field",
     "summary": "New field for storing an internal reference to PO",
-    "version": "10.0.0.1.0",
+    "version": "12.0.1.0.0",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
