@@ -7,7 +7,8 @@ Purchase Order Reference Field
 ==============================
 
 * Adds a new internal reference field to Purchase Orders
-* Intended as an equivalent for 'reference' field found in older Odoo/OpenERP versions but later removed
+* Intended as an equivalent for 'reference' field found in older
+  Odoo/OpenERP versions but later removed
 
 Installation
 ============
