@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <act_window name="Create Purchase Request"
+                res_model="purchase_request_from_po_lines.po_line_to_request"
+                src_model="purchase.order.line"
+                multi="True"
+                key2="client_action_multi"
+                id="purchase_order_line_make_purchase_request"
+    />
+
+</odoo>
