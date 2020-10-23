@@ -21,13 +21,13 @@
 {
     "name": "Purchase Order Description",
     "summary": "Adds a description (an internal note) to purchase order",
-    "version": "10.0.0.1.0",
+    "version": "12.0.1.0.0",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase",],
-    "data": ["views/purchase_order.xml",],
+    "depends": ["purchase"],
+    "data": ["views/purchase_order.xml"],
 }
