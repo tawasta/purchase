@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2018 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Author: Tawasta
+#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,21 +19,15 @@
 ##############################################################################
 
 {
-    "name": "Purchase Order Standard Clause",
-    "summary": "Company-specific standard clause for POs",
-    "version": "12.0.1.2.0",
-    "category": "Purchase",
+    "name": "QWeb purchase reports Approval Date",
+    "summary": "QWeb purchase reports Approval Date",
+    "version": "12.0.1.0.0",
+    "category": "Reporting",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "external_dependencies": {"python": [], "bin": []},
-    "depends": ["purchase"],
-    "data": [
-        "report/purchase_order_report.xml",
-        "views/config_settings.xml",
-        "views/purchase_order.xml",
-    ],
-    "demo": [],
+    "depends": ["purchase", "purchase_order_report_informations_element"],
+    "data": ["report/purchase_order_report.xml"],
 }
