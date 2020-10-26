@@ -21,13 +21,13 @@
 {
     "name": "Purchase Order Reference Field",
     "summary": "New field for storing an internal reference to PO",
-    "version": "12.0.1.0.0",
+    "version": "12.0.1.1.0",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase",],
-    "data": ["views/purchase_order.xml",],
+    "depends": ["purchase"],
+    "data": ["report/purchase_report.xml", "views/purchase_order.xml"],
 }
