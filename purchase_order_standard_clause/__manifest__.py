@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Standard Clause",
     "summary": "Company-specific standard clause for POs",
-    "version": "12.0.1.1.0",
+    "version": "12.0.1.2.1",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
@@ -30,6 +30,10 @@
     "installable": True,
     "external_dependencies": {"python": [], "bin": []},
     "depends": ["purchase"],
-    "data": ["views/config_settings.xml", "views/purchase_order.xml"],
+    "data": [
+        "report/purchase_order_report.xml",
+        "views/config_settings.xml",
+        "views/purchase_order.xml",
+    ],
     "demo": [],
 }
