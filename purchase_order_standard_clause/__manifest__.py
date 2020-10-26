@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Standard Clause",
     "summary": "Company-specific standard clause for POs",
-    "version": "12.0.1.2.1",
+    "version": "12.0.1.2.2",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
