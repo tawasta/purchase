@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Title",
     "summary": "Purchase Report Title",
-    "version": "12.0.1.0.0",
+    "version": "12.0.1.1.0",
     "category": "Reporting",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
