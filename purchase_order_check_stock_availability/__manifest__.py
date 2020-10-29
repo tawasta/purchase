@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Stock Availability check",
     "summary": "Trigger internal transfers from Purchase Order view",
-    "version": "1.1.0",
+    "version": "12.0.1.1.0",
     "category": "Purchases",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
