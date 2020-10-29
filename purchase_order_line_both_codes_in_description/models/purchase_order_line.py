@@ -13,14 +13,17 @@ class PurchaseOrderLine(models.Model):
         # Purchase order's vendor
         vendor = line.order_id.partner_id
         # Search matching vendors from product
-        seller_ids = prod_tmpl.seller_ids.search([('name.id', '=', vendor.id)])
+        seller_ids = prod_tmpl.seller_ids.search([('name.id', '=', vendor.id),
+            ('product_tmpl_id.id', '=', prod_tmpl.id)])
 
-        vendor_code = seller_ids and seller_ids[0].product_code
+        vendor_code = seller_ids.mapped('product_code')
 
         if product_id and vendor_code:
-            line.name = line.name.replace('[{}]'.format(vendor_code), '[{}]'.format(prod_tmpl.default_code))
-            if _("Vendor's code:") not in line.name:
-                line.name += _("\nVendor's code: {}").format(vendor_code)
+            for code in vendor_code:
+                line.name = line.name.replace(
+                    '[{}]'.format(code), '[{}]'.format(prod_tmpl.default_code))
+                if _("Vendor's code:") not in line.name:
+                    line.name += _("\nVendor's code: {}").format(vendor_code[0])
         return line
 
     @api.multi
@@ -31,11 +34,15 @@ class PurchaseOrderLine(models.Model):
         product_id = self.product_id
         prod_tmpl = product_id.product_tmpl_id
         vendor = self.order_id.partner_id
-        seller_ids = prod_tmpl.seller_ids.search([('name.id', '=', vendor.id)])
+        seller_ids = prod_tmpl.seller_ids.search([('name.id', '=', vendor.id),
+            ('product_tmpl_id.id', '=', prod_tmpl.id)])
 
-        vendor_code = seller_ids and seller_ids[0].product_code
+        vendor_code = seller_ids.mapped('product_code')
 
         if product_id and vendor_code:
-            self.name = self.name.replace('[{}]'.format(vendor_code), '[{}]'.format(prod_tmpl.default_code))
-            self.name += _("\nVendor's code: {}").format(vendor_code)
+            for code in vendor_code:
+                self.name = self.name.replace(
+                    '[{}]'.format(code), '[{}]'.format(prod_tmpl.default_code))
+                if _("Vendor's code:") not in self.name:
+                    self.name += _("\nVendor's code: {}").format(vendor_code[0])
         return res
