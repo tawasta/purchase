@@ -112,7 +112,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
         return {
             "name": "%s / Internal transfers" % self.request_id.name,
             "view_type": "form",
-            "view_mode": "form, tree",
+            "view_mode": "form,tree",
             "res_model": "stock.picking",
             "type": "ir.actions.act_window",
             "target": "current",
