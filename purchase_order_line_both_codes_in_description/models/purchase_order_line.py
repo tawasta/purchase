@@ -37,7 +37,7 @@ class PurchaseOrderLine(models.Model):
         seller_ids = prod_tmpl.seller_ids.search([('name.id', '=', vendor.id),
             ('product_tmpl_id.id', '=', prod_tmpl.id)])
 
-        vendor_code = seller_ids.mapped('product_code')
+        vendor_code = [x.product_code for x in seller_ids if x.product_code]
 
         if product_id and vendor_code:
             for code in vendor_code:
