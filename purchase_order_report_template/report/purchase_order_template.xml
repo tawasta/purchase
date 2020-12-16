@@ -11,19 +11,15 @@
         <xpath expr="//p[@t-field='o.date_order']" position="replace">
             <p t-field="o.date_order" class="m-0" t-options='{"format": "dd.MM.yyyy"}'/>
         </xpath>
-        <xpath expr="//div[@class='page']" position="before">
+    </template>
+
+    <template id="purchase_order_document" inherit_id="purchase_stock.report_purchaseorder_document">
+        <xpath expr="//div[@t-field='o.picking_type_id.warehouse_id.partner_id']" position="after">
             <br/>
-        </xpath>
-        <xpath expr="//div[@id='informations']" position="inside">
-            <div t-if="request.env.user.name" class="col-3 bm-2">
-                <strong>Purchaser:</strong>
-                <p t-field="request.env.user.name" class="m-0"/>
-            </div>
-            <div t-if="request.env.user.email" class="col-3 bm-2" style="margin-left: -10%">
-                <p t-field="request.env.user.email" class="m-0"/>
-                <t t-if="request.env.user.phone">
-                    <p t-field="request.env.user.phone" class="m-0"/>
-                </t>
+            <strong>Purchaser: </strong>
+            <div t-if="o.user_id">
+                <div t-field="o.user_id"
+                    t-options='{"widget": "contact", "fields": ["name", "phone", "email"], "no_marker": True, "phone_icons": True}' name="purchaser_information"/>
             </div>
         </xpath>
     </template>

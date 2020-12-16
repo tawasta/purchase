@@ -31,6 +31,7 @@
     ],
     "depends": [
         "purchase",
+        "purchase_stock",
     ],
     "application": False,
     "installable": True,
