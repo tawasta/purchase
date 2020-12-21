@@ -32,6 +32,8 @@
     "depends": [
         "purchase",
         "purchase_stock",
+        "purchase_report_approval_date",
+        "purchase_order_report_informations_element",
     ],
     "application": False,
     "installable": True,
