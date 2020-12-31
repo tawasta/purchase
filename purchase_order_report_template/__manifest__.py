@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2018 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2019- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,17 +19,23 @@
 ##############################################################################
 
 {
-    "name": "Purchase Order Stock Availability check",
-    "summary": "Trigger internal transfers from Purchase Order view",
-    "version": "12.0.1.1.1",
-    "category": "Purchases",
-    "website": "https://github.com/Tawasta/purchase",
+    "name": "Purchase Order Report Template",
+    "summary": "Purchase Order Report Template",
+    "version": "12.0.1.0.0",
+    "category": "Purchase",
+    "website": "http://www.tawasta.fi",
     "author": "Tawasta",
     "license": "AGPL-3",
+    "data": [
+        "report/purchase_order_template.xml",
+    ],
+    "depends": [
+        "purchase",
+        "purchase_stock",
+        "purchase_report_approval_date",
+        "purchase_order_report_informations_element",
+    ],
     "application": False,
     "installable": True,
-    "external_dependencies": {"python": [], "bin": []},
-    "depends": ["purchase", "purchase_location_by_line", "stock"],
-    "data": ["security/ir.model.access.csv", "views/purchase_order.xml"],
-    "demo": [],
 }
+
