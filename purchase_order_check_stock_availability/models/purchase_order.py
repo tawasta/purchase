@@ -54,6 +54,6 @@ class PurchaseOrder(models.Model):
         purchase order is filtered out to avoid suggesting same source/target
         locations"""
         return [
-            ("company_id", "=", self.company_id.id),
+            ("company_id", "in", [self.company_id.id, False]),
             ("usage", "=", "internal"),
         ]
