@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2018 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,16 +19,15 @@
 ##############################################################################
 
 {
-    "name": "Purchase Order Line View",
-    "summary": "New view for inspecting PO lines",
+    "name": "Purchase Order Report - show PO line's planned date as date only",
+    "summary": "Purchase Order Report - show PO line's planned date as date only",
     "version": "12.0.1.0.0",
-    "category": "Purchases",
+    "category": "Reporting",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "external_dependencies": {"python": [], "bin": [],},
-    "depends": ["purchase",],
-    "data": ["views/purchase_order_line.xml",],
+    "depends": ["purchase"],
+    "data": ["report/purchase_order_report.xml"],
 }

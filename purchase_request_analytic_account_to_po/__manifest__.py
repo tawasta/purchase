@@ -19,8 +19,8 @@
 ##############################################################################
 
 {
-    "name": "Purchase Order Line View",
-    "summary": "New view for inspecting PO lines",
+    "name": "Assign Analytic Account from Purchase request to Purchase order",
+    "summary": "Assign Analytic Account from Purchase request to Purchase order",
     "version": "12.0.1.0.0",
     "category": "Purchases",
     "website": "https://github.com/Tawasta/purchase",
@@ -28,7 +28,6 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "external_dependencies": {"python": [], "bin": [],},
-    "depends": ["purchase",],
-    "data": ["views/purchase_order_line.xml",],
+    "depends": ["purchase_order_analytic_account", "purchase_request_analytic"],
+    "data": [],
 }
