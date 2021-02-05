@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <record id="purchase_order_line_view_po_line_tree" model="ir.ui.view">
+        <field name="name">purchase.order.line.view.vendor.reference</field>
+        <field name="model">purchase.order.line</field>
+        <field name="inherit_id" ref="purchase_order_line_view.purchase_order_line_view_po_line_tree" />
+        <field name="arch" type="xml">
+            <field name="order_id" position="after">
+                <field name="partner_ref"/>
+            </field>
+        </field>
+    </record>
+</odoo>
