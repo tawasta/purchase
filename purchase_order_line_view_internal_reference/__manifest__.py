@@ -19,8 +19,8 @@
 ##############################################################################
 
 {
-    "name": "Purchase Order Line tree view - Show Vendor reference",
-    "summary": "Purchase Order Line tree view - Show Vendor reference",
+    "name": "Purchase Order Line tree view - Show Product's internal reference",
+    "summary": "Purchase Order Line tree view - Show Product's internal reference",
     "version": "12.0.1.0.0",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
