@@ -33,7 +33,7 @@ msgstr "<strong>Verot</strong>"
 #. module: purchase_discount
 #: model_terms:ir.ui.view,arch_db:purchase_discount.report_purchaseorder_document
 msgid "<strong>Disc. (%)</strong>"
-msgstr "<strong>Ale (%)"
+msgstr "<strong>Ale (%)</strong>"
 
 #. module: purchase_discount
 #: model:ir.model.fields,field_description:purchase_discount.field_product_supplierinfo__discount
