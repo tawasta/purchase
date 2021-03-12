@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2021 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,19 +19,15 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Reorder Orderlines.",
-    "summary": "Reorders Purchase Order orderlines to more sensible order.",
-    "version": "12.0.1.0.1",
+    "name": "Purchase Order Line tree view - Show Vendor reference",
+    "summary": "Purchase Order Line tree view - Show Vendor reference",
+    "version": "12.0.1.0.0",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        "purchase",
-    ],
-    "data": [
-        "report/purchase_order_template.xml",
-    ],
+    "depends": ["purchase_order_line_view"],
+    "data": ["views/purchase_order_line.xml"],
 }
