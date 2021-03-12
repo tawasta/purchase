@@ -1,53 +1,25 @@
-
-# 1. Standard library imports:
-
-# 2. Known third party imports:
-
-# 3. Odoo imports:
 from odoo import api, fields, models
 from odoo.addons import decimal_precision as dp
-
-# 4. Imports from Odoo modules:
-
-# 5. Local imports in the relative form:
-
-# 6. Unknown third party imports:
 
 
 class PurchaseOrderLine(models.Model):
 
-    # 1. Private attributes
-    _inherit = 'purchase.order.line'
+    _inherit = "purchase.order.line"
 
-    # 2. Fields declaration
     weight = fields.Float(
-        'Weight', digits=dp.get_precision('Stock Weight'),
-        compute='_compute_weight',
+        "Weight", digits=dp.get_precision("Stock Weight"), compute="_compute_weight",
     )
 
-    # 3. Default methods
-
-    # 4. Compute and search fields, in the same order that fields declaration
-    @api.onchange('product_id', 'product_uom', 'product_qty')
+    @api.onchange("product_id", "product_uom", "product_qty")
     def _compute_weight(self):
         for record in self:
             uom_weight = record.product_id.uom_id._compute_weight(
-                record.product_id.weight,
-                record.product_uom,
+                record.product_id.weight, record.product_uom,
             )
 
             # Negative quantity doesn't have a weight
-            uom_qty = record.product_qty \
-                if record.product_qty > 0 else 0
+            uom_qty = record.product_qty if record.product_qty > 0 else 0
 
             weight = uom_qty * uom_weight
 
             record.weight = weight
-
-    # 5. Constraints and onchanges
-
-    # 6. CRUD methods
-
-    # 7. Action methods
-
-    # 8. Business methods
