@@ -30,3 +30,14 @@ msgstr "<strong>Tarvepvm</strong>"
 msgid "<strong>Taxes</strong>"
 msgstr "<strong>Verot</strong>"
 
+#. module: purchase_discount
+#: model_terms:ir.ui.view,arch_db:purchase_discount.report_purchaseorder_document
+msgid "<strong>Disc. (%)</strong>"
+msgstr "<strong>Ale (%)"
+
+#. module: purchase_discount
+#: model:ir.model.fields,field_description:purchase_discount.field_product_supplierinfo__discount
+#: model:ir.model.fields,field_description:purchase_discount.field_purchase_order_line__discount
+#: model:ir.model.fields,field_description:purchase_discount.field_purchase_report__discount
+msgid "Discount (%)"
+msgstr "Alennus (%)"
