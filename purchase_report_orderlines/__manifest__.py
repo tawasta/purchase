@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,18 +19,19 @@
 ##############################################################################
 
 {
-    "name": "Purcase report - Product's internal reference",
-    "summary": "Purcase report - Product's internal reference",
-    "version": "12.0.1.0.1",
-    "category": "Reporting",
-    "website": "https://github.com/Tawasta/purchase",
+    "name": "Purchase Report Orderlines",
+    "summary": "Fixes orderlines in purchase report",
+    "version": "12.0.1.0.0",
+    "category": "Purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
     "depends": [
         "purchase",
-        "purchase_report_orderlines",
     ],
-    "data": ["report/purchase_order_report.xml"],
+    "data": [
+        "report/purchase_order_templates.xml"
+    ],
 }

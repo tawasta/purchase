@@ -20,7 +20,7 @@
 
 {
     "name": "Purchase Order Reorder Orderlines",
-    "summary": "Purchase Order Reorder Orderlines",
+    "summary": "DEPRECATED! Use purchase_report_orderlines instead",
     "version": "12.0.1.0.0",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/secto-design",
