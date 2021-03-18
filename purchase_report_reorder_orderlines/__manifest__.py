@@ -19,9 +19,9 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Reorder Orderlines.",
-    "summary": "Reorders Purchase Order orderlines to more sensible order.",
-    "version": "12.0.1.0.1",
+    "name": "Purchase Order Reorder Orderlines",
+    "summary": "DEPRECATED! Use purchase_report_orderlines instead",
+    "version": "12.0.1.0.0",
     "category": "Purchase",
     "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
