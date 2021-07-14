@@ -5,7 +5,10 @@
         <xpath expr="//p[@t-if='o.partner_id.vat']" position="before">
             <t t-if="'business_id' in o.partner_id.fields_get()">
                 <t t-if="o.partner_id.business_id">
+                    <!-- Please do not remove span tags, other module(s) might use them -->
+                    <span id="business_id_code">
                     Business ID: <span t-field="o.partner_id.business_id"/>
+                    </span>
                 </t>
             </t>
         </xpath>
@@ -15,7 +18,10 @@
         <xpath expr="//p[@t-if='o.partner_id.vat']" position="before">
             <t t-if="'business_id' in o.partner_id.fields_get()">
                 <t t-if="o.partner_id.business_id">
+                    <!-- Please do not remove span tags, other module(s) might use them -->
+                    <span id="business_id_code">
                     Business ID: <span t-field="o.partner_id.business_id"/>
+                    </span>
                 </t>
             </t>
         </xpath>
