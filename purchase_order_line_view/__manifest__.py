@@ -21,14 +21,13 @@
 {
     "name": "Purchase Order Line View",
     "summary": "New view for inspecting PO lines",
-    "version": "12.0.1.0.0",
+    "version": "12.0.1.0.1",
     "category": "Purchases",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "external_dependencies": {"python": [], "bin": [],},
-    "depends": ["purchase",],
-    "data": ["views/purchase_order_line.xml",],
+    "depends": ["purchase"],
+    "data": ["views/purchase_order_line.xml"],
 }
