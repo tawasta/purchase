@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+	<record id="res_config_settings_view_form" model="ir.ui.view">
+		<field name="name">res.config.settings.warehouse.domain</field>
+		<field name="model">res.config.settings</field>
+		<field name="inherit_id" ref="purchase_sale_inter_company.res_config_settings_view_form" />
+		<field name="arch" type="xml">
+            <field name="warehouse_id" position="attributes">
+                <attribute name="domain"/>
+		    </field>
+		</field>
+	</record>
+</odoo>
