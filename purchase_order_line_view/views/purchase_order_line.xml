@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
     <!-- Add some new filters to the existing PO line search view -->
     <record id="purchase_order_line_view_po_line_search" model="ir.ui.view">
         <field name="name">purchase.order.line.view.po.line.search</field>
         <field name="model">purchase.order.line</field>
         <field name="inherit_id" ref="purchase.purchase_order_line_search"/>
         <field name="arch" type="xml">
-
-        <field name="order_id" position="after">
-            <field name="account_analytic_id"/>
+            <field name="order_id" position="after">
+                <field name="account_analytic_id"/>
+            </field>
+            <filter name="hide_cancelled" position="before">
+                <filter domain="[('state', 'in', ['draft','sent','to_approve'])]" name="filter_rfqs" string="RFQs"/>
+                <filter domain="[('state', 'in', ['purchase','done'])]" name="filter_orders" string="Purchase Orders"/>
+                <separator/>
+            </filter>
+            <filter name="groupby_product" position="after">
+                <filter context="{'group_by' : 'account_analytic_id'}" domain="[]" name="groupby_analytic_account" string="Analytic Account"/>
+                <filter context="{'group_by' : 'currency_id'}" domain="[]" name="groupby_currency" string="Currency"/>
+            </filter>
         </field>
-
-        <filter name="hide_cancelled" position="before">
-            <filter domain="[('state', 'in', ['draft','sent','to_approve'])]"
-                name="filter_rfqs"
-                string="RFQs"/>
-            <filter domain="[('state', 'in', ['purchase','done'])]"
-                name="filter_orders"
-                string="Purchase Orders"/>
-            <separator/>
-        </filter>
-
-        <filter name="groupby_product" position="after">
-            <filter context="{'group_by' : 'account_analytic_id'}"
-                domain="[]"
-                name="groupby_analytic_account"
-                string="Analytic Account"/>
-            <filter context="{'group_by' : 'currency_id'}"
-                domain="[]"
-                name="groupby_currency"
-                string="Currency"/>
-        </filter>
-
-      </field>
     </record>
-
     <!-- Add a completely new tree view so that fields can be customized
     without affecting the PO line treeview inside PO form -->
     <record id="purchase_order_line_view_po_line_tree" model="ir.ui.view">
@@ -43,9 +27,7 @@
         <field name="model">purchase.order.line</field>
         <field eval="20" name="priority"/>
         <field name="arch" type="xml">
-            <tree create="false" delete="false" string="Purchase Order Lines"
-                  decoration-success="product_qty==qty_received"
-                  decoration-muted="state=='cancel'">
+            <tree create="false" delete="false" string="Purchase Order Lines" decoration-success="qty_received&gt;=product_qty" decoration-muted="state=='cancel'">
                 <field name="date_order" widget="date"/>
                 <field name="date_planned" widget="date"/>
                 <field name="account_analytic_id"/>
@@ -64,8 +46,6 @@
             </tree>
         </field>
     </record>
-
-
     <record id="purchase_order_line_view_po_line_action" model="ir.actions.act_window">
         <field name="name">Purchase Order Lines</field>
         <field name="type">ir.actions.act_window</field>
@@ -74,11 +54,6 @@
         <field name="view_type">form</field>
         <field name="view_id" ref="purchase_order_line_view_po_line_tree"/>
     </record>
-
     <!-- Add menuitem to Purchases menu -->
-    <menuitem action="purchase_order_line_view_po_line_action"
-        id="menuitem_po_lines"
-        parent="purchase.menu_procurement_management"
-        sequence="7"/>
-
+    <menuitem action="purchase_order_line_view_po_line_action" id="menuitem_po_lines" parent="purchase.menu_procurement_management" sequence="7"/>
 </odoo>

@@ -5,7 +5,6 @@
 ========================
 Purchase Order Line View
 ========================
-
 * Adds a new view for inspecting purchase order lines
 
 Configuration
@@ -27,6 +26,7 @@ Contributors
 ------------
 
 * Timo Talvitie <timo.talvitie@tawasta.fi>
+* Miika Nissi <miika.nissi@tawasta.fi>
 
 Maintainer
 ----------
