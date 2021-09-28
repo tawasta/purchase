@@ -5,8 +5,7 @@
 ==========================
 Audit Log Rules - Purchase
 ==========================
-
-Adds audit log rules for purchase order and purchase order line
+* Adds audit log rules for purchase order and purchase order line
 
 
 Features
@@ -32,7 +31,7 @@ Credits
 Contributors
 ------------
 
-* Joona Isoaho <joona.isoaho@tawasta.fi>
+* Miika Nissi <miika.nissi@tawasta.fi>
 
 Maintainer
 ----------
