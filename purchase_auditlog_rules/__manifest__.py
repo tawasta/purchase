@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2019 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,15 +20,14 @@
 
 {
     "name": "Audit Log Rules - Purchase",
-    "summary": "Audit Log Rules - Purchase",
+    "summary": "Adds auditlog rules for Purchase",
+    "version": "14.0.1.0.0",
+    "category": "Purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase/",
     "author": "Tawasta",
     "license": "AGPL-3",
-    "website": "https://github.com/Tawasta/purchase",
-    "category": "Logging",
-    "version": "12.0.1.0.0",
     "application": False,
     "installable": True,
-    "depends": ["purchase", "auditlog",],
-    "data": ["data/rules.xml",],
-    "demo": [],
+    "depends": ["purchase", "auditlog"],
+    "data": ["data/rules.xml"],
 }
