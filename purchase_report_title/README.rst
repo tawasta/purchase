@@ -5,8 +5,7 @@
 ===========================
 Purchase Order Report Title
 ===========================
-
-Purchase Order Report Title
+* Purchase Order Report Title
 
 Configuration
 =============
@@ -14,7 +13,7 @@ Configuration
 
 Usage
 =====
-Just install the module.
+\-
 
 Known issues / Roadmap
 ======================
@@ -27,6 +26,7 @@ Contributors
 ------------
 
 * Timo Kekäläinen <timo.kekalainen@tawasta.fi>
+* Miika Nissi <miika.nissi@tawasta.fi>
 
 Maintainer
 ----------
