@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <template id="report_purchasequotation_document" inherit_id="purchase.report_purchasequotation_document">
+    <template id="report_purchasequotation_document_payment_terms" inherit_id="purchase_report_informations_element.report_purchasequotation_document_informations">
         <div id="informations" position="inside">
-            <div t-if="o.payment_term_id" class="col-auto mw-100 mb-2">
+            <div t-if="o.payment_term_id" class="col-3 bm-2">
                 <strong>Payment terms:</strong>
                 <p class="m-0" t-field="o.payment_term_id"/>
             </div>
@@ -10,7 +10,7 @@
     </template>
     <template id="report_purchaseorder_document" inherit_id="purchase.report_purchaseorder_document">
         <div id="informations" position="inside">
-            <div t-if="o.payment_term_id" class="col-auto mw-100 mb-2">
+            <div t-if="o.payment_term_id" class="col-3 bm-2">
                 <strong>Payment terms:</strong>
                 <p class="m-0" t-field="o.payment_term_id"/>
             </div>

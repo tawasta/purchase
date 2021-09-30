@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Tawasta
-#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Author: Oy Tawasta OS Technologies Ltd.
+#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,8 +19,8 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Payment Terms",
-    "summary": "QWeb purchase reports Payment Terms",
+    "name": "Purchase Quotation Report Informations Element",
+    "summary": "Purchase Quotation Report Informations Element",
     "version": "14.0.1.0.0",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase/",
@@ -28,6 +28,6 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase", "purchase_report_informations_element"],
-    "data": ["report/purchase_order_report.xml"],
+    "depends": ["purchase"],
+    "data": ["report/purchase_quotation_templates.xml"],
 }
