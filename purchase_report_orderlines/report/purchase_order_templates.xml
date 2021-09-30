@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_purchaseorder_document_orderlines" inherit_id="purchase.report_purchaseorder_document">
+        <!-- Reorder orderline and add name field for each item -->
+        <xpath expr="//thead/tr" position="replace">
+            <tr>
+                <th name="th_description">
+                    <strong>Description</strong>
+                </th>
+                <th name="th_quantity">
+                    <strong>Qty</strong>
+                </th>
+                <th name="th_date_req" class="text-center">
+                    <strong>Date Req.</strong>
+                </th>
+                <th name="th_price_unit" class="text-center">
+                    <strong>Unit Price</strong>
+                </th>
+                <th name="th_taxes" class="text-right">
+                    <strong>Taxes</strong>
+                </th>
+                <th name="th_amount" class="text-right">
+                    <strong>Amount</strong>
+                </th>
+            </tr>
+        </xpath>
+        <!-- Reorder orderline to match headers -->
+        <xpath expr="//t[@t-if='not line.display_type']" position="replace">
+            <t t-if="not line.display_type">
+                <td name="td_description" id="product">
+                    <span t-field="line.name"/>
+                </td>
+                <td name="td_quantity">
+                    <span t-field="line.product_qty"/>
+                    <span t-field="line.product_uom.name" groups="uom.group_uom"/>
+                </td>
+                <td name="td_date_req" class="text-center">
+                    <span t-field="line.date_planned"/>
+                </td>
+                <td name="td_price_unit" class="text-center">
+                    <span t-field="line.price_unit"/>
+                </td>
+                <td name="td_taxes" class="text-right">
+                    <span t-esc="', '.join(map(lambda x: x.name, line.taxes_id))"/>
+                </td>
+                <td name="td-amount" class="text-right">
+                    <span t-field="line.price_subtotal" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+                </td>
+            </t>
+        </xpath>
+    </template>
+</odoo>
