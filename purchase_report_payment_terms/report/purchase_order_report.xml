@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <template id="report_purchasequotation_document_payment_terms" inherit_id="purchase_report_informations_element.report_purchasequotation_document_informations">
+    <template id="report_purchasequotation_document_payment_terms" inherit_id="purchase_stock.report_purchasequotation_document">
         <div id="informations" position="inside">
             <div t-if="o.payment_term_id" class="col-3 bm-2">
                 <strong>Payment terms:</strong>
