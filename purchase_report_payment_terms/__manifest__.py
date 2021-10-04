@@ -21,13 +21,13 @@
 {
     "name": "Purchase Report Payment Terms",
     "summary": "QWeb purchase reports Payment Terms",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase/",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase", "purchase_report_informations_element"],
+    "depends": ["purchase", "purchase_stock"],
     "data": ["report/purchase_order_report.xml"],
 }
