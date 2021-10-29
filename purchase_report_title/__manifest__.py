@@ -20,10 +20,10 @@
 
 {
     "name": "Purchase Report Title",
-    "summary": "Replaces default titles with a better purchase report title",
-    "version": "14.0.1.1.0",
+    "summary": "Purchase Report Title",
+    "version": "12.0.1.1.0",
     "category": "Reporting",
-    "website": "https://gitlab.com/tawasta/odoo/purchase/",
+    "website": "https://github.com/Tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
