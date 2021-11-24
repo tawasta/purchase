@@ -28,6 +28,6 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchse_request"],
+    "depends": ["account", "purchase_request"],
     "data": [],
 }
