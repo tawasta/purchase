@@ -6,7 +6,8 @@
 Header for Purchase Order report and views
 ==========================================
 
-* Adds a header/title field to Purchase Order report and views
+* Adds a header/title field to Purchase Order views
+* Configuration setting to show header text on report
 
 
 Configuration
@@ -29,6 +30,7 @@ Contributors
 
 * Jarmo Kortetjärvi <jarmo.kortetjarvi@tawasta.fi>
 * Timo Kekäläinen <timo.kekalainen@tawasta.fi>
+* Miika Nissi <miika.nissi@tawasta.fi>
 
 Maintainer
 ----------

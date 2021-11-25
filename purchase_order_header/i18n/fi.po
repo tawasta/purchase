@@ -4,18 +4,27 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-11 10:24+0000\n"
-"PO-Revision-Date: 2020-03-11 12:25+0200\n"
-"Last-Translator: <>\n"
+"POT-Creation-Date: 2021-11-25 16:12+0000\n"
+"PO-Revision-Date: 2021-11-25 16:12+0000\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: fi\n"
-"X-Generator: Poedit 2.0.6\n"
+
+#. module: purchase_order_header
+#: model:ir.model,name:purchase_order_header.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfiguraatioasetukset"
+
+#. module: purchase_order_header
+#: model:ir.model.fields,field_description:purchase_order_header.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:purchase_order_header.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
 
 #. module: purchase_order_header
 #: model:ir.model.fields,field_description:purchase_order_header.field_purchase_order__header_text
@@ -28,6 +37,33 @@ msgid "Header or title of the Purchase"
 msgstr "Oston otsikko"
 
 #. module: purchase_order_header
+#: model:ir.model.fields,field_description:purchase_order_header.field_purchase_order__id
+#: model:ir.model.fields,field_description:purchase_order_header.field_res_config_settings__id
+msgid "ID"
+msgstr "Tunniste (ID)"
+
+#. module: purchase_order_header
+#: model:ir.model.fields,field_description:purchase_order_header.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:purchase_order_header.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Viimeksi muokattu"
+
+#. module: purchase_order_header
 #: model:ir.model,name:purchase_order_header.model_purchase_order
 msgid "Purchase Order"
 msgstr "Ostotilaus"
+
+#. module: purchase_order_header
+#: model:ir.model.fields,field_description:purchase_order_header.field_res_config_settings__show_purchase_header
+msgid "Show header on report"
+msgstr "Näytä otsikko tulosteessa"
+
+#. module: purchase_order_header
+#: model_terms:ir.ui.view,arch_db:purchase_order_header.res_config_settings_view_form_show_purchase_header
+msgid "Show header text on Purchase Reports"
+msgstr "Näytä otsikon teksti ostotulosteissa"
+
+#. module: purchase_order_header
+#: model:ir.model.fields,help:purchase_order_header.field_res_config_settings__show_purchase_header
+msgid "Show header value on Purchase Report."
+msgstr "Näytä otsikon teksti ostotulosteissa."

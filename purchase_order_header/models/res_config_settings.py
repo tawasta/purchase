@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,20 +18,39 @@
 #
 ##############################################################################
 
-{
-    "name": "Purchase Order Header",
-    "summary": "New field for PO header/title and report configured in settings",
-    "version": "14.0.1.0.1",
-    "category": "Purchase",
-    "website": "https://gitlab.com/tawasta/odoo/purchase",
-    "author": "Tawasta",
-    "license": "AGPL-3",
-    "application": False,
-    "installable": True,
-    "depends": ["purchase"],
-    "data": [
-        "report/purchase_order_report.xml",
-        "views/purchase_order.xml",
-        "views/res_config_settings_views.xml",
-    ],
-}
+# 1. Standard library imports:
+
+# 2. Known third party imports:
+
+# 3. Odoo imports (openerp):
+from odoo import fields, models
+
+# 4. Imports from Odoo modules:
+
+# 5. Local imports in the relative form:
+
+# 6. Unknown third party imports:
+
+
+class ResConfigSettings(models.TransientModel):
+    # 1. Private attributes
+    _inherit = "res.config.settings"
+
+    # 2. Fields declaration
+    show_purchase_header = fields.Boolean(
+        "Show header on report",
+        config_parameter="purchase.show_purchase_header",
+        help="Show header value on Purchase Report.",
+    )
+
+    # 3. Default methods
+
+    # 4. Compute and search fields, in the same order that fields declaration
+
+    # 5. Constraints and onchanges
+
+    # 6. CRUD methods
+
+    # 7. Action methods
+
+    # 8. Business methods
