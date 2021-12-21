@@ -1,0 +1,5 @@
+/* Fix for wkhtmltopdf rendering */
+#informations.row > div {
+    display: inline-block;
+    max-width: 24%;
+}

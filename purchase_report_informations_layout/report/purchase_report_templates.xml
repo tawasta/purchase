@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="report_purchaseorder_document_informations_layout" inherit_id="purchase.report_purchaseorder_document">
+        <xpath expr="//div[@id='informations']" position="attributes">
+            <attribute name="class">row mt16 mb16</attribute>
+        </xpath>
+    </template>
+    <template id="report_purchasequotation_document_informations_layout" inherit_id="purchase_stock.report_purchasequotation_document">
+        <xpath expr="//div[@id='informations']" position="attributes">
+            <attribute name="class">row mt16 mb16</attribute>
+        </xpath>
+    </template>
+</odoo>
