@@ -2,4 +2,14 @@
 #informations.row > div {
     display: inline-block;
     max-width: 24%;
+    min-width: 200px;
+}
+#informations {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15 px;
+    margin-left: -15 px;
 }
