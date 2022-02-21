@@ -3,8 +3,10 @@
    :alt: License: AGPL-3
 
 ===================================
-Purchase Report Informations Layout
+DEPRECATED! Purchase Report Informations Layout
 ===================================
+DEPRECATED REMOVE MODULE!! report_element_sizes contains the fix
+
 * Purchase Report Informations Layout fix to fit more informations
 
 Configuration
