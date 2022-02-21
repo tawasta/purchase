@@ -19,8 +19,9 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Informations Layout",
-    "summary": "Fixes the layout of informations element to fit in pdf",
+    "name": "DEPRECATED Purchase Report Informations Layout",
+    "summary": "DEPRECATED by report_element_sizes \
+    Fixes the layout of informations element to fit in pdf",
     "version": "14.0.1.0.1",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase/",
