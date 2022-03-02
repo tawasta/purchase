@@ -22,7 +22,7 @@
                 </td>
                 <td name="td_quantity">
                     <span t-field="line.product_qty"
-                          t-options='{"precision": 0}'/>
+                          t-options='{"precision": 2}'/>
                     <span t-field="line.product_uom.name" groups="uom.group_uom"/>
                 </td>
                 <td name="td_date_req" class="text-center">
