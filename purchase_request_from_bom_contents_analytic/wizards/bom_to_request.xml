@@ -11,7 +11,7 @@
                 </p>
             </group>
             <field name="bom_id" position="before">
-                <field name="analytic_account_id" readonly="1"/>
+                <field name="analytic_account_id" readonly="0"/>
             </field>
         </field>
     </record>
