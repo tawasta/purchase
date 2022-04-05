@@ -20,8 +20,8 @@
 ##############################################################################
 
 {
-    'name': 'Purchase Product Only Select',
-    'summary': "Purchase Product Only Select",
+    'name': 'Purchase Order Partner Only Select',
+    'summary': "Purchase Order Partner Only Select",
     'category': 'Purchase',
     'version': '12.0.1.0.0',
     'website': 'https://github.com/Tawasta/purchase',
