@@ -23,7 +23,7 @@
     "summary": "DEPRECATED! Use purchase_report_orderlines instead",
     "version": "12.0.1.0.0",
     "category": "Purchase",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

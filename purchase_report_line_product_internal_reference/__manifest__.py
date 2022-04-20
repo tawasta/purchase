@@ -23,7 +23,7 @@
     "summary": "Purcase report - Product's internal reference",
     "version": "12.0.1.0.1",
     "category": "Reporting",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

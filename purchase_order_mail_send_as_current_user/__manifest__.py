@@ -23,7 +23,7 @@
     "summary": "Send RFQs/POs from current user's address as default",
     "version": "1.0.0",
     "category": "Purchases",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

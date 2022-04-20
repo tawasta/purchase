@@ -23,7 +23,7 @@
     "summary": "Adds a wizard for creating a SO from PO and linking them",
     "version": "1.0.1",
     "category": "Purchase",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

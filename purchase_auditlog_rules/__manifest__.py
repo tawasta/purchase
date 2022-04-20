@@ -23,7 +23,7 @@
     "summary": "Audit Log Rules - Purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "category": "Logging",
     "version": "12.0.1.0.0",
     "application": False,

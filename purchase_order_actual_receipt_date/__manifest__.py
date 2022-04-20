@@ -23,7 +23,7 @@
     "summary": "Logs the date when all lines have been received",
     "version": "1.1.0",
     "category": "Purchases",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
