@@ -1,17 +1,17 @@
-from odoo import models, fields
+from odoo import fields, models
 
 
 class PurchaseOrder(models.Model):
 
-    _inherit = 'purchase.order'
+    _inherit = "purchase.order"
 
     date_receipt_requested = fields.Datetime(
-        string='Requested Receipt Date',
+        string="Requested Receipt Date",
         readonly=True,
         states={
-            'draft': [('readonly', False)],
-            'sent': [('readonly', False)],
-            'to_approve': [('readonly', False)]
+            "draft": [("readonly", False)],
+            "sent": [("readonly", False)],
+            "to_approve": [("readonly", False)],
         },
-        help='Delivery date requested from the supplier'
+        help="Delivery date requested from the supplier",
     )
