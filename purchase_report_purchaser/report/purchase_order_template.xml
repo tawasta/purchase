@@ -1,15 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <template id="purchase_order_document" inherit_id="purchase_stock.report_purchaseorder_document">
-        <xpath expr="//div[@t-field='o.picking_type_id.warehouse_id.partner_id']" position="after">
-            <br/>
+    <template
+        id="purchase_order_document"
+        inherit_id="purchase_stock.report_purchaseorder_document">
+        <xpath
+            expr="//div[@t-field='o.picking_type_id.warehouse_id.partner_id']"
+            position="after">
+            <br />
             <strong>Purchaser: </strong>
             <div t-if="o.user_id">
                 <t t-if="o.user_id.phone">
-                    <div t-field="o.user_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;name&quot;, &quot;email&quot;, &quot;phone&quot;], &quot;no_marker&quot;: True, &quot;phone_icons&quot;: True}" name="purchaser_information"/>
+                    <div
+                        t-field="o.user_id"
+                        t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;name&quot;, &quot;email&quot;, &quot;phone&quot;], &quot;no_marker&quot;: True, &quot;phone_icons&quot;: True}"
+                        name="purchaser_information"
+                    />
                 </t>
                 <t t-else="">
-                    <div t-field="o.user_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;name&quot;, &quot;email&quot;], &quot;no_marker&quot;: True}" name="purchaser_information"/>
+                    <div
+                        t-field="o.user_id"
+                        t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;name&quot;, &quot;email&quot;], &quot;no_marker&quot;: True}"
+                        name="purchaser_information"
+                    />
                 </t>
             </div>
         </xpath>
