@@ -23,7 +23,7 @@
     "summary": "Unable to edit and create Products on PO line",
     "version": "12.0.1.0.0",
     "category": "Uncategorized",
-    "website": "https://tawasta.fi",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

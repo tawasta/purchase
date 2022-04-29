@@ -23,7 +23,7 @@
     "summary": "Add BOM contents to PR lines",
     "version": "12.0.1.0.2",
     "category": "Purchases",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

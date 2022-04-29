@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2018 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2022 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,15 @@
 ##############################################################################
 
 {
-    "name": "Weight on purchase order and PO lines",
-    "summary": "Add weight on PO and PO lines",
-    "category": "Purchase",
-    "version": "12.0.1.2.0",
+    "name": "Update Purchase Order prices",
+    "summary": "Update Purchase Order prices with scheduled action",
+    "version": "12.0.1.0.0",
+    "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["uom_weight", "purchase"],
-    "data": ["views/purchase_order.xml"],
+    "depends": ["purchase"],
+    "data": ["data/ir_cron.xml"],
 }
