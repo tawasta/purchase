@@ -23,7 +23,7 @@
     "summary": "Company-specific standard clause for POs",
     "version": "12.0.1.2.2",
     "category": "Purchase",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

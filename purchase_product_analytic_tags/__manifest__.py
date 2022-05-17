@@ -23,7 +23,7 @@
     "summary": "Adds purchase order line analytic tags from products",
     "version": "12.0.1.1.0",
     "category": "Invoicing",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

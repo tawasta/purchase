@@ -23,7 +23,7 @@
     "summary": "Append analytic account to purchase notes on order validate",
     "category": "Purchase",
     "version": "1.0.0",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

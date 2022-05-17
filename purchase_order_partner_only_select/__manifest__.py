@@ -24,7 +24,7 @@
     'summary': "Purchase Order Partner Only Select",
     'category': 'Purchase',
     'version': '12.0.1.0.0',
-    'website': 'https://github.com/Tawasta/purchase',
+    'website': 'https://gitlab.com/tawasta/odoo/purchase',
     'author': 'Oy Tawasta Technologies Ltd.',
     'license': 'AGPL-3',
     'application': False,

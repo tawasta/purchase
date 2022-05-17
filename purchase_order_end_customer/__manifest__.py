@@ -23,7 +23,7 @@
     "summary": "New field for storing the end customer of a PO",
     "version": "1.1.0",
     "category": "Purchases",
-    "website": "https://github.com/Tawasta/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
