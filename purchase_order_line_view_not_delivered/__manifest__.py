@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Line Not Delivered",
     "summary": "Purchase Order Line Not Delivered",
-    "version": "12.0.1.0.0",
+    "version": "12.0.1.0.1",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
