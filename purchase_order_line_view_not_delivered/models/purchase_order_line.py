@@ -9,6 +9,7 @@ class PurchaseOrderLine(models.Model):
         "Not Delivered",
         help="Quantity of items not yet delivered (Ordered minus delivered).",
         compute="_compute_qty_not_delivered",
+        store=True,
     )
 
     @api.depends("product_qty", "qty_received")

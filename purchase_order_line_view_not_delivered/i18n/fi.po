@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-17 16:00+0000\n"
-"PO-Revision-Date: 2022-05-17 16:00+0000\n"
+"POT-Creation-Date: 2022-05-24 13:38+0000\n"
+"PO-Revision-Date: 2022-05-24 13:38+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 
 #. module: purchase_order_line_view_not_delivered
 #: model:ir.model.fields,field_description:purchase_order_line_view_not_delivered.field_purchase_order_line__qty_not_delivered
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view_not_delivered.purchase_order_line_view_po_line_search
 msgid "Not Delivered"
 msgstr "Toimittamatta"
 
