@@ -2,7 +2,8 @@
 <odoo>
     <template
         id="report_purchasequotation_document_payment_terms"
-        inherit_id="purchase_stock.report_purchasequotation_document">
+        inherit_id="purchase_stock.report_purchasequotation_document"
+    >
         <div id="informations" position="inside">
             <div t-if="o.payment_term_id" class="col-3 bm-2">
                 <strong>Payment terms:</strong>
@@ -12,7 +13,8 @@
     </template>
     <template
         id="report_purchaseorder_document"
-        inherit_id="purchase.report_purchaseorder_document">
+        inherit_id="purchase.report_purchaseorder_document"
+    >
         <div id="informations" position="inside">
             <div t-if="o.payment_term_id" class="col-3 bm-2">
                 <strong>Payment terms:</strong>

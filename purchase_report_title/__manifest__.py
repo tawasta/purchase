@@ -23,7 +23,7 @@
     "summary": "Replaces default titles with a better purchase report title",
     "version": "14.0.1.2.0",
     "category": "Reporting",
-    "website": "https://gitlab.com/tawasta/odoo/purchase/",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

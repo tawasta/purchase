@@ -2,7 +2,8 @@
 <odoo>
     <template
         id="report_purchaseorder_document_orderlines"
-        inherit_id="purchase.report_purchaseorder_document">
+        inherit_id="purchase.report_purchaseorder_document"
+    >
         <!-- Reorder orderline and add name field for each item -->
         <xpath expr="//thead/tr" position="replace">
             <tr>

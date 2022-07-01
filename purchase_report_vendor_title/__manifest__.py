@@ -23,7 +23,7 @@
     "summary": "Add title for purchase report vendor address info.",
     "version": "14.0.1.0.0",
     "category": "Reporting",
-    "website": "https://gitlab.com/tawasta/odoo/purchase/",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
