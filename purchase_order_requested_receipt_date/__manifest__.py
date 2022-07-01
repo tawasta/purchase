@@ -23,7 +23,7 @@
     "summary": "Storing the delivery date requested from supplier",
     "version": "14.0.1.1.0",
     "category": "Purchases",
-    "website": "https://gitlab.com/tawasta/odoo/event",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

@@ -23,7 +23,7 @@
     "summary": "Add Requested Receipt Date to PO header",
     "version": "14.0.1.0.0",
     "category": "Purchase",
-    "website": "https://gitlab.com/tawasta/odoo/event",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

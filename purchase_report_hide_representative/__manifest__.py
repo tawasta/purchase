@@ -23,7 +23,7 @@
     "summary": "Hides Purchase Representative on purchase report",
     "version": "14.0.1.0.0",
     "category": "Reporting",
-    "website": "https://gitlab.com/tawasta/odoo/event",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

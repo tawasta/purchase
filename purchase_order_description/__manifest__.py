@@ -23,7 +23,7 @@
     "summary": "Adds a description (an internal note) to purchase order",
     "version": "14.0.1.0.0",
     "category": "Purchase",
-    "website": "https://gitlab.com/tawasta/odoo/event",
+    "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
