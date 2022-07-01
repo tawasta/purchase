@@ -23,7 +23,7 @@
     "summary": "Add PO order reference to header informations",
     "version": "14.0.1.0.0",
     "category": "Purchase",
-    "website": "https://gitlab.com/tawasta/odoo/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/event",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

@@ -23,7 +23,7 @@
     "summary": "Show Incoterm name instead of code on Purchase Report",
     "version": "14.0.1.0.0",
     "category": "Reporting",
-    "website": "https://tawasta.fi",
+    "website": "https://gitlab.com/tawasta/odoo/event",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

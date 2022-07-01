@@ -23,7 +23,7 @@
     "summary": "Use standard price as line price, if no supplier price is set",
     "version": "14.0.1.0.0",
     "category": "Purchases",
-    "website": "https://gitlab.com/tawasta/odoo/purchase",
+    "website": "https://gitlab.com/tawasta/odoo/event",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
