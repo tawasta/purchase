@@ -20,4 +20,14 @@
             </field>
         </field>
     </record>
+    <record id="purchase_order_kpis_tree" model="ir.ui.view">
+        <field name="name">purchase.order.tree.header</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_kpis_tree" />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="header_text" optional="show" />
+            </field>
+        </field>
+    </record>
 </odoo>
