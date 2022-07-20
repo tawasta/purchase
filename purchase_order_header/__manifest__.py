@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Header",
     "summary": "New field for PO header/title and report configured in settings",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.0.2",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
