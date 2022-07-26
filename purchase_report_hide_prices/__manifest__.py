@@ -19,15 +19,20 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Orderlines",
-    "summary": "Fixes orderlines in purchase report",
-    "version": "14.0.1.0.1",
+    "name": "Purchase Report Hide Prices",
+    "summary": "Hides prices on purchase report",
+    "version": "14.0.1.0.0",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase"],
-    "data": ["report/purchase_order_templates.xml"],
+    "depends": [
+        "purchase",
+        "purchase_report_orderlines",
+    ],
+    "data": [
+        "report/purchase_order_templates.xml",
+    ],
 }
