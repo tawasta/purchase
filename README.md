@@ -16,6 +16,7 @@ addon | version | maintainers | summary
 [purchase_order_header](purchase_order_header/) | 14.0.1.0.2 |  | New field for PO header/title and report configured in settings
 [purchase_order_line_no_create_product](purchase_order_line_no_create_product/) | 14.0.1.0.0 |  | Unable to edit and create Products on PO line
 [purchase_order_line_use_standard_price](purchase_order_line_use_standard_price/) | 14.0.1.0.0 |  | Use standard price as line price, if no supplier price is set
+[purchase_order_line_view](purchase_order_line_view/) | 14.0.1.0.0 |  | New view for inspecting PO lines
 [purchase_order_merge_by_sale_order](purchase_order_merge_by_sale_order/) | 14.0.1.0.0 |  | Create Purchase Order and merge it by Sale Order info
 [purchase_order_requested_receipt_date](purchase_order_requested_receipt_date/) | 14.0.1.1.0 |  | Storing the delivery date requested from supplier
 [purchase_product_only_select](purchase_product_only_select/) | 14.0.1.0.0 |  | Disable Product quick create and edit from PO line
