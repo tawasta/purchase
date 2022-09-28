@@ -15,4 +15,16 @@
             </div>
         </div>
     </template>
+
+    <template
+        id="report_purchasequotation_document"
+        inherit_id="purchase_report_quotation_informations_element.report_purchasequotation_document"
+    >
+        <div id="informations" position="inside">
+            <div t-if="o.date_approve" class="col-auto mw-100 mb-2">
+                <strong>Approve date:</strong>
+                <p class="m-0" t-field="o.date_approve" />
+            </div>
+        </div>
+    </template>
 </odoo>
