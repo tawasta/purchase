@@ -1,14 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* purchase_order_requested_receipt_date
+# 	* purchase_order_requested_receipt_date
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 14.0-20220915\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-01 19:49+0000\n"
-"PO-Revision-Date: 2018-04-01 19:49+0000\n"
-"Last-Translator: <>\n"
+"POT-Creation-Date: 2022-09-29 18:18+0000\n"
+"PO-Revision-Date: 2022-09-29 18:18+0000\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,9 +16,24 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: purchase_order_requested_receipt_date
-#: model:ir.model.fields,help:purchase_order_requested_receipt_date.field_purchase_order_date_receipt_requested
+#: model:ir.model.fields,help:purchase_order_requested_receipt_date.field_purchase_order__date_receipt_requested
 msgid "Delivery date requested from the supplier"
 msgstr "Toimittajalta toivottu toimituspäivä"
+
+#. module: purchase_order_requested_receipt_date
+#: model:ir.model.fields,field_description:purchase_order_requested_receipt_date.field_purchase_order__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#. module: purchase_order_requested_receipt_date
+#: model:ir.model.fields,field_description:purchase_order_requested_receipt_date.field_purchase_order__id
+msgid "ID"
+msgstr "Tunniste (ID)"
+
+#. module: purchase_order_requested_receipt_date
+#: model:ir.model.fields,field_description:purchase_order_requested_receipt_date.field_purchase_order____last_update
+msgid "Last Modified on"
+msgstr "Viimeksi muokattu"
 
 #. module: purchase_order_requested_receipt_date
 #: model:ir.model,name:purchase_order_requested_receipt_date.model_purchase_order
@@ -26,6 +41,6 @@ msgid "Purchase Order"
 msgstr "Ostotilaus"
 
 #. module: purchase_order_requested_receipt_date
-#: model:ir.model.fields,field_description:purchase_order_requested_receipt_date.field_purchase_order_date_receipt_requested
+#: model:ir.model.fields,field_description:purchase_order_requested_receipt_date.field_purchase_order__date_receipt_requested
 msgid "Requested Receipt Date"
 msgstr "Toivottu toimituspäivä"

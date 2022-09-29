@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Requested Receipt Date",
     "summary": "Storing the delivery date requested from supplier",
-    "version": "14.0.1.1.0",
+    "version": "14.0.1.1.1",
     "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
