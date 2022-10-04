@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Purchaser",
     "summary": "Add purchaser information to purchase order report.",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
