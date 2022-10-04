@@ -32,7 +32,7 @@ addon | version | maintainers | summary
 [purchase_report_incoterm_name](purchase_report_incoterm_name/) | 14.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
 [purchase_report_line_product_internal_reference](purchase_report_line_product_internal_reference/) | 14.0.1.0.1 |  | Purcase report - Product's internal reference
 [purchase_report_order_reference](purchase_report_order_reference/) | 14.0.1.0.0 |  | Add PO order reference to header informations
-[purchase_report_orderlines](purchase_report_orderlines/) | 14.0.1.0.1 |  | Fixes orderlines in purchase report
+[purchase_report_orderlines](purchase_report_orderlines/) | 14.0.1.0.2 |  | Fixes orderlines in purchase report
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 14.0.1.0.1 |  | QWeb purchase reports Payment Terms
 [purchase_report_purchaser](purchase_report_purchaser/) | 14.0.1.0.1 |  | Add purchaser information to purchase order report.
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 14.0.1.0.0 |  | Informations element to Purchase quotation print

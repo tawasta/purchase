@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Orderlines",
     "summary": "Fixes orderlines in purchase report",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.0.2",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",

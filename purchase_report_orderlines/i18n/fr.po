@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_report_orderlines
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 10:50+0000\n"
+"PO-Revision-Date: 2022-10-04 13:53+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: purchase_report_orderlines
+#: model_terms:ir.ui.view,arch_db:purchase_report_orderlines.report_purchaseorder_document_orderlines
+msgid "<strong>Amount</strong>"
+msgstr "<strong>Montant</strong>"
+
+#. module: purchase_report_orderlines
+#: model_terms:ir.ui.view,arch_db:purchase_report_orderlines.report_purchaseorder_document_orderlines
+msgid "<strong>Date Req.</strong>"
+msgstr "<strong>Date Demandée.</strong>"
+
+#. module: purchase_report_orderlines
+#: model_terms:ir.ui.view,arch_db:purchase_report_orderlines.report_purchaseorder_document_orderlines
+msgid "<strong>Description</strong>"
+msgstr "<strong>Description</strong>"
+
+#. module: purchase_report_orderlines
+#: model_terms:ir.ui.view,arch_db:purchase_report_orderlines.report_purchaseorder_document_orderlines
+msgid "<strong>Qty</strong>"
+msgstr "<strong>Qté</strong>"
+
+#. module: purchase_report_orderlines
+#: model_terms:ir.ui.view,arch_db:purchase_report_orderlines.report_purchaseorder_document_orderlines
+msgid "<strong>Taxes</strong>"
+msgstr "<strong>Taxes</strong>"
+
+#. module: purchase_report_orderlines
+#: model_terms:ir.ui.view,arch_db:purchase_report_orderlines.report_purchaseorder_document_orderlines
+msgid "<strong>Unit Price</strong>"
+msgstr "<strong>Prix unitaire</strong>"
