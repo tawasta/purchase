@@ -30,7 +30,7 @@ addon | version | maintainers | summary
 [purchase_report_hide_prices](purchase_report_hide_prices/) | 14.0.1.0.0 |  | Hides prices on purchase report
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 14.0.1.0.0 |  | Hides Purchase Representative on purchase report
 [purchase_report_incoterm_name](purchase_report_incoterm_name/) | 14.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
-[purchase_report_line_product_internal_reference](purchase_report_line_product_internal_reference/) | 14.0.1.0.0 |  | Purcase report - Product's internal reference
+[purchase_report_line_product_internal_reference](purchase_report_line_product_internal_reference/) | 14.0.1.0.1 |  | Purcase report - Product's internal reference
 [purchase_report_order_reference](purchase_report_order_reference/) | 14.0.1.0.0 |  | Add PO order reference to header informations
 [purchase_report_orderlines](purchase_report_orderlines/) | 14.0.1.0.1 |  | Fixes orderlines in purchase report
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 14.0.1.0.1 |  | QWeb purchase reports Payment Terms
