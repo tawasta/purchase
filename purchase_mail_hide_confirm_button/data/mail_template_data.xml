@@ -12,7 +12,7 @@
             id="mail_notification_confirm"
             inherit_id="purchase.mail_notification_confirm"
         >
-            <xpath expr="//t[@t-set='access_name']/.." position="attributes">
+            <xpath expr="//t[@t-esc='access_name']/.." position="attributes">
                 <attribute name="t-if">1 == 0</attribute>
             </xpath>
         </template>

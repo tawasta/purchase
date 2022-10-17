@@ -21,7 +21,7 @@
 {
     "name": "Purchase - hide Confirm button from mail message",
     "summary": "Purchase - hide Confirm button from mail message",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
