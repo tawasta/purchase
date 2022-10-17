@@ -12,6 +12,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [purchase_auditlog_rules](purchase_auditlog_rules/) | 14.0.1.0.0 |  | Adds auditlog rules for Purchase
+[purchase_mail_hide_confirm_button](purchase_mail_hide_confirm_button/) | 14.0.1.0.1 |  | Purchase - hide Confirm button from mail message
 [purchase_order_description](purchase_order_description/) | 14.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_header](purchase_order_header/) | 14.0.1.0.3 |  | New field for PO header/title and report configured in settings
 [purchase_order_line_no_create_product](purchase_order_line_no_create_product/) | 14.0.1.0.0 |  | Unable to edit and create Products on PO line

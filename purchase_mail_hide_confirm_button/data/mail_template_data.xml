@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data noupdate="1">
+        <!-- Temporarily set the noupdate field to False -->
+        <function
+            name="toggle_noupdate"
+            model="ir.model.data"
+            eval="['ir.ui.view', ref('purchase.mail_notification_confirm')]"
+        />
+
+        <template
+            id="mail_notification_confirm"
+            inherit_id="purchase.mail_notification_confirm"
+        >
+            <xpath expr="//t[@t-esc='access_name']/.." position="attributes">
+                <attribute name="t-if">1 == 0</attribute>
+            </xpath>
+        </template>
+
+        <!-- Set the previously noupdate False to True again -->
+        <function
+            name="toggle_noupdate"
+            model="ir.model.data"
+            eval="['ir.ui.view', ref('purchase.mail_notification_confirm')]"
+        />
+    </data>
+</odoo>
