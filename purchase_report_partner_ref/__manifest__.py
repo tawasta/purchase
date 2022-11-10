@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2022 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Author: Tawasta
+#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,8 +19,8 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Quotation Informations Element",
-    "summary": "Informations element to purchase quotation print",
+    "name": "Purchase Report Partner Reference",
+    "summary": "Adds partner reference to purchase quotation report",
     "version": "14.0.1.0.0",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
@@ -28,6 +28,6 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase"],
-    "data": ["report/purchase_quotation_template.xml"],
+    "depends": ["purchase", "purchase_report_quotation_informations_element"],
+    "data": ["report/purchase_report_partner_ref.xml"],
 }

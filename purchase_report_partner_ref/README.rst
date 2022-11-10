@@ -2,10 +2,10 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==============================================
-Purchase Report Quotation Informations Element
-==============================================
-* Informations element to purchase quotation print
+===========================
+Purchase Report Partner Ref
+===========================
+* Adds partner reference to purchase quotation report
 
 Configuration
 =============
