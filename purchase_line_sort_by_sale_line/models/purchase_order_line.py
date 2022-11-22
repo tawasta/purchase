@@ -15,11 +15,20 @@ class PurchaseOrderLine(models.Model):
     @api.depends("move_dest_ids")
     def _compute_linked_sale_line(self):
         for line in self:
-            sale_lines = (
-                line.move_dest_ids
-                and [x.sale_line_id for x in line.move_dest_ids]
-                or False
-            )
+            if line.order_id.state == "draft":
+                sale_lines = (
+                    line.move_dest_ids
+                    and [x.sale_line_id for x in line.move_dest_ids]
+                    or False
+                )
+            else:
+                moves = line.move_ids and line.move_ids[0]
+                sale_lines = (
+                    moves and [x.sale_line_id for x in moves.move_dest_ids] or False
+                )
             if sale_lines:
                 line.linked_sale_line_id_number = abs(1 - sale_lines[0].id)
                 line.linked_sale_line_sequence = sale_lines[0].sequence
+            else:
+                line.linked_sale_line_id_number = False
+                line.linked_sale_line_sequence = False
