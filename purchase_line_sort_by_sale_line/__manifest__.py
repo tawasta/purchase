@@ -21,7 +21,7 @@
 {
     "name": "Sort Purchase order lines based on Sale order line information",
     "summary": "Use SO lines to sort PO lines in PO form view's tree section",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
@@ -30,6 +30,7 @@
     "installable": True,
     "depends": [
         "purchase_stock",
+        "sale_stock",
     ],
-    "data": ["views/purchase_order.xml"],
+    "data": ["views/purchase_order.xml", "views/stock_move.xml"],
 }
