@@ -21,7 +21,7 @@
 {
     "name": "Sort Purchase order lines based on Sale order line information",
     "summary": "Use SO lines to sort PO lines in PO form view's tree section",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.0.2",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
