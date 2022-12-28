@@ -10,6 +10,9 @@
         <xpath expr="//h2" position="attributes">
             <attribute name="class">d-none</attribute>
         </xpath>
+        <xpath expr="//h2" position="after">
+            <br />
+        </xpath>
     </template>
     <template
         id="report_purchaseorder_document"
@@ -31,6 +34,9 @@
         </xpath>
         <xpath expr="//h2[4]" position="attributes">
             <attribute name="class">d-none</attribute>
+        </xpath>
+        <xpath expr="//h2[1]" position="after">
+            <br />
         </xpath>
     </template>
 </odoo>

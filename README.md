@@ -45,7 +45,7 @@ addon | version | maintainers | summary
 [purchase_report_purchaser](purchase_report_purchaser/) | 14.0.1.0.1 |  | Add purchaser information to purchase order report.
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 14.0.1.0.0 |  | Informations element to purchase quotation print
 [purchase_report_requested_receipt_date](purchase_report_requested_receipt_date/) | 14.0.1.0.0 |  | Requested receipt date to Sale Report
-[purchase_report_title](purchase_report_title/) | 14.0.1.2.1 |  | Replaces default titles with a better purchase report title
+[purchase_report_title](purchase_report_title/) | 14.0.1.3.0 |  | Replaces default titles with a better purchase report title
 [purchase_report_vendor_title](purchase_report_vendor_title/) | 14.0.1.0.0 |  | Add title for purchase report vendor address info.
 
 [//]: # (end addons)
