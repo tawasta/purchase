@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Copyright 2022- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,15 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Title",
-    "summary": "Replaces default titles with a better purchase report title",
-    "version": "14.0.1.3.0",
+    "name": "Purchase Report Country of Origin",
+    "summary": "Add country of origin to purchase report lines",
+    "version": "14.0.1.0.0",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase", "report_element_sizes"],
-    "data": ["report/purchase_order_report.xml"],
+    "depends": ["purchase", "purchase_report_orderlines", "product_harmonized_system"],
+    "data": ["report/purchase_order_templates.xml"],
 }
