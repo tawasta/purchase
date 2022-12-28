@@ -39,6 +39,7 @@ addon | version | maintainers | summary
 [purchase_report_line_product_internal_reference](purchase_report_line_product_internal_reference/) | 14.0.1.0.1 |  | Purcase report - Product's internal reference
 [purchase_report_order_reference](purchase_report_order_reference/) | 14.0.1.0.0 |  | Add PO order reference to header informations
 [purchase_report_orderlines](purchase_report_orderlines/) | 14.0.1.0.2 |  | Fixes orderlines in purchase report
+[purchase_report_origin_country](purchase_report_origin_country/) | 14.0.1.0.0 |  | Add country of origin to purchase report lines
 [purchase_report_partner_ref](purchase_report_partner_ref/) | 14.0.1.0.0 |  | Adds partner reference to purchase quotation report
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 14.0.1.0.1 |  | QWeb purchase reports Payment Terms
 [purchase_report_purchaser](purchase_report_purchaser/) | 14.0.1.0.1 |  | Add purchaser information to purchase order report.
