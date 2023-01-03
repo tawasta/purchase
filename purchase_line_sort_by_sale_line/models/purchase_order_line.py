@@ -4,12 +4,15 @@ from odoo import api, fields, models
 class PurchaseOrderLine(models.Model):
 
     _inherit = "purchase.order.line"
+    _order = (
+        "linked_sale_line_sequence, linked_sale_line_id_number, order_id, sequence, id"
+    )
 
     linked_sale_line_id_number = fields.Integer(
-        string="Linked sale id number", compute="_compute_linked_sale_line"
+        string="Linked sale id number", compute="_compute_linked_sale_line", store=True
     )
     linked_sale_line_sequence = fields.Integer(
-        string="Linked sale sequence", compute="_compute_linked_sale_line"
+        string="Linked sale sequence", compute="_compute_linked_sale_line", store=True
     )
 
     @api.depends("move_dest_ids")
