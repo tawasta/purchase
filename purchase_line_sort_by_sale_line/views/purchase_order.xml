@@ -13,12 +13,6 @@
                 <field name="linked_sale_line_id_number" invisible="1" />
                 <field name="move_dest_ids" invisible="1" />
             </xpath>
-
-            <xpath expr="//field[@name='order_line']//tree" position="attributes">
-                <attribute
-                    name="default_order"
-                >linked_sale_line_sequence,linked_sale_line_id_number</attribute>
-            </xpath>
         </field>
     </record>
 </odoo>
