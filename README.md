@@ -31,6 +31,7 @@ addon | version | maintainers | summary
 [purchase_report_date_only](purchase_report_date_only/) | 14.0.1.0.0 |  | Format Date to only show date without time in PO report
 [purchase_report_date_receipt_requested](purchase_report_date_receipt_requested/) | 14.0.1.0.0 |  | Add Requested Receipt Date to PO header
 [purchase_report_hide_date_req](purchase_report_hide_date_req/) | 14.0.1.0.0 |  | Hides Date req on purchase order report
+[purchase_report_hide_order_date](purchase_report_hide_order_date/) | 14.0.1.0.0 |  | Hides Order Date on purchase order report
 [purchase_report_hide_prices](purchase_report_hide_prices/) | 14.0.1.0.0 |  | Hides prices on purchase report
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 14.0.1.0.0 |  | Hides Purchase Representative on purchase report
 [purchase_report_hs_code](purchase_report_hs_code/) | 14.0.1.0.0 |  | Add HS code to purchase report lines
