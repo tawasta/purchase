@@ -21,6 +21,7 @@ addon | version | maintainers | summary
 [purchase_order_line_qty_available](purchase_order_line_qty_available/) | 14.0.1.0.0 |  | Add qty_available to purchase order line
 [purchase_order_line_use_standard_price](purchase_order_line_use_standard_price/) | 14.0.1.0.0 |  | Use standard price as line price, if no supplier price is set
 [purchase_order_line_view](purchase_order_line_view/) | 14.0.1.0.0 |  | New view for inspecting PO lines
+[purchase_order_line_view_internal_reference](purchase_order_line_view_internal_reference/) | 14.0.1.0.0 |  | Purchase Order Line tree view - Show Product's internal reference
 [purchase_order_line_view_not_delivered](purchase_order_line_view_not_delivered/) | 14.0.1.0.0 |  | Purchase Order Line Not Delivered
 [purchase_order_merge_by_sale_order](purchase_order_merge_by_sale_order/) | 14.0.1.0.0 |  | Create Purchase Order and merge it by Sale Order info
 [purchase_order_requested_receipt_date](purchase_order_requested_receipt_date/) | 14.0.1.1.1 |  | Storing the delivery date requested from supplier
