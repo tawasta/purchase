@@ -2,11 +2,10 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-================================================
-Informations element to Purchase quotation print
-================================================
-
-Informations element to Purchase quotation print
+==============================================
+Purchase Report Quotation Informations Element
+==============================================
+* Informations element to purchase quotation print
 
 Configuration
 =============
@@ -27,6 +26,7 @@ Contributors
 ------------
 
 * Timo Kekäläinen <timo.kekalainen@tawasta.fi>
+* Miika Nissi <miika.nissi@tawasta.fi>
 
 Maintainer
 ----------

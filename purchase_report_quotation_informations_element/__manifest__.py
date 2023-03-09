@@ -19,8 +19,8 @@
 ##############################################################################
 
 {
-    "name": "Informations element to Purchase quotation print",
-    "summary": "Informations element to Purchase quotation print",
+    "name": "Purchase Report Quotation Informations Element",
+    "summary": "Informations element to purchase quotation print",
     "version": "14.0.1.0.0",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
@@ -28,8 +28,6 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        "purchase",
-    ],
+    "depends": ["purchase"],
     "data": ["report/purchase_quotation_template.xml"],
 }
