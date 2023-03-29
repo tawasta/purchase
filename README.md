@@ -47,6 +47,7 @@ addon | version | maintainers | summary
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 14.0.1.0.1 |  | QWeb purchase reports Payment Terms
 [purchase_report_purchaser](purchase_report_purchaser/) | 14.0.1.0.1 |  | Add purchaser information to purchase order report.
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 14.0.1.0.0 |  | Informations element to purchase quotation print
+[purchase_report_representative_second_email](purchase_report_representative_second_email/) | 14.0.1.0.0 |  | Second email of purchase representative on PO print
 [purchase_report_requested_receipt_date](purchase_report_requested_receipt_date/) | 14.0.1.0.0 |  | Requested receipt date to Sale Report
 [purchase_report_rfq_order_reference](purchase_report_rfq_order_reference/) | 14.0.1.0.0 |  | Add PO order reference to header informations on RFQ print
 [purchase_report_show_product_name](purchase_report_show_product_name/) | 14.0.1.0.0 |  | Always show product on PO print lines
