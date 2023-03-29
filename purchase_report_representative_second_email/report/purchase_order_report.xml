@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template
+        id="report_purchaseorder_document"
+        inherit_id="purchase.report_purchaseorder_document"
+    >
+        <p t-field="o.user_id" position="after">
+            <t t-if="o.user_id.representative_email">
+                <p t-esc="o.user_id.representative_email" class="m-0" />
+            </t>
+        </p>
+    </template>
+</odoo>
