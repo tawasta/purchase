@@ -21,7 +21,7 @@
 {
     "name": "Second email of purchase representative on PO print",
     "summary": "Second email of purchase representative on PO print",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
