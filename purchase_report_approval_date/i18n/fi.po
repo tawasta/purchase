@@ -19,5 +19,5 @@ msgstr ""
 #. module: purchase_report_approval_date
 #: model_terms:ir.ui.view,arch_db:purchase_report_approval_date.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase_report_approval_date.report_purchasequotation_document
-msgid "<strong>Approve date:</strong>"
+msgid "<strong>Date:</strong>"
 msgstr "<strong>Hyväksymispäivä:</strong>"
