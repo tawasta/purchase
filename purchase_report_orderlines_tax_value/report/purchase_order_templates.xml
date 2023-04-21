@@ -8,7 +8,9 @@
         <xpath expr="//td[@name='td_taxes']" position="replace">
 
                 <td name="td_taxes" class="text-right">
-                    <span t-esc="', '.join(map(lambda x: x.description, line.taxes_id))" />
+                    <span
+                    t-esc="', '.join(map(lambda x: x.description, line.taxes_id))"
+                />
                 </td>
 
         </xpath>

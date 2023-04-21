@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Approval Date",
     "summary": "Adds Approval Date to Purchase Reports",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.0.2",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",

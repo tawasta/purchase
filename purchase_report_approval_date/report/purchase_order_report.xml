@@ -22,8 +22,12 @@
     >
         <div id="informations" position="inside">
             <div t-if="o.date_approve" class="col-auto mw-100 mb-2">
-                <strong>Date:</strong>
-                <p class="m-0" t-field="o.date_approve" t-options="{'format': 'dd.MM.yyyy'}"/>
+                <strong>Approve date:</strong>
+                <p
+                    class="m-0"
+                    t-field="o.date_approve"
+                    t-options="{'format': 'dd.MM.yyyy'}"
+                />
             </div>
         </div>
     </template>
