@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 06:34+0000\n"
-"PO-Revision-Date: 2023-03-29 09:35+0300\n"
+"POT-Creation-Date: 2023-04-03 11:50+0000\n"
+"PO-Revision-Date: 2023-04-03 14:51+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "X-Generator: Poedit 3.0.1\n"
+
+#. module: purchase_report_representative_second_email
+#: model_terms:ir.ui.view,arch_db:purchase_report_representative_second_email.report_purchasequotation_document
+msgid "<strong>Purchase Representative:</strong>"
+msgstr "<strong>Oston vastuuhenkilö:</strong>"
 
 #. module: purchase_report_representative_second_email
 #: model:ir.model,name:purchase_report_representative_second_email.model_res_partner

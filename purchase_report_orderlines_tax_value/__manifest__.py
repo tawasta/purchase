@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Tawasta
-#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Author: Oy Tawasta OS Technologies Ltd.
+#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,15 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Approval Date",
-    "summary": "Adds Approval Date to Purchase Reports",
-    "version": "14.0.1.0.2",
-    "category": "Reporting",
+    "name": "Purchase Report Orderlines Tax Value",
+    "summary": "Purchase Report Orderlines Tax Value",
+    "version": "14.0.1.0.0",
+    "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase", "purchase_report_quotation_informations_element"],
-    "data": ["report/purchase_order_report.xml"],
+    "depends": ["purchase_report_orderlines"],
+    "data": ["report/purchase_order_templates.xml"],
 }

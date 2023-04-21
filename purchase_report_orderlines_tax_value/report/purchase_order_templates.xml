@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="report_purchaseorder_document_orderlines"
+        inherit_id="purchase_report_orderlines.report_purchaseorder_document_orderlines"
+    >
+
+        <xpath expr="//td[@name='td_taxes']" position="replace">
+
+                <td name="td_taxes" class="text-right">
+                    <span
+                    t-esc="', '.join(map(lambda x: x.description, line.taxes_id))"
+                />
+                </td>
+
+        </xpath>
+    </template>
+</odoo>
