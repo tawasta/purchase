@@ -21,7 +21,7 @@
 {
     "name": "View all purchases from product Purchases smart button",
     "summary": "View all purchases from product Purchases smart button",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Product",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
