@@ -8,4 +8,13 @@
             <attribute name="style">width: 15%;</attribute>
         </th>
     </template>
+
+    <template
+        id="report_purchasequotation_document"
+        inherit_id="purchase.report_purchasequotation_document"
+    >
+        <th name="th_description" position="attributes">
+            <attribute name="style">width: 30%;</attribute>
+        </th>
+    </template>
 </odoo>
