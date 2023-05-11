@@ -21,7 +21,7 @@
 {
     "name": "Purchase report - Description width",
     "summary": "Purchase report - Description width",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
