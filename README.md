@@ -24,6 +24,7 @@ addon | version | maintainers | summary
 [purchase_order_line_view_internal_reference](purchase_order_line_view_internal_reference/) | 14.0.1.0.0 |  | Purchase Order Line tree view - Show Product's internal reference
 [purchase_order_line_view_not_delivered](purchase_order_line_view_not_delivered/) | 14.0.1.0.0 |  | Purchase Order Line Not Delivered
 [purchase_order_line_view_vendor_reference](purchase_order_line_view_vendor_reference/) | 14.0.1.0.0 |  | Purchase Order Line tree view - Show Vendor reference
+[purchase_order_mandatory_vendor_reference](purchase_order_mandatory_vendor_reference/) | 14.0.1.0.0 |  | Require a vendor reference before confirming a PO
 [purchase_order_merge_by_sale_order](purchase_order_merge_by_sale_order/) | 14.0.1.0.0 |  | Create Purchase Order and merge it by Sale Order info
 [purchase_order_no_autofollow](purchase_order_no_autofollow/) | 14.0.1.0.0 |  | Don't set supplier as a PO follower automatically
 [purchase_order_report_xlsx](purchase_order_report_xlsx/) | 14.0.1.0.0 |  | Purchase Order report XLSX from order lines
