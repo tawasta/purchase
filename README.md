@@ -34,6 +34,7 @@ addon | version | maintainers | summary
 [purchase_order_report_xlsx](purchase_order_report_xlsx/) | 14.0.1.0.0 |  | Purchase Order report XLSX from order lines
 [purchase_order_requested_receipt_date](purchase_order_requested_receipt_date/) | 14.0.1.1.1 |  | Storing the delivery date requested from supplier
 [purchase_order_weight](purchase_order_weight/) | 14.0.1.0.0 |  | Add weight on PO and PO lines
+[purchase_product_analytic_tags](purchase_product_analytic_tags/) | 14.0.1.0.0 |  | Adds purchase order line analytic tags from products
 [purchase_product_only_select](purchase_product_only_select/) | 14.0.1.0.0 |  | Disable Product quick create and edit from PO line
 [purchase_product_view_all_purchases](purchase_product_view_all_purchases/) | 14.0.1.0.1 |  | View all purchases from product Purchases smart button
 [purchase_report_approval_date](purchase_report_approval_date/) | 14.0.1.0.2 |  | Adds Approval Date to Purchase Reports
