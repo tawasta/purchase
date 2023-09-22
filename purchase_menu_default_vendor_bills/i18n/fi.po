@@ -1,0 +1,23 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_menu_default_vendor_bills
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-22 11:12+0000\n"
+"PO-Revision-Date: 2023-09-22 14:13+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: purchase_menu_default_vendor_bills
+#: model:ir.ui.menu,name:purchase_menu_default_vendor_bills.menu_procurement_management_pending_invoice_top
+msgid "Vendor Bills"
+msgstr "Toimittajien laskut"
