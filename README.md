@@ -15,6 +15,7 @@ addon | version | maintainers | summary
 [purchase_line_sort_by_sale_line](purchase_line_sort_by_sale_line/) | 14.0.1.0.3 |  | Use SO lines to sort PO lines in PO form view's tree section
 [purchase_mail_hide_confirm_button](purchase_mail_hide_confirm_button/) | 14.0.1.0.1 |  | Purchase - hide Confirm button from mail message
 [purchase_menu_default_vendor_bills](purchase_menu_default_vendor_bills/) | 14.0.1.0.0 |  | Vendor bills as default (first) menu item
+[purchase_order_analytic_account](purchase_order_analytic_account/) | 14.0.1.0.0 |  | New field for indicating what AA the PO is related to
 [purchase_order_default_note](purchase_order_default_note/) | 14.0.1.0.0 |  | Add a default purchase order note for partner
 [purchase_order_description](purchase_order_description/) | 14.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_end_customer](purchase_order_end_customer/) | 14.0.1.0.0 |  | New field for storing the end customer of a PO
