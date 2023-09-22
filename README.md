@@ -37,6 +37,7 @@ addon | version | maintainers | summary
 [purchase_product_analytic_tags](purchase_product_analytic_tags/) | 14.0.1.0.0 |  | Adds purchase order line analytic tags from products
 [purchase_product_only_select](purchase_product_only_select/) | 14.0.1.0.0 |  | Disable Product quick create and edit from PO line
 [purchase_product_view_all_purchases](purchase_product_view_all_purchases/) | 14.0.1.0.1 |  | View all purchases from product Purchases smart button
+[purchase_project_analytic_tags](purchase_project_analytic_tags/) | 14.0.1.0.0 |  | Adds purchase order line analytic tags from analytic account
 [purchase_report_approval_date](purchase_report_approval_date/) | 14.0.1.0.2 |  | Adds Approval Date to Purchase Reports
 [purchase_report_business_code](purchase_report_business_code/) | 14.0.1.0.0 |  | QWeb purchase reports business code
 [purchase_report_client_order_ref](purchase_report_client_order_ref/) | 14.0.1.0.0 |  | Add client order ref to purchase report
