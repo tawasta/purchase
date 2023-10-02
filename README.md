@@ -18,6 +18,7 @@ addon | version | maintainers | summary
 [purchase_order_analytic_account](purchase_order_analytic_account/) | 14.0.1.0.0 |  | New field for indicating what AA the PO is related to
 [purchase_order_default_note](purchase_order_default_note/) | 14.0.1.0.0 |  | Add a default purchase order note for partner
 [purchase_order_description](purchase_order_description/) | 14.0.1.0.0 |  | Adds a description (an internal note) to purchase order
+[purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 14.0.1.0.0 |  | Disable Merge procurements per warehouse
 [purchase_order_end_customer](purchase_order_end_customer/) | 14.0.1.0.0 |  | New field for storing the end customer of a PO
 [purchase_order_header](purchase_order_header/) | 14.0.1.0.3 |  | New field for PO header/title and report configured in settings
 [purchase_order_line_no_create_product](purchase_order_line_no_create_product/) | 14.0.1.0.0 |  | Unable to edit and create Products on PO line

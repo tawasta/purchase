@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_order_disable_merge_procurements_per_warehouse
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-02 12:45+0000\n"
+"PO-Revision-Date: 2023-10-02 15:47+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_warehouse__never_merge_procurements
+msgid "Disable procurements merge"
+msgstr "Poista hankintojen yhdistäminen käytöstä"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_rule__display_name
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_warehouse__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_rule__id
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_warehouse__id
+msgid "ID"
+msgstr "Tunniste (ID)"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_rule____last_update
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_warehouse____last_update
+msgid "Last Modified on"
+msgstr "Viimeksi muokattu"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model_terms:ir.ui.view,arch_db:purchase_order_disable_merge_procurements_per_warehouse.view_warehouse
+msgid "Purchases"
+msgstr "Ostot"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model,name:purchase_order_disable_merge_procurements_per_warehouse.model_stock_rule
+msgid "Stock Rule"
+msgstr "Varaston sääntö"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model,name:purchase_order_disable_merge_procurements_per_warehouse.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Varasto"
