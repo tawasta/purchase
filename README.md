@@ -14,8 +14,11 @@ addon | version | maintainers | summary
 [purchase_auditlog_rules](purchase_auditlog_rules/) | 14.0.1.0.0 |  | Adds auditlog rules for Purchase
 [purchase_line_sort_by_sale_line](purchase_line_sort_by_sale_line/) | 14.0.1.0.3 |  | Use SO lines to sort PO lines in PO form view's tree section
 [purchase_mail_hide_confirm_button](purchase_mail_hide_confirm_button/) | 14.0.1.0.1 |  | Purchase - hide Confirm button from mail message
+[purchase_menu_default_vendor_bills](purchase_menu_default_vendor_bills/) | 14.0.1.0.0 |  | Vendor bills as default (first) menu item
+[purchase_order_analytic_account](purchase_order_analytic_account/) | 14.0.1.0.0 |  | New field for indicating what AA the PO is related to
 [purchase_order_default_note](purchase_order_default_note/) | 14.0.1.0.0 |  | Add a default purchase order note for partner
 [purchase_order_description](purchase_order_description/) | 14.0.1.0.0 |  | Adds a description (an internal note) to purchase order
+[purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 14.0.1.0.0 |  | Disable Merge procurements per warehouse
 [purchase_order_end_customer](purchase_order_end_customer/) | 14.0.1.0.0 |  | New field for storing the end customer of a PO
 [purchase_order_header](purchase_order_header/) | 14.0.1.0.3 |  | New field for PO header/title and report configured in settings
 [purchase_order_line_no_create_product](purchase_order_line_no_create_product/) | 14.0.1.0.0 |  | Unable to edit and create Products on PO line
@@ -31,9 +34,12 @@ addon | version | maintainers | summary
 [purchase_order_report_template](purchase_order_report_template/) | 14.0.1.0.0 |  | Minor fixes for Purchase Order Report
 [purchase_order_report_xlsx](purchase_order_report_xlsx/) | 14.0.1.0.0 |  | Purchase Order report XLSX from order lines
 [purchase_order_requested_receipt_date](purchase_order_requested_receipt_date/) | 14.0.1.1.1 |  | Storing the delivery date requested from supplier
+[purchase_order_to_sale_order](purchase_order_to_sale_order/) | 14.0.1.0.0 |  | Adds a wizard for creating a SO from PO and linking them
 [purchase_order_weight](purchase_order_weight/) | 14.0.1.0.0 |  | Add weight on PO and PO lines
+[purchase_product_analytic_tags](purchase_product_analytic_tags/) | 14.0.1.0.0 |  | Adds purchase order line analytic tags from products
 [purchase_product_only_select](purchase_product_only_select/) | 14.0.1.0.0 |  | Disable Product quick create and edit from PO line
 [purchase_product_view_all_purchases](purchase_product_view_all_purchases/) | 14.0.1.0.1 |  | View all purchases from product Purchases smart button
+[purchase_project_analytic_tags](purchase_project_analytic_tags/) | 14.0.1.0.0 |  | Adds purchase order line analytic tags from analytic account
 [purchase_report_approval_date](purchase_report_approval_date/) | 14.0.1.0.2 |  | Adds Approval Date to Purchase Reports
 [purchase_report_business_code](purchase_report_business_code/) | 14.0.1.0.0 |  | QWeb purchase reports business code
 [purchase_report_client_order_ref](purchase_report_client_order_ref/) | 14.0.1.0.0 |  | Add client order ref to purchase report
