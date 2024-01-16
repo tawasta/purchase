@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="purchase_order_dropship_address_purchase_form" model="ir.ui.view">
+        <field name="name">purchase.order.dropship.address.purchase.form</field>
+        <field name="model">purchase.order</field>
+        <field
+            name="inherit_id"
+            ref="purchase_stock.purchase_order_view_form_inherit"
+        />
+        <field name="arch" type="xml">
+            <field name="dest_address_id" position="attributes">
+              <attribute name="context">{ 'show_address': 1 }</attribute>
+              <attribute name="options">{ 'always_reload': 1 }</attribute>
+            </field>
+        </field>
+    </record>
+</odoo>
