@@ -16,5 +16,6 @@ addon | version | maintainers | summary
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
 [purchase_order_select_tax](purchase_order_select_tax/) | 17.0.1.0.0 |  | Select tax from dropopwn-menu for Purchase Order Lines
 [purchase_order_show_dropship_address](purchase_order_show_dropship_address/) | 17.0.1.0.0 |  | Show the full address below the Drop Ship Address
+[purchase_order_standard_clause](purchase_order_standard_clause/) | 17.0.1.0.0 |  | Company-specific standard clause for POs
 
 [//]: # (end addons)
