@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record
+        id="purchase_request_line_show_purchases_request_line_tree"
+        model="ir.ui.view"
+    >
+        <field
+            name="name"
+        >purchase.request.line.show.purchases.request.line.tree</field>
+        <field name="model">purchase.request.line</field>
+        <field name="inherit_id" ref="purchase_request.purchase_request_line_tree" />
+        <field name="arch" type="xml">
+            <field name="supplier_id" position="after">
+                <field name="purchase_order_ids" widget="many2many_tags" />
+            </field>
+        </field>
+    </record>
+</odoo>
