@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="purchase_request_line_show_purchases_request_form" model="ir.ui.view">
+        <field name="name">purchase.request.line.show.purchases.request.form</field>
+        <field name="model">purchase.request</field>
+        <field name="inherit_id" ref="purchase_request.view_purchase_request_form" />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//field[@name='line_ids']/tree/field[@name='date_required']"
+                position="after"
+            >
+                <field name="purchase_order_ids" widget="many2many_tags" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
