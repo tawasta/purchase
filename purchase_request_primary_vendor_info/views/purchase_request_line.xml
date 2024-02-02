@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record
+        id="purchase_request_primary_vendor_info_request_line_tree"
+        model="ir.ui.view"
+    >
+        <field
+            name="name"
+        >purchase.request.primary.vendor.info.request.line.tree</field>
+        <field name="model">purchase.request.line</field>
+        <field name="inherit_id" ref="purchase_request.purchase_request_line_tree" />
+        <field name="arch" type="xml">
+            <field name="supplier_id" position="after">
+                <field name="primary_vendor_code" />
+                <field
+                    name="primary_vendor_price"
+                    widget="monetary"
+                    options="{'currency_field': 'primary_vendor_currency_id'}"
+                />
+                <field name="primary_vendor_currency_id" column_invisible="True" />
+            </field>
+        </field>
+    </record>
+</odoo>
