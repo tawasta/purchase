@@ -2,7 +2,6 @@ from odoo import fields, models
 
 
 class PurchaseRequestLine(models.Model):
-
     _inherit = "purchase.request.line"
 
     purchase_order_ids = fields.Many2many(
