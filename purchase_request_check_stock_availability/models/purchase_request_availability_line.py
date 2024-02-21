@@ -4,7 +4,6 @@ import odoo.addons.decimal_precision as dp
 
 
 class PurchaseRequestAvailabilityLine(models.Model):
-
     _name = "purchase.request.availability.line"
     _description = "Purchase Request Availability Line"
     _order = "request_id, product_id"

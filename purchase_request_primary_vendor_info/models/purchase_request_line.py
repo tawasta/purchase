@@ -4,7 +4,6 @@ from odoo.addons import decimal_precision as dp
 
 
 class PurchaseRequestLine(models.Model):
-
     _inherit = "purchase.request.line"
 
     primary_vendor_code = fields.Char(

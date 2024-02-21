@@ -2,7 +2,6 @@ from odoo import api, fields, models
 
 
 class PurchaseOrder(models.Model):
-
     _inherit = "purchase.request"
 
     stock_location_id = fields.Many2one(

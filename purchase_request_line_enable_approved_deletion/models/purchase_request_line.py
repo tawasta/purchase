@@ -3,7 +3,6 @@ from odoo.exceptions import UserError
 
 
 class PurchaseRequestLine(models.Model):
-
     _inherit = "purchase.request.line"
 
     def _can_be_deleted(self):

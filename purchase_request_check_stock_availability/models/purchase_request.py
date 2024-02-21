@@ -2,7 +2,6 @@ from odoo import fields, models
 
 
 class PurchaseRequest(models.Model):
-
     # 1. Private attributes
     _inherit = "purchase.request"
 
@@ -29,7 +28,6 @@ class PurchaseRequest(models.Model):
 
     # 7. Action methods
     def check_stock_availability(self):
-
         stock_location_model = self.env["stock.location"]
         availability_line_model = self.env["purchase.request.availability.line"]
 
