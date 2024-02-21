@@ -11,6 +11,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[purchase_order_additional_terms](purchase_order_additional_terms/) | 17.0.1.0.0 |  | Enables describing additional terms for a PO and adds them to PDF
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_internal_reference](purchase_order_internal_reference/) | 17.0.1.0.0 |  | New field for storing an internal reference to PO
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
