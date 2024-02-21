@@ -22,6 +22,7 @@ addon | version | maintainers | summary
 [purchase_request_check_stock_availability](purchase_request_check_stock_availability/) | 17.0.1.0.0 |  | Trigger internal transfers from Purchase Request view
 [purchase_request_line_enable_approved_deletion](purchase_request_line_enable_approved_deletion/) | 17.0.1.0.0 |  | Allow deletion of Purchase request lines in approved-state
 [purchase_request_line_show_purchases](purchase_request_line_show_purchases/) | 17.0.1.0.0 |  | Show related purchase orders' numbers
+[purchase_request_newest_first](purchase_request_newest_first/) | 17.0.1.0.0 |  | Shows newest Purchase Request lines first
 [purchase_request_primary_vendor_info](purchase_request_primary_vendor_info/) | 17.0.1.0.0 |  | Helper fields for showing primary vendor's info
 
 [//]: # (end addons)
