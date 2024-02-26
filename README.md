@@ -22,6 +22,7 @@ addon | version | maintainers | summary
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.0 |  | Adds analytic account stock location to PR
 [purchase_request_analytic_account_to_po](purchase_request_analytic_account_to_po/) | 17.0.1.0.0 |  | Assign Analytic Account from Purchase request to Purchase order
 [purchase_request_check_stock_availability](purchase_request_check_stock_availability/) | 17.0.1.0.0 |  | Trigger internal transfers from Purchase Request view
+[purchase_request_from_bom_contents](purchase_request_from_bom_contents/) | 17.0.1.0.0 |  | Add BOM contents to PR lines
 [purchase_request_line_enable_approved_deletion](purchase_request_line_enable_approved_deletion/) | 17.0.1.0.0 |  | Allow deletion of Purchase request lines in approved-state
 [purchase_request_line_show_purchases](purchase_request_line_show_purchases/) | 17.0.1.0.0 |  | Show related purchase orders' numbers
 [purchase_request_make_po_currency](purchase_request_make_po_currency/) | 17.0.1.0.0 |  | Set a currency from a vendor to a new PO which is created from purchase request lines
