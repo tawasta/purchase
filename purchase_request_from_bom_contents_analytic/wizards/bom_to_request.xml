@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="bom_to_request_view_form" model="ir.ui.view">
+        <field name="name">bom.to.request.view.form</field>
+        <field name="model">purchase_request_from_bom_contents.bom_to_request</field>
+        <field
+            name="inherit_id"
+            ref="purchase_request_from_bom_contents.bom_to_request_view_form"
+        />
+        <field name="arch" type="xml">
+            <group name="group_bom" position="before">
+                <p style="color: #C00;" invisible="analytic_account_id">
+                    Note: Analytic Account has not been set on Purchase Request. The lines will be added without one.
+                </p>
+            </group>
+            <field name="bom_id" position="before">
+                <field name="analytic_account_id" readonly="0" />
+            </field>
+        </field>
+    </record>
+</odoo>
