@@ -16,14 +16,6 @@
                     invisible="state not in ['draft', 'sent']"
                 />
             </field>
-
-            <!-- Suggest line's analytic account to be the PO's project's analytic account -->
-            <field name="order_line" position="attributes">
-                <attribute
-                    name="context"
-                >{ 'default_account_analytic_id': project_id }</attribute>
-            </field>
-
         </field>
     </record>
 </odoo>
