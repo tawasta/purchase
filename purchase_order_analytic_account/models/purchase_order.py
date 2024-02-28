@@ -19,9 +19,9 @@ class PurchaseOrder(models.Model):
                 error = _("Please select a project first")
                 raise exceptions.UserError(error)
 
-            account_id = purchase.project_id.id
+            account_id = purchase.project_id
             distr = dict()
-            distr[account_id] = 100
+            distr[account_id.id] = 100
 
             for line in purchase.order_line:
                 line.analytic_distribution = distr
