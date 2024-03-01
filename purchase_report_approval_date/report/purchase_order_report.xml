@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template
+        id="report_purchaseorder_document"
+        inherit_id="purchase.report_purchaseorder_document"
+    >
+        <div id="informations" position="inside">
+            <div t-if="o.date_approve" class="col-3 bm-2">
+                <strong>Approve date:</strong>
+                <p
+                    class="m-0"
+                    t-field="o.date_approve"
+                    t-options="{'format': 'dd.MM.yyyy'}"
+                />
+            </div>
+        </div>
+    </template>
+
+    <template
+        id="report_purchasequotation_document"
+        inherit_id="purchase_report_quotation_informations_element.report_purchasequotation_document"
+    >
+        <div id="informations" position="inside">
+            <div t-if="o.date_approve" class="col-auto mw-100 mb-2">
+                <strong>Approve date:</strong>
+                <p
+                    class="m-0"
+                    t-field="o.date_approve"
+                    t-options="{'format': 'dd.MM.yyyy'}"
+                />
+            </div>
+        </div>
+    </template>
+</odoo>
