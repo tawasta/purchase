@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 [purchase_order_show_dropship_address](purchase_order_show_dropship_address/) | 17.0.1.0.0 |  | Show the full address below the Drop Ship Address
 [purchase_order_standard_clause](purchase_order_standard_clause/) | 17.0.1.0.0 |  | Company-specific standard clause for POs
 [purchase_order_tags](purchase_order_tags/) | 17.0.1.0.0 |  | Enables tagging purchase orders with keywords
+[purchase_report_approval_date](purchase_report_approval_date/) | 17.0.1.0.0 |  | Adds Approval Date to Purchase Reports
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.0 |  | QWeb purchase reports Payment Terms
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 17.0.1.0.0 |  | Informations element to purchase quotation print
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.0 |  | Adds analytic account stock location to PR
