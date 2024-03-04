@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template
+        id="report_purchaseorder_document_date_format"
+        inherit_id="purchase_report_orderlines.report_purchaseorder_document_orderlines"
+    >
+        <xpath expr="//span[@t-field='line.date_planned']" position="attributes">
+            <attribute name="t-options">{'widget': 'date'}</attribute>
+        </xpath>
+        <xpath expr="//p[@t-field='o.date_approve']" position="attributes">
+            <attribute name="t-options">{'widget': 'date'}</attribute>
+        </xpath>
+        <xpath expr="//p[@t-field='o.date_order']" position="attributes">
+            <attribute name="t-options">{'widget': 'date'}</attribute>
+        </xpath>
+    </template>
+    <template
+        id="report_purchasequotation_document_date_format"
+        inherit_id="purchase.report_purchasequotation_document"
+    >
+        <xpath expr="//span[@t-field='order_line.date_planned']" position="attributes">
+            <attribute name="t-options">{'widget': 'date'}</attribute>
+        </xpath>
+    </template>
+</odoo>
