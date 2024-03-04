@@ -26,6 +26,7 @@ addon | version | maintainers | summary
 [purchase_order_tags](purchase_order_tags/) | 17.0.1.0.0 |  | Enables tagging purchase orders with keywords
 [purchase_report_approval_date](purchase_report_approval_date/) | 17.0.1.0.0 |  | Adds Approval Date to Purchase Reports
 [purchase_report_date_only](purchase_report_date_only/) | 17.0.1.0.0 |  | Format Date to only show date without time in PO report
+[purchase_report_hide_phonenumber](purchase_report_hide_phonenumber/) | 17.0.1.0.0 |  | Hide Phonenumber on Purchase Reports
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
 [purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.0.0 |  | Fixes orderlines in purchase report
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.0 |  | QWeb purchase reports Payment Terms
