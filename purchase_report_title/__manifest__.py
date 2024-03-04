@@ -21,13 +21,13 @@
 {
     "name": "Purchase Report Title",
     "summary": "Replaces default titles with a better purchase report title",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase", "report_element_sizes"],
+    "depends": ["purchase"],
     "data": ["report/purchase_order_report.xml"],
 }
