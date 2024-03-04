@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Title",
     "summary": "Replaces default titles with a better purchase report title",
-    "version": "17.0.1.0.1",
+    "version": "17.0.1.0.2",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
