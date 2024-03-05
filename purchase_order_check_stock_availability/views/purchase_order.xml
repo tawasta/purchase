@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="purchase_order_check_stock_avail_order_form" model="ir.ui.view">
+        <field name="name">purchase.order.check.stock.avail.order.form</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form" />
+        <field name="arch" type="xml">
+
+            <field name="state" position="before">
+                <button
+                    type="object"
+                    name="check_stock_availability"
+                    string="Check Other Locations' Availability"
+                    invisible="state in ['purchase', 'done', 'cancel']"
+                />
+            </field>
+
+            <xpath expr="(//notebook/page)[1]" position="attributes">
+                <attribute name="string">Products to Purchase</attribute>
+            </xpath>
+
+            <notebook position="inside">
+                <page string="Products available in Other Locations">
+                    <field name="availability_line_ids">
+                        <tree create="false" editable="bottom">
+                            <field name="product_id" string="Product wanted" />
+
+                            <field
+                                name="analytic_distribution_rel"
+                                string="Target Project"
+                                widget="analytic_distribution"
+                                groups="analytic.group_analytic_accounting"
+                                options="{'product_field': 'product_id'}"
+                            />
+                            <field name="product_qty" />
+                            <field name="product_uom_id" groups="uom.group_uom" />
+                            <field name="available_qty" />
+                            <field name="available_uom_id" groups="uom.group_uom" />
+                            <field name="location_id" />
+                            <field name="location_dest_id" />
+                            <button
+                                type="object"
+                                name="create_transfer"
+                                string="Transfer"
+                            />
+                        </tree>
+                    </field>
+                </page>
+            </notebook>
+
+        </field>
+    </record>
+</odoo>
