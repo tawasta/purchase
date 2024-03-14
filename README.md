@@ -18,6 +18,7 @@ addon | version | maintainers | summary
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_internal_reference](purchase_order_internal_reference/) | 17.0.1.0.0 |  | New field for storing an internal reference to PO
 [purchase_order_line_location_from_analytic](purchase_order_line_location_from_analytic/) | 17.0.1.0.0 |  | Suggest line destination based on line's AA
+[purchase_order_line_responsible](purchase_order_line_responsible/) | 17.0.1.0.0 |  | Product Responsible on Purchase order line
 [purchase_order_line_view](purchase_order_line_view/) | 17.0.1.0.0 |  | New view for inspecting PO lines
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
 [purchase_order_report_template](purchase_order_report_template/) | 17.0.1.0.0 |  | Minor fixes for Purchase Order Report
