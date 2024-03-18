@@ -11,6 +11,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[purchase_auditlog_rules](purchase_auditlog_rules/) | 17.0.1.0.0 |  | Adds auditlog rules for Purchase
 [purchase_order_additional_terms](purchase_order_additional_terms/) | 17.0.1.0.0 |  | Enables describing additional terms for a PO and adds them to PDF
 [purchase_order_analytic_account](purchase_order_analytic_account/) | 17.0.1.0.2 |  | New field for indicating what AA the PO is related to
 [purchase_order_check_stock_availability](purchase_order_check_stock_availability/) | 17.0.1.0.0 |  | Trigger internal transfers from Purchase Order view
