@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Payment Terms",
     "summary": "QWeb purchase reports Payment Terms",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",

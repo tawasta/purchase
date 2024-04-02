@@ -33,7 +33,7 @@ addon | version | maintainers | summary
 [purchase_report_hide_phonenumber](purchase_report_hide_phonenumber/) | 17.0.1.0.0 |  | Hide Phonenumber on Purchase Reports
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
 [purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.0.0 |  | Fixes orderlines in purchase report
-[purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.0 |  | QWeb purchase reports Payment Terms
+[purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.1 |  | QWeb purchase reports Payment Terms
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 17.0.1.0.0 |  | Informations element to purchase quotation print
 [purchase_report_title](purchase_report_title/) | 17.0.1.0.2 |  | Replaces default titles with a better purchase report title
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.0 |  | Adds analytic account stock location to PR
