@@ -34,7 +34,9 @@ addon | version | maintainers | summary
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
 [purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.0.0 |  | Fixes orderlines in purchase report
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.1 |  | QWeb purchase reports Payment Terms
+[purchase_report_purchase_representative_phone](purchase_report_purchase_representative_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Phone to PO Print
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 17.0.1.0.0 |  | Informations element to purchase quotation print
+[purchase_report_quotation_purchase_representative_name_and_phone](purchase_report_quotation_purchase_representative_name_and_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Name and Phone to RFQ Print
 [purchase_report_title](purchase_report_title/) | 17.0.1.0.2 |  | Replaces default titles with a better purchase report title
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.0 |  | Adds analytic account stock location to PR
 [purchase_request_analytic_account_to_po](purchase_request_analytic_account_to_po/) | 17.0.1.0.0 |  | Assign Analytic Account from Purchase request to Purchase order
