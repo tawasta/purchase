@@ -5,7 +5,7 @@
         inherit_id="purchase_stock.report_purchasequotation_document"
     >
         <div id="informations" position="inside">
-            <div t-if="o.payment_term_id" class="col-auto bm-2">
+            <div t-if="o.payment_term_id" class="col-2 bm-2">
                 <strong>Payment terms:</strong>
                 <p class="m-0" t-field="o.payment_term_id" />
             </div>
@@ -16,7 +16,7 @@
         inherit_id="purchase.report_purchaseorder_document"
     >
         <div id="informations" position="inside">
-            <div t-if="o.payment_term_id" class="col-auto bm-2">
+            <div t-if="o.payment_term_id" class="col-2 bm-2">
                 <strong>Payment terms:</strong>
                 <p class="m-0" t-field="o.payment_term_id" />
             </div>
