@@ -19,7 +19,7 @@
 ##############################################################################
 
 {
-    "name": "Purchase Order Line Use Standard Price",
+    "name": "Purchase Order: Use standard price as default PO line price",
     "summary": "Use standard price as line price, if no supplier price is set",
     "version": "17.0.1.0.0",
     "category": "Purchases",
