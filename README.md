@@ -18,6 +18,7 @@ addon | version | maintainers | summary
 [purchase_order_check_stock_availability](purchase_order_check_stock_availability/) | 17.0.1.0.0 |  | Trigger internal transfers from Purchase Order view
 [purchase_order_contact_person](purchase_order_contact_person/) | 17.0.1.0.1 |  | Enables setting the vendor's contact person for a PO
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
+[purchase_order_end_customer](purchase_order_end_customer/) | 17.0.1.0 |  | New field for storing the end customer of a PO
 [purchase_order_internal_reference](purchase_order_internal_reference/) | 17.0.1.0.0 |  | New field for storing an internal reference to PO
 [purchase_order_line_location_from_analytic](purchase_order_line_location_from_analytic/) | 17.0.1.0.0 |  | Suggest line destination based on line's AA
 [purchase_order_line_responsible](purchase_order_line_responsible/) | 17.0.1.0.0 |  | Product Responsible on Purchase order line
@@ -30,6 +31,7 @@ addon | version | maintainers | summary
 [purchase_order_standard_clause](purchase_order_standard_clause/) | 17.0.1.0.0 |  | Company-specific standard clause for POs
 [purchase_order_tags](purchase_order_tags/) | 17.0.1.0.0 |  | Enables tagging purchase orders with keywords
 [purchase_report_approval_date](purchase_report_approval_date/) | 17.0.1.0.0 |  | Adds Approval Date to Purchase Reports
+[purchase_report_business_code](purchase_report_business_code/) | 17.0.1.0.0 |  | QWeb purchase reports business code
 [purchase_report_date_only](purchase_report_date_only/) | 17.0.1.0.0 |  | Format Date to only show date without time in PO report
 [purchase_report_hide_phonenumber](purchase_report_hide_phonenumber/) | 17.0.1.0.0 |  | Hide Phonenumber on Purchase Reports
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms

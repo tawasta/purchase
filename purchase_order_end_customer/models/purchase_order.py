@@ -2,7 +2,6 @@ from odoo import fields, models
 
 
 class PurchaseOrder(models.Model):
-
     _inherit = "purchase.order"
 
     end_customer_id = fields.Many2one(
