@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Reference Field",
     "summary": "New field for storing an internal reference to PO",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
