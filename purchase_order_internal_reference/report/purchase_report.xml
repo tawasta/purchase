@@ -5,7 +5,7 @@
         inherit_id="purchase.report_purchaseorder_document"
     >
         <div id="informations" position="inside">
-            <div t-if="o.reference" class="col-auto mw-100 mb-2">
+            <div t-if="o.reference" class="col-3 mw-100 mb-2">
                 <strong>Customer reference:</strong>
                 <p class="m-0" t-field="o.reference" />
             </div>
