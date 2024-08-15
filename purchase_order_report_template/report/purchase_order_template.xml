@@ -4,9 +4,6 @@
         id="purchase_order_report_template"
         inherit_id="purchase.report_purchaseorder_document"
     >
-        <xpath expr="//div[@t-field='o.partner_id']" position="before">
-            <strong id="vendor_text">Vendor:</strong>
-        </xpath>
         <xpath expr="//span[@t-field='line.date_planned']" position="attributes">
             <attribute name="t-options">{"format": "dd.MM.yyyy"}</attribute>
         </xpath>
@@ -25,29 +22,27 @@
         id="purchase_order_document"
         inherit_id="purchase_stock.report_purchaseorder_document"
     >
-        <xpath
-            expr="//div[@t-field='o.picking_type_id.warehouse_id.partner_id']"
-            position="after"
-        >
-            <br />
-            <strong>Purchaser: </strong>
-            <div t-if="o.user_id">
+        <div id="informations" position="inside">
+            <div t-if="o.user_id" class="col-3 bm-2">
+                <strong>Purchaser: </strong>
                 <t t-if="o.user_id.phone">
-                    <div
+                    <p
+                        class="m-0"
                         t-field="o.user_id"
-                        t-options='{"widget": "contact", "fields": ["name", "email", "phone"], "no_marker": True, "phone_icons": True}'
+                        t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;name&quot;, &quot;email&quot;, &quot;phone&quot;], &quot;no_marker&quot;: True, &quot;phone_icons&quot;: True}"
                         name="purchaser_information"
                     />
                 </t>
                 <t t-else="">
-                    <div
+                    <p
+                        class="m-0"
                         t-field="o.user_id"
-                        t-options='{"widget": "contact", "fields": ["name", "email"], "no_marker": True}'
+                        t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;name&quot;, &quot;email&quot;], &quot;no_marker&quot;: True}"
                         name="purchaser_information"
                     />
                 </t>
             </div>
-        </xpath>
+        </div>
     </template>
 
     <template
