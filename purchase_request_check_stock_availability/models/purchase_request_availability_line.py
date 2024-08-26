@@ -78,6 +78,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
         vals = {
             "purchase_request_id": self.request_id.id,
+            "purchase_request_line_id": self.request_line_id.id,
             "picking_type_id": self._get_picking_type_for_transfer(),
             "location_id": self.location_id.id,
             "location_dest_id": self.request_id.stock_location_id.id or False,
@@ -109,8 +110,9 @@ class PurchaseRequestAvailabilityLine(models.Model):
             # or has been deleted" error, so mark them as inactive instead
             for line in self.request_line_id.availability_line_ids:
                 line.active = False
-            # Delete the actual purchase request line
-            self.request_line_id.unlink()
+            # Hide the actual purchase request line before validating the related picking.
+            # This line is deleted after picking has been validated.
+            self.request_line_id.hide_request_line = True
         else:
             # If only a part of the whole qty is expected to be transferred,
             # subtract the transfer amount from the purchase request line
