@@ -18,6 +18,8 @@ class PurchaseRequest(models.Model):
         string="Internal Transfers",
     )
 
+    line_ids = fields.One2many(domain=[("hide_request_line", "!=", True)])
+
     # 3. Default methods
 
     # 4. Compute and search fields, in the same order that fields declaration
