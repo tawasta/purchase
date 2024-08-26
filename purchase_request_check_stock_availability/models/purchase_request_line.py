@@ -9,3 +9,5 @@ class PurchaseRequestLine(models.Model):
         inverse_name="request_line_id",
         string="Availability in other Stock Locations",
     )
+
+    hide_request_line = fields.Boolean(default=False, copy=False, store=True)
