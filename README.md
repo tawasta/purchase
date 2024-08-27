@@ -44,7 +44,7 @@ addon | version | maintainers | summary
 [purchase_report_title](purchase_report_title/) | 17.0.1.0.2 |  | Replaces default titles with a better purchase report title
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.0 |  | Adds analytic account stock location to PR
 [purchase_request_analytic_account_to_po](purchase_request_analytic_account_to_po/) | 17.0.1.0.0 |  | Assign Analytic Account from Purchase request to Purchase order
-[purchase_request_check_stock_availability](purchase_request_check_stock_availability/) | 17.0.2.0.0 |  | Trigger internal transfers from Purchase Request view
+[purchase_request_check_stock_availability](purchase_request_check_stock_availability/) | 17.0.2.1.0 |  | Trigger internal transfers from Purchase Request view
 [purchase_request_from_bom_contents](purchase_request_from_bom_contents/) | 17.0.1.0.0 |  | Add BOM contents to PR lines
 [purchase_request_from_bom_contents_analytic](purchase_request_from_bom_contents_analytic/) | 17.0.1.0.0 |  | Analytic Account Support for BOM to PR additions
 [purchase_request_line_enable_approved_deletion](purchase_request_line_enable_approved_deletion/) | 17.0.1.0.0 |  | Allow deletion of Purchase request lines in approved-state
