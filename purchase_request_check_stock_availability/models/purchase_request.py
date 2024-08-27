@@ -67,9 +67,17 @@ class PurchaseRequest(models.Model):
         purchase request is filtered out to avoid suggesting same source/target
         locations
         """
-        return [
+
+        search_domain = [
             ("company_id", "=", self.company_id.id),
             ("id", "!=", self.stock_location_id.id),
             ("usage", "=", "internal"),
             ("analytic_account_id", "!=", False),
         ]
+
+        search_with_excess = self.company_id.check_availability_with_excess
+
+        if search_with_excess:
+            search_domain += [("is_excess_location", "=", True)]
+
+        return search_domain

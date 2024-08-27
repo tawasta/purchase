@@ -21,7 +21,7 @@
 {
     "name": "Purchase Request Stock Availability check",
     "summary": "Trigger internal transfers from Purchase Request view",
-    "version": "17.0.2.0.0",
+    "version": "17.0.2.1.0",
     "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
@@ -29,7 +29,14 @@
     "application": False,
     "installable": True,
     "external_dependencies": {"python": [], "bin": []},
-    "depends": ["purchase_request_analytic_account_location"],
-    "data": ["security/ir.model.access.csv", "views/purchase_request.xml"],
+    "depends": [
+        "purchase_request_analytic_account_location",
+        "stock_location_excess_mark",
+    ],
+    "data": [
+        "security/ir.model.access.csv",
+        "views/config_settings.xml",
+        "views/purchase_request.xml",
+    ],
     "demo": [],
 }
