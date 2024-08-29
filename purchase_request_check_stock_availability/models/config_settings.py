@@ -8,3 +8,8 @@ class ResConfigSettings(models.TransientModel):
         related="company_id.check_availability_with_excess",
         readonly=False,
     )
+
+    check_availability_remove_consumable = fields.Boolean(
+        related="company_id.check_availability_remove_consumable",
+        readonly=False,
+    )

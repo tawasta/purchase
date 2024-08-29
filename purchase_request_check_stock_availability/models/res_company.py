@@ -11,3 +11,14 @@ class ResCompany(models.Model):
             "on purchase request."
         ),
     )
+
+    check_availability_remove_consumable = fields.Boolean(
+        string=(
+            "Remove consumable products upon using Check Availability on "
+            "purchase request"
+        ),
+        help=(
+            "Use this option to remove consumable products when clicking "
+            "check availability on purchase request."
+        ),
+    )

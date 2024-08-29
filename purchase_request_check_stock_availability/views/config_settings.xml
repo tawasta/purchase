@@ -15,6 +15,13 @@
                 >
                     <field name="check_availability_with_excess" />
                 </setting>
+
+                <setting
+                    id="manage_check_and_remove_consumable"
+                    help="Use this option to remove consumable products when clicking check availability on purchase request."
+                >
+                    <field name="check_availability_remove_consumable" />
+                </setting>
             </setting>
         </field>
     </record>
