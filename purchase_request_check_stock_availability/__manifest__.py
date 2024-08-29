@@ -21,7 +21,7 @@
 {
     "name": "Purchase Request Stock Availability check",
     "summary": "Trigger internal transfers from Purchase Request view",
-    "version": "17.0.2.1.0",
+    "version": "17.0.2.2.0",
     "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
