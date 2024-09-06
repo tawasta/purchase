@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Report Template",
     "summary": "Minor fixes for Purchase Order Report",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.1.1",
     "category": "Purchase",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
