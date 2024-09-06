@@ -22,7 +22,7 @@
         id="purchase_order_document"
         inherit_id="purchase_stock.report_purchaseorder_document"
     >
-        <div id="informations" position="inside">
+        <div t-if="o.date_order" position="before">
             <div t-if="o.user_id" class="col-3 bm-2">
                 <strong>Purchaser: </strong>
                 <t t-if="o.user_id.phone">
@@ -42,6 +42,10 @@
                     />
                 </t>
             </div>
+        </div>
+
+        <div id="informations" position="attributes">
+            <attribute name="style">padding-top: 3em;</attribute>
         </div>
     </template>
 
