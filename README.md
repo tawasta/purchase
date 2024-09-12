@@ -19,7 +19,9 @@ addon | version | maintainers | summary
 [purchase_order_contact_person](purchase_order_contact_person/) | 17.0.1.0.1 |  | Enables setting the vendor's contact person for a PO
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_end_customer](purchase_order_end_customer/) | 17.0.1.0 |  | New field for storing the end customer of a PO
+[purchase_order_header_text](purchase_order_header_text/) | 17.0.1.0.0 |  | New field for PO header/title and report configured in settings
 [purchase_order_internal_reference](purchase_order_internal_reference/) | 17.0.1.0.1 |  | New field for storing an internal reference to PO
+[purchase_order_latest_effective_date](purchase_order_latest_effective_date/) | 17.0.1.0.0 |  | Adds latest expected date to purchase orders from their lines
 [purchase_order_line_location_from_analytic](purchase_order_line_location_from_analytic/) | 17.0.1.0.0 |  | Suggest line destination based on line's AA
 [purchase_order_line_responsible](purchase_order_line_responsible/) | 17.0.1.0.0 |  | Product Responsible on Purchase order line
 [purchase_order_line_use_standard_price](purchase_order_line_use_standard_price/) | 17.0.1.0.0 |  | Use standard price as line price, if no supplier price is set
