@@ -36,6 +36,7 @@ addon | version | maintainers | summary
 [purchase_report_business_code](purchase_report_business_code/) | 17.0.1.0.0 |  | QWeb purchase reports business code
 [purchase_report_client_order_ref](purchase_report_client_order_ref/) | 17.0.1.0.0 |  | Add client order ref to purchase report
 [purchase_report_date_only](purchase_report_date_only/) | 17.0.1.0.0 |  | Format Date to only show date without time in PO report
+[purchase_report_hide_date_req](purchase_report_hide_date_req/) | 17.0.1.0.0 |  | Hides Date req on purchase order report
 [purchase_report_hide_phonenumber](purchase_report_hide_phonenumber/) | 17.0.1.0.0 |  | Hide Phonenumber on Purchase Reports
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 17.0.1.0.0 |  | Hides Purchase Representative on purchase report
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
