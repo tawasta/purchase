@@ -50,6 +50,7 @@ addon | version | maintainers | summary
 [purchase_report_quotation_purchase_representative_name_and_phone](purchase_report_quotation_purchase_representative_name_and_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Name and Phone to RFQ Print
 [purchase_report_requested_receipt_date](purchase_report_requested_receipt_date/) | 17.0.1.0.0 |  | Requested receipt date to Sale Report
 [purchase_report_title](purchase_report_title/) | 17.0.1.0.2 |  | Replaces default titles with a better purchase report title
+[purchase_report_vendor_title](purchase_report_vendor_title/) | 17.0.1.0.0 |  | Add title for purchase report vendor address info.
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.0 |  | Adds analytic account stock location to PR
 [purchase_request_analytic_account_to_po](purchase_request_analytic_account_to_po/) | 17.0.1.0.0 |  | Assign Analytic Account from Purchase request to Purchase order
 [purchase_request_check_stock_availability](purchase_request_check_stock_availability/) | 17.0.2.2.0 |  | Trigger internal transfers from Purchase Request view
