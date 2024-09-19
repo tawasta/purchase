@@ -26,6 +26,7 @@ addon | version | maintainers | summary
 [purchase_order_line_responsible](purchase_order_line_responsible/) | 17.0.1.0.0 |  | Product Responsible on Purchase order line
 [purchase_order_line_use_standard_price](purchase_order_line_use_standard_price/) | 17.0.1.0.0 |  | Use standard price as line price, if no supplier price is set
 [purchase_order_line_view](purchase_order_line_view/) | 17.0.1.0.0 |  | New view for inspecting PO lines
+[purchase_order_mandatory_vendor_reference](purchase_order_mandatory_vendor_reference/) | 17.0.1.0.0 |  | Require a vendor reference before confirming a PO
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
 [purchase_order_report_template](purchase_order_report_template/) | 17.0.1.0.0 |  | Minor fixes for Purchase Order Report
 [purchase_order_requested_receipt_date](purchase_order_requested_receipt_date/) | 17.0.1.0.0 |  | Storing the delivery date requested from supplier
@@ -40,12 +41,14 @@ addon | version | maintainers | summary
 [purchase_report_hide_date_req](purchase_report_hide_date_req/) | 17.0.1.0.0 |  | Hides Date req on purchase order report
 [purchase_report_hide_phonenumber](purchase_report_hide_phonenumber/) | 17.0.1.0.0 |  | Hide Phonenumber on Purchase Reports
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 17.0.1.0.0 |  | Hides Purchase Representative on purchase report
+[purchase_report_incoterm_name](purchase_report_incoterm_name/) | 17.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
 [purchase_report_order_reference](purchase_report_order_reference/) | 17.0.1.0.0 |  | Add PO order reference to header informations
 [purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.0.0 |  | Fixes orderlines in purchase report
 [purchase_report_partner_ref](purchase_report_partner_ref/) | 17.0.1.0.0 |  | Adds Vendor Reference to RFQ Print
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.2 |  | QWeb purchase reports Payment Terms
 [purchase_report_purchase_representative_phone](purchase_report_purchase_representative_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Phone to PO Print
+[purchase_report_purchaser](purchase_report_purchaser/) | 17.0.1.0.0 |  | Add purchaser information to purchase order report.
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 17.0.1.0.0 |  | Informations element to purchase quotation print
 [purchase_report_quotation_purchase_representative_name_and_phone](purchase_report_quotation_purchase_representative_name_and_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Name and Phone to RFQ Print
 [purchase_report_requested_receipt_date](purchase_report_requested_receipt_date/) | 17.0.1.0.0 |  | Requested receipt date to Sale Report
