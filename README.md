@@ -48,6 +48,7 @@ addon | version | maintainers | summary
 [purchase_report_partner_ref](purchase_report_partner_ref/) | 17.0.1.0.0 |  | Adds Vendor Reference to RFQ Print
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.2 |  | QWeb purchase reports Payment Terms
 [purchase_report_purchase_representative_phone](purchase_report_purchase_representative_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Phone to PO Print
+[purchase_report_purchaser](purchase_report_purchaser/) | 17.0.1.0.0 |  | Add purchaser information to purchase order report.
 [purchase_report_quotation_informations_element](purchase_report_quotation_informations_element/) | 17.0.1.0.0 |  | Informations element to purchase quotation print
 [purchase_report_quotation_purchase_representative_name_and_phone](purchase_report_quotation_purchase_representative_name_and_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Name and Phone to RFQ Print
 [purchase_report_requested_receipt_date](purchase_report_requested_receipt_date/) | 17.0.1.0.0 |  | Requested receipt date to Sale Report
