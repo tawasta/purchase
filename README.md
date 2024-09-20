@@ -34,6 +34,7 @@ addon | version | maintainers | summary
 [purchase_order_show_dropship_address](purchase_order_show_dropship_address/) | 17.0.1.0.0 |  | Show the full address below the Drop Ship Address
 [purchase_order_standard_clause](purchase_order_standard_clause/) | 17.0.1.0.0 |  | Company-specific standard clause for POs
 [purchase_order_tags](purchase_order_tags/) | 17.0.1.0.0 |  | Enables tagging purchase orders with keywords
+[purchase_report_align_header_fields](purchase_report_align_header_fields/) | 17.0.1.0.0 |  | Align Purchase report Header fields
 [purchase_report_approval_date](purchase_report_approval_date/) | 17.0.1.0.0 |  | Adds Approval Date to Purchase Reports
 [purchase_report_business_code](purchase_report_business_code/) | 17.0.1.0.0 |  | QWeb purchase reports business code
 [purchase_report_client_order_ref](purchase_report_client_order_ref/) | 17.0.1.0.0 |  | Add client order ref to purchase report
