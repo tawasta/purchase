@@ -1,0 +1,10 @@
+.page {
+    .row.mt-4.mb32 {
+        display: inline-block;
+        div {
+            float: left;
+            min-width: 24%;
+            margin-top: 10px;
+        }
+    }
+}
