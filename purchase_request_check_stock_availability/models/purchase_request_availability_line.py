@@ -20,6 +20,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
         comodel_name="purchase.request.line",
         string="Related Request Line",
     )
+
     product_id = fields.Many2one(
         related="request_line_id.product_id",
         comodel_name="product.product",
@@ -39,6 +40,13 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
     product_uom_id = fields.Many2one(
         related="request_line_id.product_uom_id", comodel_name="uom.uom", string="UoM"
+    )
+
+    # This is the general available quantity
+    qty_available = fields.Float(
+        string="Quantity Available",
+        digits=dp.get_precision("Product Unit of Measure"),
+        related="product_id.qty_available",
     )
 
     available_qty = fields.Float(
