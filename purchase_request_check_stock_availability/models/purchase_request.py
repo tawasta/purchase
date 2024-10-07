@@ -43,6 +43,25 @@ class PurchaseRequest(models.Model):
         # Consumables can be removed with this option
         remove_consumables = self.company_id.check_availability_remove_consumable
 
+        display_msg = ""
+
+        # Set the initial message if conditions are met
+        for request_line in self.line_ids:
+            if remove_consumables and request_line.product_id.detailed_type == "consu":
+                display_msg = """
+                    <div style="color: green;">
+                        Note by: {}
+                    </div>
+                    <div style="color: green;">
+                        {}
+                    </div>
+                    """.format(
+                    self.env.user.partner_id.name,
+                    "_" * (len("Note by:") + len(self.env.user.partner_id.name)),
+                )
+
+        set_newline = False
+
         # Iterate all lines on the PR, check their available quantities in
         # different stock locations, and create availability lines accordingly
         for request_line in self.line_ids:
@@ -50,31 +69,21 @@ class PurchaseRequest(models.Model):
             # removing consumables has been actived from settings and a product is of
             # consumable type
             if remove_consumables and request_line.product_id.detailed_type == "consu":
-                display_msg = """<div style="color: green;">
-                    Note by: {}
-                    </div>
+                if set_newline:
+                    display_msg += "<br/>"
+
+                display_msg += """
                     <div style="color: green;">
-                    {}
-                    </div>
-                    <div style="color: green;">
-                    A request line with the product {}
-                    and quantity of {}
-                    has been removed after 'Check Other Locations' Availability' was used.
+                        A request line with the product {}
+                        and quantity of {}
+                        has been removed after 'Check Other Locations' Availability' was used.
                     </div>
                     """.format(
-                    self.env.user.partner_id.name,
-                    "_" * (len("Note by:") + len(self.env.user.partner_id.name)),
                     request_line.product_id.display_name,
                     request_line.product_qty,
                 )
 
-                self.message_post(
-                    message_type="comment",
-                    subject="Request line removed",
-                    body=display_msg,
-                    body_is_html=True,
-                    author_id=self.env.user.partner_id.id,
-                )
+                set_newline = True
 
                 request_line.unlink()
                 continue
@@ -93,6 +102,15 @@ class PurchaseRequest(models.Model):
                             "location_id": location.id,
                         }
                     )
+
+        if display_msg:
+            self.message_post(
+                message_type="comment",
+                subject="Request line(s) removed",
+                body=display_msg,
+                body_is_html=True,
+                author_id=self.env.user.partner_id.id,
+            )
 
     # 8. Business methods
     def get_stock_location_domain(self):
