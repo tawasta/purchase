@@ -39,3 +39,4 @@ msgstr "Viimeksi Muokattu"
 #: model:ir.model,name:purchase_order_line_forecasted_available.model_purchase_order_line
 msgid "Purchase Order Line"
 msgstr "Ostotilausrivi"
+
