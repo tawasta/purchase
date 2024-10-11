@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-22 11:12+0000\n"
-"PO-Revision-Date: 2023-09-22 14:13+0300\n"
+"POT-Creation-Date: 2024-10-11 11:51+0000\n"
+"PO-Revision-Date: 2024-10-11 14:52+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -16,6 +16,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "X-Generator: Poedit 3.0.1\n"
+
+#. module: purchase_menu_default_vendor_bills
+#: model:ir.actions.act_window,name:purchase_menu_default_vendor_bills.action_move_with_refunds
+msgid "Bills"
+msgstr "Laskut"
+
+#. module: purchase_menu_default_vendor_bills
+#: model_terms:ir.actions.act_window,help:purchase_menu_default_vendor_bills.action_move_with_refunds
+msgid "Create a vendor bill"
+msgstr "Luo ostolasku"
+
+#. module: purchase_menu_default_vendor_bills
+#: model_terms:ir.actions.act_window,help:purchase_menu_default_vendor_bills.action_move_with_refunds
+msgid ""
+"Create invoices, register payments and keep track of the discussions with "
+"your vendors."
+msgstr ""
+"Luo laskuja, rekisteröi maksut ja seuraa toimittajien kanssa käytäviä "
+"keskusteluja."
 
 #. module: purchase_menu_default_vendor_bills
 #: model:ir.ui.menu,name:purchase_menu_default_vendor_bills.menu_procurement_management_pending_invoice_top
