@@ -44,7 +44,7 @@
                     <span t-field="line.product_uom.name" groups="uom.group_uom" />
                 </td>
                 <td name="td_date_req" class="text-center">
-                    <span t-field="line.date_planned" />
+                    <span t-esc="line.date_planned.strftime('%d.%m.%Y')" />
                 </td>
                 <td name="td_price_unit" class="text-center">
                     <span t-field="line.price_unit" />

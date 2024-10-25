@@ -47,7 +47,7 @@ addon | version | maintainers | summary
 [purchase_report_incoterm_name](purchase_report_incoterm_name/) | 17.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
 [purchase_report_order_reference](purchase_report_order_reference/) | 17.0.1.0.0 |  | Add PO order reference to header informations
-[purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.0.0 |  | Fixes orderlines in purchase report
+[purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.1.0 |  | Fixes orderlines in purchase report
 [purchase_report_partner_ref](purchase_report_partner_ref/) | 17.0.1.0.0 |  | Adds Vendor Reference to RFQ Print
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.2 |  | QWeb purchase reports Payment Terms
 [purchase_report_purchase_representative_phone](purchase_report_purchase_representative_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Phone to PO Print
