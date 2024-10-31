@@ -21,6 +21,7 @@ addon | version | maintainers | summary
 [purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 14.0.1.0.0 |  | Disable Merge procurements per warehouse
 [purchase_order_end_customer](purchase_order_end_customer/) | 14.0.1.0.0 |  | New field for storing the end customer of a PO
 [purchase_order_header](purchase_order_header/) | 14.0.1.0.3 |  | New field for PO header/title and report configured in settings
+[purchase_order_hs_code](purchase_order_hs_code/) | 14.0.1.0.0 |  | Show HS Code on purchase order form lines
 [purchase_order_line_forecasted_available](purchase_order_line_forecasted_available/) | 14.0.1.0.0 |  | Add virtual_available field on purchase order line
 [purchase_order_line_no_create_product](purchase_order_line_no_create_product/) | 14.0.1.0.0 |  | Unable to edit and create Products on PO line
 [purchase_order_line_qty_available](purchase_order_line_qty_available/) | 14.0.1.0.0 |  | Add qty_available to purchase order line
