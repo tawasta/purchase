@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report HS Code",
     "summary": "Add HS code to purchase report lines",
-    "version": "14.0.2.0.0",
+    "version": "14.0.2.1.0",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
