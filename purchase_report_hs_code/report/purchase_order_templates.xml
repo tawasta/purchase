@@ -6,10 +6,25 @@
         priority="50"
     >
         <xpath expr="//th[@name='th_description']" position="before">
-            <th name="th_hs_code">
-                <strong>HS Code</strong>
-            </th>
+            <t t-set="has_hs_code" t-value="False" />
+
+            <t t-foreach="o.order_line" t-as="line">
+                <t t-if="line.product_id.hs_code_id">
+                    <t t-set="has_hs_code" t-value="True" />
+                </t>
+            </t>
+
+            <t t-if="o.company_id.always_show_hs_code">
+                <t t-set="has_hs_code" t-value="True" />
+            </t>
+
+            <t t-if="has_hs_code">
+                <th name="th_hs_code">
+                    <strong>HS Code</strong>
+                </th>
+            </t>
         </xpath>
+
         <xpath expr="//td[@name='td_description']" position="before">
             <td name="td_hs_code">
                 <span t-field="line.product_id.hs_code_id" />
