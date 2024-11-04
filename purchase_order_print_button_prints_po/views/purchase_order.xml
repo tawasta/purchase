@@ -15,13 +15,6 @@
                 <attribute name="invisible">1</attribute>
             </xpath>
 
-            <!--
-            <button name="print_quotation" position="attributes">
-                <attribute name="invisible">1</attribute>
-            </button>
-            -->
-
-            <!-- <button name="print_quotation" position="after"> -->
             <xpath expr="(//button[@name='print_quotation'])[1]" position="after">
                 <button
                     name="print_purchase_order"
