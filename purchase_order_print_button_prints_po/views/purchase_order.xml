@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="purchase_order_view_form" model="ir.ui.view">
+        <field name="name">purchase.order.view.form.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form" />
+        <field name="arch" type="xml">
+
+
+            <xpath expr="(//button[@name='print_quotation'])[1]" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+            <xpath expr="(//button[@name='print_quotation'])[2]" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+            <xpath expr="(//button[@name='print_quotation'])[1]" position="after">
+                <button
+                    name="print_purchase_order"
+                    string="Print PO"
+                    type="object"
+                    class="oe_highlight"
+                    groups="base.group_user"
+                    data-hotkey="k"
+                />
+            </xpath>
+
+        </field>
+    </record>
+</odoo>
