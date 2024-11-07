@@ -23,12 +23,22 @@
                     <strong>HS Code</strong>
                 </th>
             </t>
+            <t t-else="">
+                <th name="th_hs_code" style="display: none;">
+                    <strong>HS Code</strong>
+                </th>
+            </t>
         </xpath>
 
         <xpath expr="//td[@name='td_description']" position="before">
-            <td name="td_hs_code">
-                <span t-field="line.product_id.hs_code_id" />
-            </td>
+            <t t-if="line.product_id.hs_code_id">
+                <td name="td_hs_code">
+                    <span t-esc="line.product_id.hs_code_id.local_code" />
+                </td>
+            </t>
+            <t t-elif="not line.product_id.hs_code_id and has_hs_code">
+                <td name="td_hs_code_empty" />
+            </t>
         </xpath>
     </template>
 </odoo>
