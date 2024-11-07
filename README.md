@@ -51,7 +51,7 @@ addon | version | maintainers | summary
 [purchase_report_hide_order_date](purchase_report_hide_order_date/) | 14.0.1.0.0 |  | Hides Order Date on purchase order report
 [purchase_report_hide_prices](purchase_report_hide_prices/) | 14.0.1.0.0 |  | Hides prices on purchase report
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 14.0.1.0.0 |  | Hides Purchase Representative on purchase report
-[purchase_report_hs_code](purchase_report_hs_code/) | 14.0.2.1.0 |  | Add HS code to purchase report lines
+[purchase_report_hs_code](purchase_report_hs_code/) | 14.0.2.2.0 |  | Add HS code to purchase report lines
 [purchase_report_incoterm_name](purchase_report_incoterm_name/) | 14.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
 [purchase_report_item_count](purchase_report_item_count/) | 14.0.1.0.0 |  | Add item count to purchase report lines
 [purchase_report_line_description_width](purchase_report_line_description_width/) | 14.0.1.0.1 |  | Purchase report - Description width
