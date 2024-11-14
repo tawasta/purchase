@@ -20,6 +20,18 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12 col-lg-6 o_setting_box" id="use_po_line_hs_code">
+                    <div class="o_setting_left_pane">
+                        <field name="use_po_line_hs_code" />
+                    </div>
+                    <div class="o_setting_right_pane">
+                        <label for="use_po_line_hs_code" />
+                        <div class="text-muted">
+                            Use HS codes directly from PO lines
+                        </div>
+                    </div>
+                </div>
             </xpath>
         </field>
     </record>
