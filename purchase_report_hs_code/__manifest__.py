@@ -21,16 +21,22 @@
 {
     "name": "Purchase Report HS Code",
     "summary": "Add HS code to purchase report lines",
-    "version": "14.0.2.2.0",
+    "version": "14.0.3.2.0",
     "category": "Reporting",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase", "purchase_report_orderlines", "product_harmonized_system"],
+    "depends": [
+        "purchase",
+        "purchase_order_hs_code",
+        "purchase_report_orderlines",
+        "product_harmonized_system",
+    ],
     "data": [
         "report/purchase_order_templates.xml",
+        "views/purchase_order.xml",
         "views/res_config_settings.xml",
     ],
 }
