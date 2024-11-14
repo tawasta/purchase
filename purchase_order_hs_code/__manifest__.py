@@ -21,7 +21,7 @@
 {
     "name": "HS Code on purchase order",
     "summary": "Show HS Code on purchase order form lines",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.1.0",
     "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
