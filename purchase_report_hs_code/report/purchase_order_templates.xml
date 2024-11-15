@@ -23,8 +23,13 @@
                 <t t-set="has_hs_code" t-value="True" />
             </t>
 
-            <t t-if="has_hs_code">
+            <t t-if="has_hs_code and o.show_hs_code_on_print">
                 <th name="th_hs_code">
+                    <strong>HS Code</strong>
+                </th>
+            </t>
+            <t t-else="">
+                <th name="th_hs_code" style="display:none;">
                     <strong>HS Code</strong>
                 </th>
             </t>
@@ -32,7 +37,10 @@
 
         <xpath expr="//td[@name='td_description']" position="before">
             <t t-if="not o.company_id.use_po_line_hs_code">
-                <t t-if="line.product_id.hs_code_id">
+                <t t-if="not o.show_hs_code_on_print">
+                    <td name="td_hs_code_empty" style="display:none;" />
+                </t>
+                <t t-elif="line.product_id.hs_code_id">
                     <td name="td_hs_code">
                         <span t-esc="line.product_id.hs_code_id.local_code" />
                     </td>
@@ -43,7 +51,10 @@
             </t>
 
             <t t-else="">
-                <t t-if="line.hs_code_id">
+                <t t-if="not o.show_hs_code_on_print">
+                    <td name="td_hs_code_empty" style="display:none;" />
+                </t>
+                <t t-elif="line.hs_code_id">
                     <td name="td_hs_code">
                         <span t-esc="line.hs_code_id.local_code" />
                     </td>
