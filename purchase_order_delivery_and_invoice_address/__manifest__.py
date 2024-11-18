@@ -30,8 +30,10 @@
     "installable": True,
     "depends": [
         "purchase",
+        "purchase_stock",
     ],
     "data": [
         "views/purchase_order.xml",
+        "report/purchase_report.xml",
     ],
 }
