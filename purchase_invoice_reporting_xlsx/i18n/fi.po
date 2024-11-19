@@ -1,0 +1,131 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_invoice_reporting_xlsx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-11 10:29+0000\n"
+"PO-Revision-Date: 2019-10-11 13:37+0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:53
+#, python-format
+msgid "Bill Date"
+msgstr "Laskupäivä"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:90
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:96
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:101
+#, python-format
+msgid "Comment: "
+msgstr "Kommentti: "
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:90
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:96
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:101
+#, python-format
+msgid "Date: "
+msgstr "Päiväys: "
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:48
+#, python-format
+msgid "Description"
+msgstr "Laskun kuvaus"
+
+#. module: purchase_invoice_reporting_xlsx
+#: model:ir.actions.report.xml,name:purchase_invoice_reporting_xlsx.action_vendor_bill_xlsx
+msgid "Export Vendor bill to Excel"
+msgstr "Vie Toimittajan lasku Excel-tiedostoon"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:47
+#, python-format
+msgid "Internal message"
+msgstr "Sisäinen viesti"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:44
+#, python-format
+msgid "Invoice total (excluding VAT)"
+msgstr "Veroton arvo"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:45
+#, python-format
+msgid "Invoice total (including VAT)"
+msgstr "Yhteensä"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:89
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:95
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:100
+#, python-format
+msgid "Note by: "
+msgstr "Kommentin tekijä: "
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:50
+#, python-format
+msgid "Product group dimension"
+msgstr "Oletus tuoteryhmädimensio"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:52
+#, python-format
+msgid "Product type dimension"
+msgstr "Oletus projektilajidimensio"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:46
+#, python-format
+msgid "Project"
+msgstr "Projekti"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:49
+#, python-format
+msgid "Project dimension"
+msgstr "Oletus projektidimensio"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:51
+#, python-format
+msgid "Project type dimension"
+msgstr "Oletus tuotelajidimensio"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:43
+#, python-format
+msgid "Reference"
+msgstr "Toimittajan viite"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:42
+#, python-format
+msgid "Supplier"
+msgstr "Toimittaja"
+
+#. module: purchase_invoice_reporting_xlsx
+#: code:addons/purchase_invoice_reporting_xlsx/report/vendor_bill.py:26
+#, python-format
+msgid "Vendor bill"
+msgstr "Toimittajan lasku"
+
+#. module: purchase_invoice_reporting_xlsx
+#: model:ir.values,value_unpickle:purchase_invoice_reporting_xlsx.action_vendor_bill_xlsx_values
+msgid "ir.actions.report.xml,546"
+msgstr "ir.actions.report.xml,546"
+
