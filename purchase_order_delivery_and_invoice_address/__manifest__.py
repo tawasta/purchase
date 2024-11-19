@@ -19,9 +19,9 @@
 ##############################################################################
 
 {
-    "name": "HS Code on purchase order",
-    "summary": "Show HS Code on purchase order form lines",
-    "version": "14.0.1.1.0",
+    "name": "Adds Delivery and Invoice addresses to purchases",
+    "summary": "Adds Delivery and Invoice addresses to purchases",
+    "version": "14.0.1.0.0",
     "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
@@ -29,10 +29,11 @@
     "application": False,
     "installable": True,
     "depends": [
-        "product_harmonized_system",
         "purchase",
+        "purchase_stock",
     ],
     "data": [
         "views/purchase_order.xml",
+        "report/purchase_report.xml",
     ],
 }

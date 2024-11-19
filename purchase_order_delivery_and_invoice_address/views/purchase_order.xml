@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="purchase_order_form" model="ir.ui.view">
+        <field name="name">purchase.order.form.invoice.delivery.address</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form" />
+        <field name="arch" type="xml">
+            <field name="origin" position="after">
+                <field name="other_invoice_and_delivery_address" />
+            </field>
+
+            <field name="partner_id" position="after">
+                <field
+                    name="po_invoice_address_id"
+                    attrs="{'invisible': [('other_invoice_and_delivery_address', '=', False)]}"
+                />
+                <field
+                    name="po_delivery_address_id"
+                    attrs="{'invisible': [('other_invoice_and_delivery_address', '=', False)]}"
+                />
+                <field
+                    name="related_company_partner_id"
+                    string="Invoice Address"
+                    attrs="{'invisible': [('other_invoice_and_delivery_address', '=', True)]}"
+                />
+                <field
+                    name="related_warehouse_partner_id"
+                    string="Delivery Address"
+                    attrs="{'invisible': [('other_invoice_and_delivery_address', '=', True)]}"
+                />
+            </field>
+        </field>
+    </record>
+</odoo>

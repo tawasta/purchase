@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 06:49+0000\n"
-"PO-Revision-Date: 2024-10-31 08:51+0200\n"
+"POT-Creation-Date: 2024-11-14 07:16+0000\n"
+"PO-Revision-Date: 2024-11-14 09:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -26,14 +26,6 @@ msgstr "Näyttönimi"
 #: model:ir.model.fields,field_description:purchase_order_hs_code.field_purchase_order_line__hs_code_id
 msgid "H.S. Code"
 msgstr "H.S. koodi"
-
-#. module: purchase_order_hs_code
-#: model:ir.model.fields,help:purchase_order_hs_code.field_purchase_order_line__hs_code_id
-msgid ""
-"Harmonised System Code. Nomenclature is available from the World Customs "
-"Organisation, see http://www.wcoomd.org/. You can leave this field empty "
-"and configure the H.S. code on the product category."
-msgstr ""
 
 #. module: purchase_order_hs_code
 #: model:ir.model.fields,field_description:purchase_order_hs_code.field_purchase_order_line__id

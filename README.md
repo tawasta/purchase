@@ -17,11 +17,12 @@ addon | version | maintainers | summary
 [purchase_menu_default_vendor_bills](purchase_menu_default_vendor_bills/) | 14.0.1.0.0 |  | Vendor bills as default (first) menu item
 [purchase_order_analytic_account](purchase_order_analytic_account/) | 14.0.1.0.0 |  | New field for indicating what AA the PO is related to
 [purchase_order_default_note](purchase_order_default_note/) | 14.0.1.0.0 |  | Add a default purchase order note for partner
+[purchase_order_delivery_and_invoice_address](purchase_order_delivery_and_invoice_address/) | 14.0.1.0.0 |  | Adds Delivery and Invoice addresses to purchases
 [purchase_order_description](purchase_order_description/) | 14.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 14.0.1.0.0 |  | Disable Merge procurements per warehouse
 [purchase_order_end_customer](purchase_order_end_customer/) | 14.0.1.0.0 |  | New field for storing the end customer of a PO
 [purchase_order_header](purchase_order_header/) | 14.0.1.0.3 |  | New field for PO header/title and report configured in settings
-[purchase_order_hs_code](purchase_order_hs_code/) | 14.0.1.0.0 |  | Show HS Code on purchase order form lines
+[purchase_order_hs_code](purchase_order_hs_code/) | 14.0.1.1.0 |  | Show HS Code on purchase order form lines
 [purchase_order_line_forecasted_available](purchase_order_line_forecasted_available/) | 14.0.1.0.0 |  | Add virtual_available field on purchase order line
 [purchase_order_line_no_create_product](purchase_order_line_no_create_product/) | 14.0.1.0.0 |  | Unable to edit and create Products on PO line
 [purchase_order_line_qty_available](purchase_order_line_qty_available/) | 14.0.1.0.0 |  | Add qty_available to purchase order line
@@ -51,7 +52,7 @@ addon | version | maintainers | summary
 [purchase_report_hide_order_date](purchase_report_hide_order_date/) | 14.0.1.0.0 |  | Hides Order Date on purchase order report
 [purchase_report_hide_prices](purchase_report_hide_prices/) | 14.0.1.0.0 |  | Hides prices on purchase report
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 14.0.1.0.0 |  | Hides Purchase Representative on purchase report
-[purchase_report_hs_code](purchase_report_hs_code/) | 14.0.2.2.0 |  | Add HS code to purchase report lines
+[purchase_report_hs_code](purchase_report_hs_code/) | 14.0.3.2.1 |  | Add HS code to purchase report lines
 [purchase_report_incoterm_name](purchase_report_incoterm_name/) | 14.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
 [purchase_report_item_count](purchase_report_item_count/) | 14.0.1.0.0 |  | Add item count to purchase report lines
 [purchase_report_line_description_width](purchase_report_line_description_width/) | 14.0.1.0.1 |  | Purchase report - Description width
