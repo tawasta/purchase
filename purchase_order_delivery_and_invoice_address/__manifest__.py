@@ -21,7 +21,7 @@
 {
     "name": "Adds Delivery and Invoice addresses to purchases",
     "summary": "Adds Delivery and Invoice addresses to purchases",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.1.0",
     "category": "Purchases",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
