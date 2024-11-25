@@ -58,4 +58,63 @@
             />
         </xpath>
     </template>
+
+    <template
+        id="report_purchasequotation_document_po_stock"
+        inherit_id="purchase_stock.report_purchasequotation_document"
+    >
+        <xpath expr="//t[@t-else='']//t" position="attributes">
+            <attribute
+                name="t-if"
+            >o.other_invoice_and_delivery_address == False</attribute>
+        </xpath>
+
+        <xpath
+            expr="//div[@t-if='o.picking_type_id and o.picking_type_id.warehouse_id']"
+            position="after"
+        >
+            <strong>Invoice address:</strong>
+            <div
+                t-field="o.related_company_partner_id"
+                t-options='{"widget": "contact", "fields": ["address", "name", "phone"], "no_marker": True, "phone_icons": True}'
+            />
+        </xpath>
+    </template>
+
+    <template
+        id="report_purchasequotation_document"
+        inherit_id="purchase.report_purchasequotation_document"
+    >
+        <xpath expr="//t[@t-if='o.dest_address_id']//t" position="attributes">
+            <attribute
+                name="t-if"
+            >o.other_invoice_and_delivery_address == False</attribute>
+        </xpath>
+
+        <xpath expr="//t[@t-if='o.dest_address_id']" position="after">
+            <t t-if="o.other_invoice_and_delivery_address == True">
+                <t t-set="information_block">
+                    <strong>Shipping address:</strong>
+                    <div
+                        t-field="o.po_delivery_address_id"
+                        t-options='{"widget": "contact", "fields": ["address", "name", "phone"], "no_marker": True, "phone_icons": True}'
+                    />
+
+                    <strong>Invoice address:</strong>
+                    <div
+                        t-field="o.po_invoice_address_id"
+                        t-options='{"widget": "contact", "fields": ["address", "name", "phone"], "no_marker": True, "phone_icons": True}'
+                    />
+                </t>
+            </t>
+        </xpath>
+
+        <xpath expr="//div[@t-field='o.dest_address_id']" position="after">
+            <strong>Invoice address:</strong>
+            <div
+                t-field="o.related_company_partner_id"
+                t-options='{"widget": "contact", "fields": ["address", "name", "phone"], "no_marker": True, "phone_icons": True}'
+            />
+        </xpath>
+    </template>
 </odoo>
