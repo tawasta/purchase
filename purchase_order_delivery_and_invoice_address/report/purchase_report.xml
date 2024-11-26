@@ -14,6 +14,7 @@
             expr="//div[@t-if='o.picking_type_id and o.picking_type_id.warehouse_id']"
             position="after"
         >
+            <br />
             <strong>Invoice address:</strong>
             <div
                 t-field="o.related_company_partner_id"
@@ -41,6 +42,7 @@
                         t-options='{"widget": "contact", "fields": ["address", "name", "phone"], "no_marker": True, "phone_icons": True}'
                     />
 
+                    <br />
                     <strong>Invoice address:</strong>
                     <div
                         t-field="o.po_invoice_address_id"
@@ -51,6 +53,7 @@
         </xpath>
 
         <xpath expr="//div[@t-if='o.dest_address_id']" position="after">
+            <br />
             <strong>Invoice address:</strong>
             <div
                 t-field="o.related_company_partner_id"
@@ -73,6 +76,7 @@
             expr="//div[@t-if='o.picking_type_id and o.picking_type_id.warehouse_id']"
             position="after"
         >
+            <br />
             <strong>Invoice address:</strong>
             <div
                 t-field="o.related_company_partner_id"
@@ -91,6 +95,10 @@
             >o.other_invoice_and_delivery_address == False</attribute>
         </xpath>
 
+        <div class="page" position="attributes">
+            <attribute name="style">margin-top: 1em;</attribute>
+        </div>
+
         <xpath expr="//t[@t-if='o.dest_address_id']" position="after">
             <t t-if="o.other_invoice_and_delivery_address == True">
                 <t t-set="information_block">
@@ -100,6 +108,7 @@
                         t-options='{"widget": "contact", "fields": ["address", "name", "phone"], "no_marker": True, "phone_icons": True}'
                     />
 
+                    <br />
                     <strong>Invoice address:</strong>
                     <div
                         t-field="o.po_invoice_address_id"
@@ -110,6 +119,7 @@
         </xpath>
 
         <xpath expr="//div[@t-field='o.dest_address_id']" position="after">
+            <br />
             <strong>Invoice address:</strong>
             <div
                 t-field="o.related_company_partner_id"
