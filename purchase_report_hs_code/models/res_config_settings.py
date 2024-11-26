@@ -10,3 +10,8 @@ class ResConfigSettings(models.TransientModel):
         related="company_id.always_show_hs_code",
         readonly=False,
     )
+    use_po_line_hs_code = fields.Boolean(
+        string="Use HS codes directly from PO lines",
+        related="company_id.use_po_line_hs_code",
+        readonly=False,
+    )
