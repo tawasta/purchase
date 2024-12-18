@@ -23,7 +23,7 @@
     "summary": "Trigger internal transfers from Purchase Request view",
     "version": "17.0.2.3.1",
     "category": "Purchases",
-    "website": "https://gitlab.com/tawasta/odoo/purchase",
+    "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

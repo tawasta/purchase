@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2020 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Author: Futural Oy
+#    Copyright 2024 Futural Oy (https://futural.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,20 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Title",
-    "summary": "Replaces default titles with a better purchase report title",
-    "version": "17.0.1.0.2",
-    "category": "Reporting",
+    "name": "Purchase Order – Expected Arrival changes Scheduled date of its picking",
+    "summary": "Picking Scheduled date is changed by Expected Arrival",
+    "version": "17.0.1.0.0",
+    "category": "Purchase Workflow",
     "website": "https://github.com/tawasta/purchase",
-    "author": "Tawasta",
+    "author": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase"],
-    "data": ["report/purchase_order_report.xml"],
+    "depends": [
+        "purchase",
+        "purchase_stock",
+    ],
+    "data": [
+        "views/stock_picking.xml",
+    ],
 }

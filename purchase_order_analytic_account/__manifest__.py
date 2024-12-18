@@ -23,7 +23,7 @@
     "summary": "New field for indicating what AA the PO is related to",
     "version": "17.0.1.0.2",
     "category": "Purchases",
-    "website": "https://gitlab.com/tawasta/odoo/purchase",
+    "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,

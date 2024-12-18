@@ -23,7 +23,7 @@
     "summary": "Adds latest expected date to purchase orders from their lines",
     "version": "17.0.1.0.0",
     "category": "Purchase",
-    "website": "https://gitlab.com/tawasta/odoo/purchase",
+    "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
