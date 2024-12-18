@@ -23,7 +23,7 @@
     "summary": "QWeb purchase reports Payment Terms",
     "version": "17.0.1.0.2",
     "category": "Reporting",
-    "website": "https://gitlab.com/tawasta/odoo/purchase",
+    "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
