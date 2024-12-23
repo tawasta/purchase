@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2023 Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,19 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Hide Deadline",
-    "summary": "Purchase Report Hide Deadline",
+    "name": "Purchase Report: show product on lines",
+    "summary": "Always show product on PO print lines",
     "version": "17.0.1.0.0",
-    "category": "Reporting",
+    "category": "Sales",
     "website": "https://github.com/tawasta/purchase",
-    "author": "Tawasta",
+    "author": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase"],
-    "data": ["report/purchase_order_template.xml"],
+    "depends": [
+        "purchase",
+    ],
+    "data": [
+        "report/purchase_report.xml",
+    ],
 }
