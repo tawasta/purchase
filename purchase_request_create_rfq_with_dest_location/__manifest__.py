@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Author: Futural Oy
+#    Copyright 2024 Futural Oy (https://futural.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,19 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Hide Deadline",
-    "summary": "Purchase Report Hide Deadline",
+    "name": "Create RFQ from Purchase request line with Destination location",
+    "summary": "Assign a destination location to PO line from PR line",
     "version": "17.0.1.0.0",
-    "category": "Reporting",
+    "category": "Purchase Workflow",
     "website": "https://github.com/tawasta/purchase",
-    "author": "Tawasta",
+    "author": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase"],
-    "data": ["report/purchase_order_template.xml"],
+    "depends": [
+        "purchase_location_by_line",
+        "purchase_request",
+        "purchase_request_analytic_account_location",
+    ],
+    "data": [],
 }
