@@ -7,7 +7,7 @@ class PurchaseOrder(models.Model):
 
     show_hs_code_on_print = fields.Boolean(
         string="Show HS Codes on a print",
-        default=True,
+        default=lambda self: self.env.company.always_show_hs_code,
         copy=False,
     )
 
