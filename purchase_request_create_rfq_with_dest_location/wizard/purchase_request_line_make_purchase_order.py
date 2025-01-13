@@ -17,3 +17,14 @@ class PurchaseRequestLineMakePurchaseOrder(models.TransientModel):
             po_line_data["location_dest_id"] = request.stock_location_id.id
 
         return po_line_data
+
+    @api.model
+    def _get_order_line_search_domain(self, order, item):
+        """Do not merge PO lines which have different destination locations"""
+        order_line_data = super()._get_order_line_search_domain(order, item)
+
+        location = item.request_id.stock_location_id.id
+
+        order_line_data.append(("location_dest_id", "=", location))
+
+        return order_line_data
