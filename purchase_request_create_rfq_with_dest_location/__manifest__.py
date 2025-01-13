@@ -21,7 +21,7 @@
 {
     "name": "Create RFQ from Purchase request line with Destination location",
     "summary": "Assign a destination location to PO line from PR line",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.1.0",
     "category": "Purchase Workflow",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",

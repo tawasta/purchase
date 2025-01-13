@@ -10,6 +10,9 @@ This module was created to assign a destination location to PO line from PR line
 That way a purchase order can have different destination locations from different
 purchase requests.
 
+Created purchase order lines are not merged together if the products are the same,
+but their destination locations differ.
+
 Configuration
 =============
 /-
