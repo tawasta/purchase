@@ -16,6 +16,8 @@ class PurchaseOrder(models.Model):
 
         if delivery_address:
             self.po_delivery_address_id = delivery_address
+        else:
+            self.po_delivery_address_id = False
 
         return res
 
