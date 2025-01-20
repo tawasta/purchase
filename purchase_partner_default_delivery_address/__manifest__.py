@@ -21,7 +21,7 @@
 {
     "name": "Use default delivery address from Vendor in purchases",
     "summary": "Put default delivery address to a purchase from its vendor",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Purchase Workflow",
     "website": "https://gitlab.com/tawasta/odoo/purchase",
     "author": "Tawasta",
