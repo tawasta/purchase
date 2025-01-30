@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Odoo Server 17.0-20240126\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 12:40+0000\n"
-"PO-Revision-Date: 2023-08-30 15:41+0300\n"
+"POT-Creation-Date: 2025-01-30 11:15+0000\n"
+"PO-Revision-Date: 2025-01-30 13:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fi_FI\n"
@@ -25,8 +25,3 @@ msgid ""
 msgstr ""
 "<br/>\n"
 "            <strong>Tilaaja: </strong>"
-
-#. module: purchase_order_report_template
-#: model_terms:ir.ui.view,arch_db:purchase_order_report_template.purchase_order_report_template
-msgid "<strong id=\"vendor_text\">Vendor:</strong>"
-msgstr "<strong id=\"vendor_text\">Toimittaja:</strong>"
