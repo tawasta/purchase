@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Author: Futural Oy
+#    Copyright 2024 Futural Oy (https://futural.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,19 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Orderlines",
-    "summary": "Fixes orderlines in purchase report",
-    "version": "17.0.1.1.1",
-    "category": "Purchase",
+    "name": "Purchase PDF prints – Align table fields",
+    "summary": "Align table fields in purchase reports",
+    "version": "17.0.1.0.0",
+    "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
-    "author": "Tawasta",
+    "author": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase"],
-    "data": ["report/purchase_order_templates.xml"],
+    "depends": [
+        "purchase",
+    ],
+    "data": [
+        "report/purchase_report.xml",
+    ],
 }
