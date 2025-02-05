@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Orderlines",
     "summary": "Fixes orderlines in purchase report",
-    "version": "17.0.1.1.0",
+    "version": "17.0.1.1.1",
     "category": "Purchase",
     "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
