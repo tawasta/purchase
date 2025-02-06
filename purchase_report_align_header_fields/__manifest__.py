@@ -21,7 +21,7 @@
 {
     "name": "Align Purchase report Header fields",
     "summary": "Align Purchase report Header fields",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.1.0",
     "category": "Purchase",
     "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
@@ -29,7 +29,7 @@
     "application": False,
     "installable": True,
     "depends": ["purchase"],
-    "data": [],
+    "data": ["report/purchase_report.xml"],
     "assets": {
         "web.report_assets_common": [
             "purchase_report_align_header_fields/static/src/scss/template_style.scss",
