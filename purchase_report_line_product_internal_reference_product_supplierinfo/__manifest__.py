@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2021- Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2025- Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,15 +19,18 @@
 ##############################################################################
 
 {
-    "name": "Purchase Report Orderlines",
-    "summary": "Fixes orderlines in purchase report",
-    "version": "17.0.1.1.3",
-    "category": "Purchase",
+    "name": "Purchase Order reports - Product's internal reference / Supplier Code integration",
+    "summary": "Conditional showing of own + supplier product code and name on prints",
+    "version": "17.0.1.0.0",
+    "category": "Reporting",
     "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase"],
-    "data": ["report/purchase_order_templates.xml"],
+    "depends": ["purchase_report_line_product_internal_reference"],
+    "data": [
+        "report/purchase_order_report.xml",
+        "report/request_for_quotation_report.xml",
+    ],
 }

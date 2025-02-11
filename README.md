@@ -50,8 +50,10 @@ addon | version | maintainers | summary
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 17.0.1.0.0 |  | Hides Purchase Representative on purchase report
 [purchase_report_incoterm_name](purchase_report_incoterm_name/) | 17.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
+[purchase_report_line_product_internal_reference](purchase_report_line_product_internal_reference/) | 17.0.1.0.0 |  | Purchase Order reports - Product's internal reference
+[purchase_report_line_product_internal_reference_product_supplierinfo](purchase_report_line_product_internal_reference_product_supplierinfo/) | 17.0.1.0.0 |  | Conditional showing of own + supplier product code and name on prints
 [purchase_report_order_reference](purchase_report_order_reference/) | 17.0.1.0.0 |  | Add PO order reference to header informations
-[purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.1.2 |  | Fixes orderlines in purchase report
+[purchase_report_orderlines](purchase_report_orderlines/) | 17.0.1.1.3 |  | Fixes orderlines in purchase report
 [purchase_report_partner_ref](purchase_report_partner_ref/) | 17.0.1.0.0 |  | Adds Vendor Reference to RFQ Print
 [purchase_report_payment_terms](purchase_report_payment_terms/) | 17.0.1.0.2 |  | QWeb purchase reports Payment Terms
 [purchase_report_purchase_representative_phone](purchase_report_purchase_representative_phone/) | 17.0.1.0.0 |  | Adds Purchase Representative's Phone to PO Print
