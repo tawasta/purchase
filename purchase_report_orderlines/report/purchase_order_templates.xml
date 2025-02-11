@@ -10,22 +10,22 @@
         </xpath>
         <xpath expr="//thead" position="inside">
             <tr>
-                <th name="th_description">
+                <th name="th_description" id="th_description">
                     <strong>Description</strong>
                 </th>
-                <th name="th_quantity">
+                <th name="th_quantity" id="th_quantity">
                     <strong>Qty</strong>
                 </th>
-                <th name="th_date_req" class="text-center">
+                <th name="th_date_req" class="text-center" id="th_date_req">
                     <strong>Date Req.</strong>
                 </th>
-                <th name="th_price_unit" class="text-center">
+                <th name="th_price_unit" class="text-center" id="th_price_unit">
                     <strong>Unit Price</strong>
                 </th>
-                <th name="th_taxes" class="text-right">
+                <th name="th_taxes" class="text-right" id="th_taxes">
                     <strong>Taxes</strong>
                 </th>
-                <th name="th_amount" class="text-right">
+                <th name="th_amount" class="text-right" id="th_amount">
                     <strong>Amount</strong>
                 </th>
             </tr>
