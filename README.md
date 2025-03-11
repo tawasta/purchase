@@ -30,6 +30,7 @@ addon | version | maintainers | summary
 [purchase_order_line_use_standard_price](purchase_order_line_use_standard_price/) | 17.0.1.0.0 |  | Use standard price as line price, if no supplier price is set
 [purchase_order_line_view](purchase_order_line_view/) | 17.0.1.0.0 |  | New view for inspecting PO lines
 [purchase_order_mandatory_vendor_reference](purchase_order_mandatory_vendor_reference/) | 17.0.1.0.0 |  | Require a vendor reference before confirming a PO
+[purchase_order_merge_by_sale_order](purchase_order_merge_by_sale_order/) | 17.0.1.0.0 |  | Create Purchase Order and merge it by Sale Order info
 [purchase_order_print_button_prints_po](purchase_order_print_button_prints_po/) | 17.0.1.0.0 |  | Replace the 'Print RFQ' Button with a 'Print PO' Button
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
 [purchase_order_report_template](purchase_order_report_template/) | 17.0.1.0.0 |  | Minor fixes for Purchase Order Report
