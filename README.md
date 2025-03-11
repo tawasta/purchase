@@ -30,6 +30,7 @@ addon | version | maintainers | summary
 [purchase_order_line_use_standard_price](purchase_order_line_use_standard_price/) | 17.0.1.0.0 |  | Use standard price as line price, if no supplier price is set
 [purchase_order_line_view](purchase_order_line_view/) | 17.0.1.0.0 |  | New view for inspecting PO lines
 [purchase_order_mandatory_vendor_reference](purchase_order_mandatory_vendor_reference/) | 17.0.1.0.0 |  | Require a vendor reference before confirming a PO
+[purchase_order_merge_by_sale_order](purchase_order_merge_by_sale_order/) | 17.0.1.0.0 |  | Create Purchase Order and merge it by Sale Order info
 [purchase_order_print_button_prints_po](purchase_order_print_button_prints_po/) | 17.0.1.0.0 |  | Replace the 'Print RFQ' Button with a 'Print PO' Button
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
 [purchase_order_report_template](purchase_order_report_template/) | 17.0.1.0.0 |  | Minor fixes for Purchase Order Report
@@ -38,6 +39,7 @@ addon | version | maintainers | summary
 [purchase_order_show_dropship_address](purchase_order_show_dropship_address/) | 17.0.1.0.0 |  | Show the full address below the Drop Ship Address
 [purchase_order_standard_clause](purchase_order_standard_clause/) | 17.0.1.0.0 |  | Company-specific standard clause for POs
 [purchase_order_tags](purchase_order_tags/) | 17.0.1.0.0 |  | Enables tagging purchase orders with keywords
+[purchase_product_only_select](purchase_product_only_select/) | 17.0.1.0.0 |  | Disable Product quick create and edit from PO line
 [purchase_report_align_header_fields](purchase_report_align_header_fields/) | 17.0.1.1.0 |  | Align Purchase report Header fields
 [purchase_report_align_table_fields](purchase_report_align_table_fields/) | 17.0.1.0.0 |  | Align table fields in purchase reports
 [purchase_report_approval_date](purchase_report_approval_date/) | 17.0.1.0.0 |  | Adds Approval Date to Purchase Reports
