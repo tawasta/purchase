@@ -1,0 +1,31 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_line_sort_by_sale_line
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20241118\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-13 12:09+0000\n"
+"PO-Revision-Date: 2025-03-13 12:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_line_sort_by_sale_line
+#: model:ir.model.fields,field_description:purchase_line_sort_by_sale_line.field_purchase_order_line__linked_sale_line_id_number
+msgid "Linked sale id number"
+msgstr "Linkitetyn myyntirivin ID"
+
+#. module: purchase_line_sort_by_sale_line
+#: model:ir.model.fields,field_description:purchase_line_sort_by_sale_line.field_purchase_order_line__linked_sale_line_sequence
+msgid "Linked sale sequence"
+msgstr "Linkitetyn myyntirivin järjestysnumero"
+
+#. module: purchase_line_sort_by_sale_line
+#: model:ir.model,name:purchase_line_sort_by_sale_line.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Ostotilausrivi"
