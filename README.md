@@ -12,6 +12,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [purchase_auditlog_rules](purchase_auditlog_rules/) | 17.0.1.0.0 |  | Adds auditlog rules for Purchase
+[purchase_line_sort_by_sale_line](purchase_line_sort_by_sale_line/) | 17.0.1.0.0 |  | Use SO lines to sort PO lines in PO form view's tree section
 [purchase_order_additional_terms](purchase_order_additional_terms/) | 17.0.1.0.0 |  | Enables describing additional terms for a PO and adds them to PDF
 [purchase_order_analytic_account](purchase_order_analytic_account/) | 17.0.1.0.2 |  | New field for indicating what AA the PO is related to
 [purchase_order_carrier_id](purchase_order_carrier_id/) | 17.0.1.0.0 |  | Enables setting the carrier for a PO
