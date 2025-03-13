@@ -49,6 +49,7 @@ addon | version | maintainers | summary
 [purchase_report_hide_date_req](purchase_report_hide_date_req/) | 17.0.1.0.0 |  | Hides Date req on purchase order report
 [purchase_report_hide_deadline](purchase_report_hide_deadline/) | 17.0.1.0.0 |  | Purchase Report Hide Deadline
 [purchase_report_hide_phonenumber](purchase_report_hide_phonenumber/) | 17.0.1.0.0 |  | Hide Phonenumber on Purchase Reports
+[purchase_report_hide_prices](purchase_report_hide_prices/) | 17.0.1.0.0 |  | Hides prices on purchase report
 [purchase_report_hide_representative](purchase_report_hide_representative/) | 17.0.1.0.0 |  | Hides Purchase Representative on purchase report
 [purchase_report_incoterm_name](purchase_report_incoterm_name/) | 17.0.1.0.0 |  | Show Incoterm name instead of code on Purchase Report
 [purchase_report_incoterms](purchase_report_incoterms/) | 17.0.1.0.0 |  | QWeb purchase reports Incoterms
