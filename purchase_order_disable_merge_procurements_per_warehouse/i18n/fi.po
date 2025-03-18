@@ -1,0 +1,38 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_order_disable_merge_procurements_per_warehouse
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20250131\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-18 13:55+0000\n"
+"PO-Revision-Date: 2025-03-18 15:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model.fields,field_description:purchase_order_disable_merge_procurements_per_warehouse.field_stock_warehouse__never_merge_procurements
+msgid "Disable procurements merge"
+msgstr "Poista hankintojen yhdistäminen käytöstä"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model_terms:ir.ui.view,arch_db:purchase_order_disable_merge_procurements_per_warehouse.view_warehouse
+msgid "Purchases"
+msgstr "Ostot"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model,name:purchase_order_disable_merge_procurements_per_warehouse.model_stock_rule
+msgid "Stock Rule"
+msgstr "Varaston sääntö"
+
+#. module: purchase_order_disable_merge_procurements_per_warehouse
+#: model:ir.model,name:purchase_order_disable_merge_procurements_per_warehouse.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Varasto"

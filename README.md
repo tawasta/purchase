@@ -19,6 +19,7 @@ addon | version | maintainers | summary
 [purchase_order_check_stock_availability](purchase_order_check_stock_availability/) | 17.0.1.0.0 |  | Trigger internal transfers from Purchase Order view
 [purchase_order_contact_person](purchase_order_contact_person/) | 17.0.1.0.1 |  | Enables setting the vendor's contact person for a PO
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
+[purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 17.0.1.0.0 |  | Disable Merge procurements per warehouse
 [purchase_order_end_customer](purchase_order_end_customer/) | 17.0.1.0 |  | New field for storing the end customer of a PO
 [purchase_order_expected_arrival_changes_picking_date](purchase_order_expected_arrival_changes_picking_date/) | 17.0.1.0.0 |  | Picking Scheduled date is changed by Expected Arrival
 [purchase_order_header_text](purchase_order_header_text/) | 17.0.1.0.0 |  | New field for PO header/title and report configured in settings
