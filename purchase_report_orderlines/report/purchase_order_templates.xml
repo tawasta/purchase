@@ -10,7 +10,7 @@
         </xpath>
         <xpath expr="//thead" position="inside">
             <tr>
-                <th name="th_description" id="th_description">
+                <th name="th_description" id="th_description" class="text-start">
                     <strong>Description</strong>
                 </th>
                 <th name="th_quantity" id="th_quantity">

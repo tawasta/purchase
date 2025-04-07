@@ -41,7 +41,7 @@
 
             <!-- Put internal reference as the leftmost column -->
             <xpath
-            expr="//table[hasclass('table')]//th[@name='th_description']"
+            expr="//table[hasclass('table')]//th[@id='th_description']"
             position="before"
         >
                 <t
