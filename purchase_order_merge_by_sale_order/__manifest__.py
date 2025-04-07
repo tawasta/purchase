@@ -21,7 +21,7 @@
 {
     "name": "Create Purchase Order and merge it by Sale Order info",
     "summary": "Create Purchase Order and merge it by Sale Order info",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.1.0",
     "category": "Procurements",
     "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
