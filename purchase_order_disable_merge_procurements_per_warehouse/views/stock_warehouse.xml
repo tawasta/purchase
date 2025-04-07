@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_warehouse" model="ir.ui.view">
+        <field name="name">stock.warehouse.form.disable.merging.procurements</field>
+        <field name="model">stock.warehouse</field>
+        <field name="inherit_id" ref="stock.view_warehouse" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='group_resupply']" position="after">
+                <group string="Purchases" groups="base.group_system">
+                    <field name="never_merge_procurements" />
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -19,6 +19,7 @@ addon | version | maintainers | summary
 [purchase_order_check_stock_availability](purchase_order_check_stock_availability/) | 17.0.1.0.0 |  | Trigger internal transfers from Purchase Order view
 [purchase_order_contact_person](purchase_order_contact_person/) | 17.0.1.0.1 |  | Enables setting the vendor's contact person for a PO
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
+[purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 17.0.1.0.0 |  | Disable Merge procurements per warehouse
 [purchase_order_end_customer](purchase_order_end_customer/) | 17.0.1.0 |  | New field for storing the end customer of a PO
 [purchase_order_expected_arrival_changes_picking_date](purchase_order_expected_arrival_changes_picking_date/) | 17.0.1.0.0 |  | Picking Scheduled date is changed by Expected Arrival
 [purchase_order_header_text](purchase_order_header_text/) | 17.0.1.0.0 |  | New field for PO header/title and report configured in settings
@@ -26,12 +27,14 @@ addon | version | maintainers | summary
 [purchase_order_latest_effective_date](purchase_order_latest_effective_date/) | 17.0.1.0.0 |  | Adds latest expected date to purchase orders from their lines
 [purchase_order_line_forecasted_available](purchase_order_line_forecasted_available/) | 17.0.1.0.0 |  | Add virtual_available field on purchase order line
 [purchase_order_line_location_from_analytic](purchase_order_line_location_from_analytic/) | 17.0.1.0.0 |  | Suggest line destination based on line's AA
+[purchase_order_line_no_create_product](purchase_order_line_no_create_product/) | 17.0.1.0.0 |  | Unable to edit and create Products on PO line
 [purchase_order_line_qty_available](purchase_order_line_qty_available/) | 17.0.1.0.0 |  | Add qty_available to purchase order line
 [purchase_order_line_responsible](purchase_order_line_responsible/) | 17.0.1.0.0 |  | Product Responsible on Purchase order line
 [purchase_order_line_use_standard_price](purchase_order_line_use_standard_price/) | 17.0.1.0.0 |  | Use standard price as line price, if no supplier price is set
 [purchase_order_line_view](purchase_order_line_view/) | 17.0.1.0.0 |  | New view for inspecting PO lines
+[purchase_order_line_view_not_delivered](purchase_order_line_view_not_delivered/) | 17.0.1.0.0 |  | Purchase Order Line Not Delivered
 [purchase_order_mandatory_vendor_reference](purchase_order_mandatory_vendor_reference/) | 17.0.1.0.0 |  | Require a vendor reference before confirming a PO
-[purchase_order_merge_by_sale_order](purchase_order_merge_by_sale_order/) | 17.0.1.0.0 |  | Create Purchase Order and merge it by Sale Order info
+[purchase_order_merge_by_sale_order](purchase_order_merge_by_sale_order/) | 17.0.1.1.0 |  | Create Purchase Order and merge it by Sale Order info
 [purchase_order_print_button_prints_po](purchase_order_print_button_prints_po/) | 17.0.1.0.0 |  | Replace the 'Print RFQ' Button with a 'Print PO' Button
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
 [purchase_order_report_template](purchase_order_report_template/) | 17.0.1.0.0 |  | Minor fixes for Purchase Order Report
