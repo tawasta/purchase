@@ -9,9 +9,9 @@
                 expr="//field[@name='order_line']//tree//field[@name='display_type']"
                 position="before"
             >
-                <field name="linked_sale_line_sequence" invisible="1" />
-                <field name="linked_sale_line_id_number" invisible="1" />
-                <field name="move_dest_ids" invisible="1" />
+                <field name="linked_sale_line_sequence" column_invisible="1" />
+                <field name="linked_sale_line_id_number" column_invisible="1" />
+                <field name="move_dest_ids" column_invisible="1" />
             </xpath>
         </field>
     </record>

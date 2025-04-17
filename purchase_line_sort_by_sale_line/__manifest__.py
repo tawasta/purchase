@@ -21,7 +21,7 @@
 {
     "name": "Sort Purchase order lines based on Sale order line information",
     "summary": "Use SO lines to sort PO lines in PO form view's tree section",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchase",
     "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
