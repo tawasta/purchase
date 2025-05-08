@@ -12,7 +12,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [purchase_auditlog_rules](purchase_auditlog_rules/) | 17.0.1.0.0 |  | Adds auditlog rules for Purchase
-[purchase_line_sort_by_sale_line](purchase_line_sort_by_sale_line/) | 17.0.1.0.0 |  | Use SO lines to sort PO lines in PO form view's tree section
+[purchase_line_sort_by_sale_line](purchase_line_sort_by_sale_line/) | 17.0.1.0.1 |  | Use SO lines to sort PO lines in PO form view's tree section
 [purchase_order_additional_terms](purchase_order_additional_terms/) | 17.0.1.0.0 |  | Enables describing additional terms for a PO and adds them to PDF
 [purchase_order_analytic_account](purchase_order_analytic_account/) | 17.0.1.0.2 |  | New field for indicating what AA the PO is related to
 [purchase_order_carrier_id](purchase_order_carrier_id/) | 17.0.1.0.0 |  | Enables setting the carrier for a PO
@@ -77,6 +77,7 @@ addon | version | maintainers | summary
 [purchase_request_create_rfq_with_dest_location](purchase_request_create_rfq_with_dest_location/) | 17.0.1.1.0 |  | Assign a destination location to PO line from PR line
 [purchase_request_from_bom_contents](purchase_request_from_bom_contents/) | 17.0.1.0.0 |  | Add BOM contents to PR lines
 [purchase_request_from_bom_contents_analytic](purchase_request_from_bom_contents_analytic/) | 17.0.1.0.0 |  | Analytic Account Support for BOM to PR additions
+[purchase_request_from_sale_order_contents](purchase_request_from_sale_order_contents/) | 17.0.1.0.0 |  | Add sale order contents to PR lines
 [purchase_request_line_enable_approved_deletion](purchase_request_line_enable_approved_deletion/) | 17.0.1.0.0 |  | Allow deletion of Purchase request lines in approved-state
 [purchase_request_line_show_purchases](purchase_request_line_show_purchases/) | 17.0.1.0.0 |  | Show related purchase orders' numbers
 [purchase_request_make_po_currency](purchase_request_make_po_currency/) | 17.0.1.0.0 |  | Set a currency from a vendor to a new PO which is created from purchase request lines

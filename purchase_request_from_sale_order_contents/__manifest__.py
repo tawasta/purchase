@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2022- Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Author: Futural Oy
+#    Copyright 2025 Futural Oy (https://futural.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,18 +19,21 @@
 ##############################################################################
 
 {
-    "name": "Sort Purchase order lines based on Sale order line information",
-    "summary": "Use SO lines to sort PO lines in PO form view's tree section",
-    "version": "17.0.1.0.1",
-    "category": "Purchase",
+    "name": "Purchase Request from Sale Order",
+    "summary": "Add sale order contents to PR lines",
+    "version": "17.0.1.0.0",
+    "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
-    "author": "Tawasta",
+    "author": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
     "depends": [
-        "purchase_stock",
-        "sale_stock",
+        "purchase_request",
     ],
-    "data": ["views/purchase_order.xml", "views/stock_move.xml"],
+    "data": [
+        "security/ir.model.access.csv",
+        "wizards/sale_to_request.xml",
+        "views/purchase_request.xml",
+    ],
 }

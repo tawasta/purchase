@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_to_request_wizard,access_sale.to.request.wizard,model_purchase_request_from_sale_contents_sale_to_request,base.group_user,1,1,1,0
+access_sale_to_request_line_wizard,access_sale.to.request.line.wizard,model_purchase_request_from_sale_contents_sale_to_request_line,base.group_user,1,1,1,0
