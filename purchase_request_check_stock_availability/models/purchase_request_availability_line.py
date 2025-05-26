@@ -71,7 +71,7 @@ class PurchaseRequestAvailabilityLine(models.Model):
         related="request_id.company_id", comodel_name="res.company", string="Company"
     )
 
-    active = fields.Boolean(default=True, string="Active")
+    active = fields.Boolean(default=True)
 
     def create_transfer(self):
         """Creates a new stock picking for transfering raw materials
@@ -90,8 +90,9 @@ class PurchaseRequestAvailabilityLine(models.Model):
             "picking_type_id": self._get_picking_type_for_transfer(),
             "location_id": self.location_id.id,
             "location_dest_id": self.request_id.stock_location_id.id or False,
-            "origin": "%s: %s %s"
-            % (self.request_id.name, _("Internal transfer of"), self.product_id.name),
+            "origin": "{}: {} {}".format(
+                self.request_id.name, _("Internal transfer of"), self.product_id.name
+            ),
         }
 
         res = stock_picking_model.create(vals)
@@ -118,7 +119,8 @@ class PurchaseRequestAvailabilityLine(models.Model):
             # or has been deleted" error, so mark them as inactive instead
             for line in self.request_line_id.availability_line_ids:
                 line.active = False
-            # Hide the actual purchase request line before validating the related picking.
+            # Hide the actual purchase request line
+            # before validating the related picking.
             # This line is deleted after picking has been validated.
             self.request_line_id.hide_request_line = True
         else:

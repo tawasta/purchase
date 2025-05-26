@@ -1,4 +1,5 @@
-from odoo import api, fields, models, exceptions, _
+from odoo import _, exceptions, fields, models
+
 import odoo.addons.decimal_precision as dp
 
 
@@ -67,7 +68,7 @@ class PurchaseOrderAvailabilityLine(models.Model):
         related="order_id.company_id", comodel_name="res.company", string="Company"
     )
 
-    active = fields.Boolean(default=True, string="Active")
+    active = fields.Boolean(default=True)
 
     def create_transfer(self):
         """Creates a new stock picking for transfering raw materials
@@ -87,8 +88,9 @@ class PurchaseOrderAvailabilityLine(models.Model):
             "picking_type_id": self._get_picking_type_for_transfer(),
             "location_id": self.location_id.id,
             "location_dest_id": self.location_dest_id.id,
-            "origin": "%s: %s %s"
-            % (self.order_id.name, _("Internal transfer of"), self.product_id.name),
+            "origin": "{}: {} {}".format(
+                self.order_id.name, _("Internal transfer of"), self.product_id.name
+            ),
         }
 
         res = stock_picking_model.create(vals)

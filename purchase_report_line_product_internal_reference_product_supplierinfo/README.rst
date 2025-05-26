@@ -9,7 +9,7 @@ Purchase Order reports - Product's internal reference / Supplier Code integratio
 * Further Product's internal reference and name customizations on purchase order reports
   (both RFQ and PO)
 
-  * When 'Single Column' setting is selected, company's own code and name are shown only 
+  * When 'Single Column' setting is selected, company's own code and name are shown only
     if they differ from the supplier's product code and name
 
 Configuration
@@ -35,8 +35,8 @@ Contributors
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
-   :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+.. image:: https://futural.fi/templates/tawastrap/images/logo.png
+   :alt: Futural Oy
+   :target: https://futural.fi/
 
-This module is maintained by Oy Tawasta OS Technologies Ltd.
+This module is maintained by Futural Oy

@@ -1,10 +1,10 @@
-from odoo import models, fields
+from odoo import fields, models
 
 
 class PurchaseTag(models.Model):
     _name = "purchase_tags.tag"
 
-    name = fields.Char(string="Name", required=True)
+    name = fields.Char(required=True)
 
     color = fields.Integer(string="Color Index")
 

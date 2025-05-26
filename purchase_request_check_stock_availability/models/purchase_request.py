@@ -1,4 +1,4 @@
-from odoo import fields, models
+from odoo import _, fields, models
 
 
 class PurchaseRequest(models.Model):
@@ -72,16 +72,15 @@ class PurchaseRequest(models.Model):
                 if set_newline:
                     display_msg += "<br/>"
 
-                display_msg += """
+                display_msg += f"""
                     <div style="color: green;">
-                        A request line with the product {}
-                        and quantity of {}
-                        has been removed after 'Check Other Locations' Availability' was used.
+                        A request line with the product
+                        '{request_line.product_id.display_name}'
+                        and quantity of '{request_line.product_qty}'
+                        has been removed after 'Check Other Locations Availability'
+                        was used.
                     </div>
-                    """.format(
-                    request_line.product_id.display_name,
-                    request_line.product_qty,
-                )
+                    """
 
                 set_newline = True
 
@@ -106,7 +105,7 @@ class PurchaseRequest(models.Model):
         if display_msg:
             self.message_post(
                 message_type="comment",
-                subject="Request line(s) removed",
+                subject=_("Request line(s) removed"),
                 body=display_msg,
                 body_is_html=True,
                 author_id=self.env.user.partner_id.id,

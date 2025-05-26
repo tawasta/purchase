@@ -1,4 +1,4 @@
-from odoo import api, fields, models, exceptions, _
+from odoo import _, exceptions, fields, models
 
 
 class PurchaseOrder(models.Model):
