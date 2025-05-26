@@ -27,4 +27,4 @@ class PurchaseRequestLine(models.Model):
                         "the purchase request is in draft or approved state."
                     )
                 )
-        return super(PurchaseRequestLine, self).unlink()
+        return super().unlink()

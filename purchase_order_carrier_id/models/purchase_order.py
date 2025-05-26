@@ -1,4 +1,4 @@
-from odoo import models, fields, api
+from odoo import api, fields, models
 
 
 class PurchaseOrder(models.Model):
@@ -6,7 +6,7 @@ class PurchaseOrder(models.Model):
 
     @api.model
     def _prepare_picking(self):
-        res = super(PurchaseOrder, self)._prepare_picking()
+        res = super()._prepare_picking()
         res["carrier_id"] = self.carrier_id and self.carrier_id.id or False
         return res
 

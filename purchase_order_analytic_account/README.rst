@@ -8,7 +8,7 @@ Analytic Account for Purchase Order
 
 * New field for indicating what analytic account the purchase order is related to
 * Suggests purchase order line's analytic account based on the analytic account the order is linked to
-* You can also mass update the lines' analytic accounts with a separate button when the order is in draft state 
+* You can also mass update the lines' analytic accounts with a separate button when the order is in draft state
 
 Configuration
 =============
@@ -28,13 +28,13 @@ Credits
 Contributors
 ------------
 
-* Timo Talvitie <timo.talvitie@tawasta.fi>
+* Timo Talvitie <timo.talvitie@futural.fi>
 
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
-   :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+.. image:: https://futural.fi/templates/tawastrap/images/logo.png
+   :alt: Futural Oy
+   :target: https://futural.fi/
 
-This module is maintained by Oy Tawasta OS Technologies Ltd.
+This module is maintained by Futural Oy

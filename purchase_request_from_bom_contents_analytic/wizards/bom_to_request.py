@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import fields, models
 
 
 class BomToRequest(models.TransientModel):
@@ -9,9 +9,7 @@ class BomToRequest(models.TransientModel):
         return request_id.analytic_account_id
 
     def get_request_line_values(self, line, purchase_request_id):
-        res = super(BomToRequest, self).get_request_line_values(
-            line, purchase_request_id
-        )
+        res = super().get_request_line_values(line, purchase_request_id)
 
         if self.analytic_account_id:
             distr = dict()
@@ -21,7 +19,7 @@ class BomToRequest(models.TransientModel):
         return res
 
     def get_line_domain(self, line, purchase_request_id):
-        args = super(BomToRequest, self).get_line_domain(line, purchase_request_id)
+        args = super().get_line_domain(line, purchase_request_id)
 
         distr = dict()
         distr[self.analytic_account_id.id] = 100

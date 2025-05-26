@@ -7,9 +7,7 @@ class PrLineMakePo(models.TransientModel):
     @api.model
     def _prepare_purchase_order(self, picking_type, group_id, company, origin):
         purchase_order_model = self.env["purchase.order"]
-        res = super(PrLineMakePo, self)._prepare_purchase_order(
-            picking_type, group_id, company, origin
-        )
+        res = super()._prepare_purchase_order(picking_type, group_id, company, origin)
         items = self.item_ids and self.item_ids[0]
 
         if hasattr(purchase_order_model, "project_id") and items:

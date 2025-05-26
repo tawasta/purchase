@@ -6,10 +6,10 @@
 Purchase Report: Purchase Representative Name and Phone for RFQ
 ===============================================================
 
-* By default the Purchase Representative is not shown on the 
+* By default the Purchase Representative is not shown on the
   RFQ print (just the PO print).
-* This module adds Purchase Representative's Name also 
-  to RFQ Print, and supplements it with their Phone number 
+* This module adds Purchase Representative's Name also
+  to RFQ Print, and supplements it with their Phone number
 
 Configuration
 =============
@@ -29,13 +29,13 @@ Credits
 Contributors
 ------------
 
-* Timo Talvitie <timo.talvitie@tawasta.fi>
+* Timo Talvitie <timo.talvitie@futural.fi>
 
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
-   :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+.. image:: https://futural.fi/templates/tawastrap/images/logo.png
+   :alt: Futural Oy
+   :target: https://futural.fi/
 
-This module is maintained by Oy Tawasta OS Technologies Ltd.
+This module is maintained by Futural Oy
