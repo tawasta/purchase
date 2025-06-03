@@ -21,7 +21,7 @@
 {
     "name": "Analytic account stock location for purchase requests",
     "summary": "Adds analytic account stock location to PR",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
@@ -30,7 +30,7 @@
     "installable": True,
     "external_dependencies": {"python": [], "bin": []},
     "depends": [
-        "purchase_request_analytic",
+        "purchase_request_analytic_account",
         "stock_location_analytic_account",
     ],
     "data": ["views/purchase_request.xml"],
