@@ -71,12 +71,12 @@ addon | version | maintainers | summary
 [purchase_report_show_product_name](purchase_report_show_product_name/) | 17.0.1.0.0 |  | Always show product on PO print lines
 [purchase_report_title](purchase_report_title/) | 17.0.1.0.2 |  | Replaces default titles with a better purchase report title
 [purchase_report_vendor_title](purchase_report_vendor_title/) | 17.0.1.0.0 |  | Add title for purchase report vendor address info.
-[purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.0 |  | Adds analytic account stock location to PR
-[purchase_request_analytic_account_to_po](purchase_request_analytic_account_to_po/) | 17.0.1.0.0 |  | Assign Analytic Account from Purchase request to Purchase order
+[purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.1 |  | Adds analytic account stock location to PR
+[purchase_request_analytic_account_to_po](purchase_request_analytic_account_to_po/) | 17.0.1.0.1 |  | Assign Analytic Account from Purchase request to Purchase order
 [purchase_request_check_stock_availability](purchase_request_check_stock_availability/) | 17.0.2.3.1 |  | Trigger internal transfers from Purchase Request view
 [purchase_request_create_rfq_with_dest_location](purchase_request_create_rfq_with_dest_location/) | 17.0.1.1.0 |  | Assign a destination location to PO line from PR line
 [purchase_request_from_bom_contents](purchase_request_from_bom_contents/) | 17.0.1.0.0 |  | Add BOM contents to PR lines
-[purchase_request_from_bom_contents_analytic](purchase_request_from_bom_contents_analytic/) | 17.0.1.0.0 |  | Analytic Account Support for BOM to PR additions
+[purchase_request_from_bom_contents_analytic](purchase_request_from_bom_contents_analytic/) | 17.0.1.0.1 |  | Analytic Account Support for BOM to PR additions
 [purchase_request_from_sale_order_contents](purchase_request_from_sale_order_contents/) | 17.0.1.0.0 |  | Add sale order contents to PR lines
 [purchase_request_line_enable_approved_deletion](purchase_request_line_enable_approved_deletion/) | 17.0.1.0.0 |  | Allow deletion of Purchase request lines in approved-state
 [purchase_request_line_show_purchases](purchase_request_line_show_purchases/) | 17.0.1.0.0 |  | Show related purchase orders' numbers
