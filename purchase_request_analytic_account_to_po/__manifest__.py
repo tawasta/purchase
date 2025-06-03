@@ -21,13 +21,13 @@
 {
     "name": "Assign Analytic Account from Purchase request to Purchase order",
     "summary": "Assign Analytic Account from Purchase request to Purchase order",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["purchase_order_analytic_account", "purchase_request_analytic"],
+    "depends": ["purchase_order_analytic_account", "purchase_request_analytic_account"],
     "data": [],
 }

@@ -21,7 +21,7 @@
 {
     "name": "Purchase Request from BOM - Analytic Account",
     "summary": "Analytic Account Support for BOM to PR additions",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
@@ -29,7 +29,10 @@
     "application": False,
     "installable": True,
     "external_dependencies": {"python": [], "bin": []},
-    "depends": ["purchase_request_from_bom_contents", "purchase_request_analytic"],
+    "depends": [
+        "purchase_request_from_bom_contents",
+        "purchase_request_analytic_account",
+    ],
     "data": ["wizards/bom_to_request.xml"],
     "demo": [],
 }
