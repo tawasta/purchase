@@ -14,7 +14,8 @@ class StockPicking(models.Model):
 
     def button_validate(self):
         for picking in self:
-            picking.purchase_request_line_id.unlink()
+            if picking.purchase_request_line_id._can_be_deleted():
+                picking.purchase_request_line_id.unlink()
         return super().button_validate()
 
     def unlink(self):
