@@ -21,7 +21,7 @@
 {
     "name": "Purchase Request Stock Availability check",
     "summary": "Trigger internal transfers from Purchase Request view",
-    "version": "17.0.2.3.2",
+    "version": "17.0.2.3.3",
     "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
     "author": "Tawasta",
