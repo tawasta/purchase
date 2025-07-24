@@ -21,7 +21,7 @@
 {
     "name": "Get Purchase order line description from its related sale order line",
     "summary": "Get Purchase order line description from its related sale order line",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchase Workflow",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
