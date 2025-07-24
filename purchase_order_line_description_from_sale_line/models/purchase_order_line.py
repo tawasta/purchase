@@ -2,7 +2,7 @@ from odoo import api, models
 
 
 class PurchaseOrderLine(models.Model):
-    _inherit = "plain.model"
+    _inherit = "purchase.order.line"
 
     @api.model_create_multi
     def create(self, vals_list):
