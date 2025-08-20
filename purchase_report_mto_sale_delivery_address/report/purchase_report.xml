@@ -11,7 +11,7 @@
 	    </t>
 
         <xpath expr="//div[@t-if='o.dest_address_id']/../.." position="after">
-            <t t-if="o.original_sale_id">
+            <t t-elif="o.original_sale_id">
                 <t t-set="information_block">
                     <strong>Shipping address:</strong>
                     <div t-if="o.original_sale_id">
@@ -36,7 +36,7 @@
 	    </t>
 
         <xpath expr="//div[@t-field='o.dest_address_id']/../.." position="after">
-            <t t-if="o.original_sale_id">
+            <t t-elif="o.original_sale_id">
                 <t t-set="information_block">
                     <strong>Shipping address:</strong>
                     <div t-if="o.original_sale_id">
