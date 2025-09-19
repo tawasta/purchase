@@ -92,12 +92,22 @@ class PurchaseRequest(models.Model):
                     location=location.id
                 ).qty_available
 
+                quant = self.env["stock.quant"].search(
+                    [
+                        ("product_id", "=", request_line.product_id.id),
+                        ("location_id", "=", location.id),
+                    ]
+                )
+
+                available_at_location = quant and quant[0].available_quantity or 0
+
                 if qty_available > 0:
                     availability_line_model.create(
                         {
                             "request_id": self.id,
                             "request_line_id": request_line.id,
                             "available_qty": qty_available,
+                            "available_at_location": available_at_location,
                             "location_id": location.id,
                         }
                     )

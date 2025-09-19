@@ -44,13 +44,18 @@ class PurchaseRequestAvailabilityLine(models.Model):
 
     # This is the general available quantity
     qty_available = fields.Float(
-        string="Quantity Available",
+        string="On-hand",
         digits=dp.get_precision("Product Unit of Measure"),
         related="product_id.qty_available",
     )
 
     available_qty = fields.Float(
-        string="Quantity at location",
+        string="On-hand at location",
+        digits=dp.get_precision("Product Unit of Measure"),
+    )
+
+    available_at_location = fields.Float(
+        string="Available at location",
         digits=dp.get_precision("Product Unit of Measure"),
     )
 
