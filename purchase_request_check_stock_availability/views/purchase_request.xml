@@ -41,6 +41,7 @@
                             <field name="product_qty" />
                             <field name="product_uom_id" groups="uom.group_uom" />
                             <field name="qty_available" />
+                            <field name="available_at_location" optional="show" />
                             <field name="available_qty" optional="hide" />
                             <field name="available_uom_id" groups="uom.group_uom" />
                             <field name="location_id" />
