@@ -21,7 +21,7 @@
 {
     "name": "Audit Log Rules - Purchase",
     "summary": "Adds auditlog rules for Purchase",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.1.0",
     "category": "Purchase",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
