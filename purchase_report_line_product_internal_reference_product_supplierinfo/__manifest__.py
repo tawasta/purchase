@@ -1,7 +1,7 @@
 ##############################################################################
 #
-#    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2025- Oy Tawasta OS Technologies Ltd. (https://tawasta.fi)
+#    Author: Futural Oy
+#    Copyright 2025- Futural Oy (https://futural.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,12 +19,13 @@
 ##############################################################################
 
 {
-    "name": "Purchase Order reports - Product's internal reference / Supplier Code integration",
+    "name": "Purchase Order reports - "
+    "Product's internal reference / Supplier Code integration",
     "summary": "Conditional showing of own + supplier product code and name on prints",
     "version": "17.0.1.0.0",
     "category": "Reporting",
     "website": "https://github.com/tawasta/purchase",
-    "author": "Tawasta",
+    "author": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,

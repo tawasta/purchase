@@ -8,6 +8,7 @@ class PurchaseOrderLine(models.Model):
     def onchange_analytic_account_id(self):
         account_id = False
 
+        # flake8: noqa: B007
         for account, percentage in (self.analytic_distribution or {}).items():
             account_id = self.env["account.analytic.account"].browse(
                 map(int, account.split(","))
@@ -24,6 +25,7 @@ class PurchaseOrderLine(models.Model):
         account_id = False
         distribution = vals.get("analytic_distribution", False)
 
+        # flake8: noqa: B007
         for account, percentage in (distribution or {}).items():
             account_id = self.env["account.analytic.account"].browse(
                 map(int, account.split(","))
@@ -34,7 +36,7 @@ class PurchaseOrderLine(models.Model):
         if account_id and account_id.default_location_id and suggest_location:
             vals["location_dest_id"] = account_id.default_location_id.id
 
-        return super(PurchaseOrderLine, self).create(vals)
+        return super().create(vals)
 
     # 8. Business methods
     def suggest_location(self, vals, analytic_id):

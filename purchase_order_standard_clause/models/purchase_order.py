@@ -17,4 +17,4 @@ class PurchaseOrder(models.Model):
         else:
             self.standard_clause = False
 
-    standard_clause = fields.Text(string="Standard Clause")
+    standard_clause = fields.Text()

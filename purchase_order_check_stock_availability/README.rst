@@ -7,7 +7,7 @@ Purchase Order Stock Availability check
 =======================================
 
 Purchase Orders have a button for checking the availability of requested
-products in other stock locations. Internal transfers can be created instead 
+products in other stock locations. Internal transfers can be created instead
 of creating a purchase order.
 
 
@@ -18,10 +18,10 @@ Configuration
 Usage
 =====
 * Click the "Check stock availability" button on the Purchase Order form
-* "Products available in other locations" tab will now contain a list of 
+* "Products available in other locations" tab will now contain a list of
   products available elsewhere internally
 * Each line contains a "Transfer" button that can be used to create an Internal
-  transfer from the product's current location to the location defined on the 
+  transfer from the product's current location to the location defined on the
   purchase order.
 * Clicking the transfer button will subtract the amount
   from the purchase order line
@@ -39,14 +39,14 @@ Credits
 Contributors
 ------------
 
-* Jarmo Kortetjärvi <jarmo.kortetjarvi@tawasta.fi>
-* Timo Talvitie <timo.talvitie@tawasta.fi>
+* Jarmo Kortetjärvi <jarmo.kortetjarvi@futural.fi>
+* Timo Talvitie <timo.talvitie@futural.fi>
 
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
-   :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+.. image:: https://futural.fi/templates/tawastrap/images/logo.png
+   :alt: Futural Oy
+   :target: https://futural.fi/
 
-This module is maintained by Oy Tawasta OS Technologies Ltd.
+This module is maintained by Futural Oy

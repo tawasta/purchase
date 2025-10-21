@@ -10,9 +10,9 @@ Purchase Order report - Product's internal reference
 
 Configuration
 =============
-* In Purchases settings, configure the 'Internal Reference Column 
+* In Purchases settings, configure the 'Internal Reference Column
   Position on Purchase Order Print' field according to if you want
-  the column in a separate column or in the same one with the product 
+  the column in a separate column or in the same one with the product
   description field.
 
 Usage
@@ -34,8 +34,8 @@ Contributors
 Maintainer
 ----------
 
-.. image:: http://tawasta.fi/templates/tawastrap/images/logo.png
-   :alt: Oy Tawasta OS Technologies Ltd.
-   :target: http://tawasta.fi/
+.. image:: https://futural.fi/templates/tawastrap/images/logo.png
+   :alt: Futural Oy
+   :target: https://futural.fi/
 
-This module is maintained by Oy Tawasta OS Technologies Ltd.
+This module is maintained by Futural Oy

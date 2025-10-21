@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import fields, models
 
 
 class BomToRequest(models.TransientModel):
@@ -94,7 +94,6 @@ class BomToRequest(models.TransientModel):
     )
 
     multiplier = fields.Integer(
-        string="Multiplier",
         default=1,
         help=(
             """Change this to e.g. 5 if you want to add 5 BOMs worth
