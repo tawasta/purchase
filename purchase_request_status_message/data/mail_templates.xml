@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <template id="purchase_request_message_approval_layout">
+        <div>
+            <div style="margin: 0px; padding: 0px;">
+                <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                    Approval request for
+                    <t t-out="record.name" />
+                    <br />
+                    <br />
+                    <t t-out="record._get_html_link()" />
+                </p>
+            </div>
+        </div>
+    </template>
+
+    <template id="purchase_request_approved_message_layout">
+        <div>
+            <div style="margin: 0px; padding: 0px;">
+                <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                    <t t-out="record.name" />
+                    has been approved by
+                    <t t-out="approved_by" />
+                    <br />
+                    <br />
+                    <t t-out="record._get_html_link()" />
+                </p>
+            </div>
+        </div>
+    </template>
+
+    <template id="purchase_request_reject_message_layout">
+        <div>
+            <div style="margin: 0px; padding: 0px;">
+                <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                    Your Purchase Request
+                    <t t-out="record.name" />
+                    has been Rejected
+                    <br />
+                    <ul class="o_timeline_tracking_value_list">
+                        <li>Rejected by: <t t-out="rejected_by" /></li>
+                    </ul>
+                    <t t-out="record._get_html_link()" />
+                </p>
+            </div>
+        </div>
+    </template>
+</odoo>
