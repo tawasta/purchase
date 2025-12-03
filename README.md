@@ -87,5 +87,6 @@ addon | version | maintainers | summary
 [purchase_request_make_po_currency](purchase_request_make_po_currency/) | 17.0.1.0.0 |  | Set a currency from a vendor to a new PO which is created from purchase request lines
 [purchase_request_newest_first](purchase_request_newest_first/) | 17.0.1.0.0 |  | Shows newest Purchase Request lines first
 [purchase_request_primary_vendor_info](purchase_request_primary_vendor_info/) | 17.0.1.0.0 |  | Helper fields for showing primary vendor's info
+[purchase_request_status_message](purchase_request_status_message/) | 17.0.1.0.0 |  | Send a message after Purchase Request is approved, rejected or approval is requested
 
 [//]: # (end addons)
