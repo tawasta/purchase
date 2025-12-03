@@ -12,7 +12,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[purchase_auditlog_rules](purchase_auditlog_rules/) | 17.0.1.0.0 |  | Adds auditlog rules for Purchase
+[purchase_auditlog_rules](purchase_auditlog_rules/) | 17.0.1.1.0 |  | Adds auditlog rules for Purchase
 [purchase_line_sort_by_sale_line](purchase_line_sort_by_sale_line/) | 17.0.1.0.1 |  | Use SO lines to sort PO lines in PO form view's tree section
 [purchase_order_additional_terms](purchase_order_additional_terms/) | 17.0.1.0.0 |  | Enables describing additional terms for a PO and adds them to PDF
 [purchase_order_analytic_account](purchase_order_analytic_account/) | 17.0.1.0.2 |  | New field for indicating what AA the PO is related to
@@ -21,7 +21,7 @@ addon | version | maintainers | summary
 [purchase_order_contact_person](purchase_order_contact_person/) | 17.0.1.0.1 |  | Enables setting the vendor's contact person for a PO
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 17.0.1.0.0 |  | Disable Merge procurements per warehouse
-[purchase_order_end_customer](purchase_order_end_customer/) | 17.0.1.0 |  | New field for storing the end customer of a PO
+[purchase_order_end_customer](purchase_order_end_customer/) | 17.0.1.0.1 |  | New field for storing the end customer of a PO
 [purchase_order_expected_arrival_changes_picking_date](purchase_order_expected_arrival_changes_picking_date/) | 17.0.1.0.0 |  | Picking Scheduled date is changed by Expected Arrival
 [purchase_order_header_text](purchase_order_header_text/) | 17.0.1.0.0 |  | New field for PO header/title and report configured in settings
 [purchase_order_internal_reference](purchase_order_internal_reference/) | 17.0.1.0.1 |  | New field for storing an internal reference to PO
@@ -87,5 +87,6 @@ addon | version | maintainers | summary
 [purchase_request_make_po_currency](purchase_request_make_po_currency/) | 17.0.1.0.0 |  | Set a currency from a vendor to a new PO which is created from purchase request lines
 [purchase_request_newest_first](purchase_request_newest_first/) | 17.0.1.0.0 |  | Shows newest Purchase Request lines first
 [purchase_request_primary_vendor_info](purchase_request_primary_vendor_info/) | 17.0.1.0.0 |  | Helper fields for showing primary vendor's info
+[purchase_request_status_message](purchase_request_status_message/) | 17.0.1.0.0 |  | Send a message after Purchase Request is approved, rejected or approval is requested
 
 [//]: # (end addons)
