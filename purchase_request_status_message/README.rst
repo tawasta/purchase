@@ -13,8 +13,8 @@ Purchase Request status change messages
     a link to the purchase request.
 
     Approving a purchase request sends a message to the e-mail address of company
-    assigned to a purchase request. The message has the number of a purchase request
-    and the name of approver.
+    assigned to a purchase request. A message is also sent to the person in Requested
+    By -field.  The message has the number of a purchase request and the name of approver.
 
     Rejecting a purchase request sends a message to the user in Requested By -field
     of a purchase request. This message also has a link to the purchase request.

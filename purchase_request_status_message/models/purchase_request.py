@@ -33,6 +33,9 @@ class PurchaseRequest(models.Model):
             send_partners = [request.company_id.partner_id.id]
             approved_by = request.assigned_to.partner_id
 
+            requested_by = request.requested_by.partner_id.id
+            send_partners.append(requested_by)
+
             request.message_post_with_source(
                 "purchase_request_status_message.purchase_request_approved_message_layout",
                 subtype_xmlid="mail.mt_note",

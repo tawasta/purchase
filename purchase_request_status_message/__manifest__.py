@@ -22,7 +22,7 @@
     "name": "Purchase Request status change messages",
     "summary": """Send a message after Purchase Request is approved,
                   rejected or approval is requested""",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
