@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- PO: inherit from custom module -->
+    <template
+        id="report_purchaseorder_document_inherit"
+        inherit_id="purchase_report_orderlines.report_purchaseorder_document_orderlines"
+    >
+        <span t-field='line.product_qty' position="attributes">
+            <attribute
+                name="t-options"
+            >{'precision': o.company_id.purchase_report_decimal_precision}</attribute>
+        </span>
+    </template>
+
+    <!-- RFQ: inherit from core -->
+    <template
+        id="report_purchasequotation_document_inherit"
+        inherit_id="purchase.report_purchasequotation_document"
+    >
+        <span t-field='order_line.product_qty' position="attributes">
+            <attribute
+                name="t-options"
+            >{'precision': o.company_id.purchase_report_decimal_precision}</attribute>
+        </span>
+    </template>
+
+
+</odoo>
