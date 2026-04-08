@@ -21,7 +21,7 @@
 {
     "name": "Purchase Order Report Template",
     "summary": "Minor fixes for Purchase Order Report",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchase",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
