@@ -14,7 +14,7 @@
             expr="//div[@id='informations']//div[@t-if='o.user_id']"
             position="attributes"
         >
-            <attribute name="t-if">1 == 0</attribute>
+            <attribute name="style">display: none;</attribute>
         </xpath>
     </template>
 
