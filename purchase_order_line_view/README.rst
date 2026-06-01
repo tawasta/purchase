@@ -9,15 +9,16 @@ Purchase Order Line View
 
 Configuration
 =============
-\-
+* None needed
 
 Usage
 =====
-\-
+* See the new menu item under Purchases menu
 
 Known issues / Roadmap
 ======================
-\-
+* NOTE FOR NEXT ODOO VERSION: Switch to OCA's `purchase_order_line_menu`
+  that does the same thing, and do not forward-port this module.
 
 Credits
 =======
