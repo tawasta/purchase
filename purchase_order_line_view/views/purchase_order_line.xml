@@ -46,7 +46,7 @@
         <field eval="20" name="priority" />
         <field name="arch" type="xml">
             <tree
-                create="false"
+                create="true"
                 delete="false"
                 decoration-success="qty_received&gt;=product_qty"
                 decoration-muted="state=='cancel'"
