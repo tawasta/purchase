@@ -19,6 +19,7 @@ addon | version | maintainers | summary
 [purchase_order_carrier_id](purchase_order_carrier_id/) | 17.0.1.0.0 |  | Enables setting the carrier for a PO
 [purchase_order_check_stock_availability](purchase_order_check_stock_availability/) | 17.0.1.0.0 |  | Trigger internal transfers from Purchase Order view
 [purchase_order_contact_person](purchase_order_contact_person/) | 17.0.1.0.1 |  | Enables setting the vendor's contact person for a PO
+[purchase_order_delivery_and_invoice_address](purchase_order_delivery_and_invoice_address/) | 17.0.1.0.0 |  | Adds Delivery and Invoice addresses to purchases
 [purchase_order_description](purchase_order_description/) | 17.0.1.0.0 |  | Adds a description (an internal note) to purchase order
 [purchase_order_disable_merge_procurements_per_warehouse](purchase_order_disable_merge_procurements_per_warehouse/) | 17.0.1.0.0 |  | Disable Merge procurements per warehouse
 [purchase_order_end_customer](purchase_order_end_customer/) | 17.0.1.0.1 |  | New field for storing the end customer of a PO
