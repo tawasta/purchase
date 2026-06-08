@@ -1,0 +1,78 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_order_delivery_and_invoice_address
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20250131\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 06:53+0000\n"
+"PO-Revision-Date: 2026-06-08 09:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchasequotation_document
+msgid ""
+"<br/>\n"
+"                    <strong>Invoice address:</strong>"
+msgstr ""
+"<br/>\n"
+"                    <strong>Laskutusosoite:</strong>"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchaseorder_document_po_stock
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchasequotation_document
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchasequotation_document_po_stock
+msgid ""
+"<br/>\n"
+"            <strong>Invoice address:</strong>"
+msgstr ""
+"<br/>\n"
+"            <strong>Laskutusosoite:</strong>"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.report_purchasequotation_document
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Toimitusosoite:</strong>"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model:ir.model.fields,field_description:purchase_order_delivery_and_invoice_address.field_purchase_order__related_warehouse_partner_id
+msgid "Address"
+msgstr "Osoite"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model:ir.model.fields,field_description:purchase_order_delivery_and_invoice_address.field_purchase_order__po_delivery_address_id
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.purchase_order_form
+msgid "Delivery Address"
+msgstr "Toimitusosoite"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model:ir.model.fields,field_description:purchase_order_delivery_and_invoice_address.field_purchase_order__po_invoice_address_id
+#: model_terms:ir.ui.view,arch_db:purchase_order_delivery_and_invoice_address.purchase_order_form
+msgid "Invoice Address"
+msgstr "Laskutusosoite"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model:ir.model.fields,field_description:purchase_order_delivery_and_invoice_address.field_purchase_order__other_invoice_and_delivery_address
+msgid "Other Invoice and Delivery address"
+msgstr "Toinen laskutus- ja toimitusosoite"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model:ir.model.fields,field_description:purchase_order_delivery_and_invoice_address.field_purchase_order__related_company_partner_id
+msgid "Partner"
+msgstr "Kontakti"
+
+#. module: purchase_order_delivery_and_invoice_address
+#: model:ir.model,name:purchase_order_delivery_and_invoice_address.model_purchase_order
+msgid "Purchase Order"
+msgstr "Ostotilaus"
