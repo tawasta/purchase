@@ -26,7 +26,7 @@ addon | version | maintainers | summary
 [purchase_order_expected_arrival_changes_picking_date](purchase_order_expected_arrival_changes_picking_date/) | 17.0.1.0.0 |  | Picking Scheduled date is changed by Expected Arrival
 [purchase_order_header_text](purchase_order_header_text/) | 17.0.1.0.0 |  | New field for PO header/title and report configured in settings
 [purchase_order_internal_reference](purchase_order_internal_reference/) | 17.0.1.0.1 |  | New field for storing an internal reference to PO
-[purchase_order_latest_effective_date](purchase_order_latest_effective_date/) | 17.0.1.0.0 |  | Adds latest expected date to purchase orders from their lines
+[purchase_order_latest_effective_date](purchase_order_latest_effective_date/) | 17.0.1.0.1 |  | Adds latest expected date to purchase orders from their lines
 [purchase_order_line_description_from_sale_line](purchase_order_line_description_from_sale_line/) | 17.0.1.0.1 |  | Get Purchase order line description from its related sale order line
 [purchase_order_line_forecasted_available](purchase_order_line_forecasted_available/) | 17.0.1.0.0 |  | Add virtual_available field on purchase order line
 [purchase_order_line_location_from_analytic](purchase_order_line_location_from_analytic/) | 17.0.1.0.0 |  | Suggest line destination based on line's AA

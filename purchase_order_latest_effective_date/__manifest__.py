@@ -21,7 +21,7 @@
 {
     "name": "Purchase Orders - Latest effective date",
     "summary": "Adds latest expected date to purchase orders from their lines",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "category": "Purchase",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
