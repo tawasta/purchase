@@ -13,7 +13,7 @@ class PurchaseOrder(models.Model):
             latest_date = datetime.datetime(1970, 1, 1)
 
             for line in purchase.order_line:
-                if line.date_planned > latest_date:
+                if line.date_planned and line.date_planned > latest_date:
                     latest_date = line.date_planned
 
             purchase.latest_effective_date = latest_date
