@@ -41,7 +41,7 @@
         </td>
         <td name="td_quantity">
           <span t-field="line.product_qty" />
-          <span t-field="line.product_uom.name" groups="uom.group_uom" />
+          <span t-field="line.product_uom_id.name" groups="uom.group_uom" />
         </td>
         <td name="td_date_req" class="text-center">
           <span t-esc="line.date_planned.strftime('%d.%m.%Y')" />
