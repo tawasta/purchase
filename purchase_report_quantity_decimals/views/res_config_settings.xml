@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <record id="res_config_settings_view_form_purchase_inherit" model="ir.ui.view">
+    <field name="name">res.config.view.form.purchase.report.decimal.precision</field>
+    <field name="model">res.config.settings</field>
+    <field name="inherit_id" ref="purchase.res_config_settings_view_form_purchase" />
+    <field name="arch" type="xml">
+      <setting id="sell_purchase_uom" position="after">
+        <setting
+          id="purchase_report_decimal_precision"
+          string="Purchase Report Decimal Precision"
+          help="Set Decimal Precision on purchase report's product quantities"
+        >
+          <field name="purchase_report_decimal_precision" />
+        </setting>
+      </setting>
+    </field>
+  </record>
+</odoo>
