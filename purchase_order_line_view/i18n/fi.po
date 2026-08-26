@@ -1,0 +1,59 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_order_line_view
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260810\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 10:47+0000\n"
+"PO-Revision-Date: 2026-08-26 13:49+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: purchase_order_line_view
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view.purchase_order_line_view_po_line_search
+msgid "Analytic Account"
+msgstr "Kustannuspaikka"
+
+#. module: purchase_order_line_view
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view.purchase_order_line_view_po_line_search
+msgid "Currency"
+msgstr "Valuutta"
+
+#. module: purchase_order_line_view
+#: model:ir.actions.act_window,name:purchase_order_line_view.purchase_order_line_view_po_line_action
+#: model:ir.ui.menu,name:purchase_order_line_view.menuitem_po_lines
+msgid "Purchase Order Lines"
+msgstr "Ostotilausrivit"
+
+#. module: purchase_order_line_view
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view.purchase_order_line_view_po_line_search
+msgid "Purchase Orders"
+msgstr "Ostotilaukset"
+
+#. module: purchase_order_line_view
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view.purchase_order_line_view_po_line_search
+msgid "RFQs"
+msgstr "Tarjouspyynnöt"
+
+#. module: purchase_order_line_view
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view.purchase_order_line_view_po_line_list
+msgid "Total untaxed"
+msgstr "Verottamaton kokonaissumma"
+
+#. module: purchase_order_line_view
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view.purchase_order_line_view_po_line_list
+msgid "Total with tax"
+msgstr "Yhteensä verojen kanssa"
+
+#. module: purchase_order_line_view
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_view.purchase_order_line_view_po_line_list
+msgid "Vendor"
+msgstr "Myyjä"
