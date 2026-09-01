@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="mt_po_sent" model="mail.message.subtype">
+        <field name="name">PO Sent</field>
+        <field name="default" eval="False" />
+        <field name="res_model">purchase.order</field>
+    </record>
+
+    <record id="action_purchase_set_to_draft" model="ir.actions.server">
+        <field name="name">Set to Draft</field>
+        <field name="model_id" ref="purchase.model_purchase_order" />
+        <field name="binding_model_id" ref="purchase.model_purchase_order" />
+        <field name="state">code</field>
+        <field name="code">
+            if records:
+                not_po_sent_purchases = [p for p in records if p.state != 'po_sent']
+                if not_po_sent_purchases:
+                    raise UserError("Can only set to draft purchases with PO Sent status!")
+                else:
+                    action = records.button_draft()
+        </field>
+    </record>
+</odoo>
