@@ -6,7 +6,10 @@
 Purchase order: mandatory vendor reference
 ==========================================
 
-Require a vendor reference before confirming a PO
+Require a vendor reference before confirming the purchase order's receipt
+date (the "Confirm Receipt Date" action, ``confirm_reminder_mail``) -
+whether triggered from the backend button or by the vendor from the portal
+reminder email.
 
 Configuration
 =============
