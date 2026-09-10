@@ -41,6 +41,7 @@ addon | version | maintainers | summary
 [purchase_order_po_sent_status](purchase_order_po_sent_status/) | 17.0.1.0.0 |  | Add PO Sent status to Purchase Orders
 [purchase_order_print_button_prints_po](purchase_order_print_button_prints_po/) | 17.0.1.0.0 |  | Replace the 'Print RFQ' Button with a 'Print PO' Button
 [purchase_order_receive_service_product_qty](purchase_order_receive_service_product_qty/) | 17.0.1.0.0 |  | Receive service on confirmation of an order
+[purchase_order_reminder_confirmed](purchase_order_reminder_confirmed/) | 17.0.1.0.0 |  | Show the Reminder Confirmed field in purchase order list views
 [purchase_order_report_template](purchase_order_report_template/) | 17.0.1.0.1 |  | Minor fixes for Purchase Order Report
 [purchase_order_requested_receipt_date](purchase_order_requested_receipt_date/) | 17.0.1.0.0 |  | Storing the delivery date requested from supplier
 [purchase_order_select_tax](purchase_order_select_tax/) | 17.0.1.0.0 |  | Select tax from dropopwn-menu for Purchase Order Lines
