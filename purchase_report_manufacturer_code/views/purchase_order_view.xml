@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="purchase_order_form_inherit_manuf_code" model="ir.ui.view">
+        <field name="name">purchase.order.form.inherit.manuf.code</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='date_planned_div']" position="after">
+                <field name="print_manuf_code" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
