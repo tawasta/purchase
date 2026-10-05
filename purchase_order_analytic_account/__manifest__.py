@@ -21,7 +21,7 @@
 {
     "name": "Analytic Account for Purchase Order",
     "summary": "New field for indicating what AA the PO is related to",
-    "version": "17.0.1.0.2",
+    "version": "17.0.1.0.3",
     "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
