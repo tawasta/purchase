@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0-20260908\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 09:17+0000\n"
-"PO-Revision-Date: 2026-10-07 09:17+0000\n"
+"POT-Creation-Date: 2026-10-07 11:53+0000\n"
+"PO-Revision-Date: 2026-10-07 11:53+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,5 +18,5 @@ msgstr ""
 #. module: purchase_report_delivery_method
 #: model_terms:ir.ui.view,arch_db:purchase_report_delivery_method.report_purchaseorder_document_delivery_method
 #: model_terms:ir.ui.view,arch_db:purchase_report_delivery_method.report_purchasequotation_document_delivery_method
-msgid "<span><strong>Delivery method: <br/></strong></span>"
-msgstr "<span><strong>Toimitustapa: <br/></strong></span>"
+msgid "<strong>Delivery method:</strong>"
+msgstr "<strong>Toimitustapa:</strong>"
