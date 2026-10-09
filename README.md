@@ -80,6 +80,7 @@ addon | version | maintainers | summary
 [purchase_report_shipping_address_from_deliver_to](purchase_report_shipping_address_from_deliver_to/) | 17.0.1.0.0 |  | Define Shipping address in Picking type to show it on PO Print
 [purchase_report_show_product_name](purchase_report_show_product_name/) | 17.0.1.0.0 |  | Always show product on PO print lines
 [purchase_report_title](purchase_report_title/) | 17.0.1.0.2 |  | Replaces default titles with a better purchase report title
+[purchase_report_title_rename](purchase_report_title_rename/) | 17.0.1.0.1 |  | Adds a setting to rename the title of the Purchase Order report
 [purchase_report_vendor_title](purchase_report_vendor_title/) | 17.0.1.0.0 |  | Add title for purchase report vendor address info.
 [purchase_request_analytic_account_location](purchase_request_analytic_account_location/) | 17.0.1.0.1 |  | Adds analytic account stock location to PR
 [purchase_request_analytic_account_to_po](purchase_request_analytic_account_to_po/) | 17.0.1.0.1 |  | Assign Analytic Account from Purchase request to Purchase order
