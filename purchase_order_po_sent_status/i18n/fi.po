@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: Poedit 3.9\n"
 
 #. module: purchase_order_po_sent_status
+#: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
+msgid ""
+"\n"
+"            (object.state == 'draft' and 'Request for Quotation - %s' % (object.name) or\n"
+"            'Purchase Order - %s' % (object.name))"
+msgstr ""
+
+#. module: purchase_order_po_sent_status
 #. odoo-python
 #: code:addons/purchase_order_po_sent_status/models/purchase_order.py:0
 #, python-format
