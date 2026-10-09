@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template
+        id="report_purchasequotation_document"
+        inherit_id="purchase_report_title.report_purchasequotation_document"
+    >
+        <xpath expr="//t[@t-set='report_title']" position="after">
+            <t
+                t-set="report_title"
+                t-value="o.with_context(lang=o.partner_id.lang).company_id.purchase_rfq_report_title or report_title"
+            />
+        </xpath>
+    </template>
+    <template
+        id="report_purchaseorder_document"
+        inherit_id="purchase_report_title.report_purchaseorder_document"
+    >
+        <xpath expr="//t[@t-set='report_title']" position="after">
+            <t
+                t-set="report_title"
+                t-value="o.with_context(lang=o.partner_id.lang).company_id.purchase_order_report_title or report_title"
+            />
+        </xpath>
+    </template>
+</odoo>
