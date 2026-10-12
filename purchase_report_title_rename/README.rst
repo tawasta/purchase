@@ -19,7 +19,8 @@ Usage
 
 Known issues / Roadmap
 ======================
-\-
+* This module can be merged together with the parent module purchase_report_title 
+during next port. The fields could be added and made translatable using hooks.
 
 Credits
 =======
