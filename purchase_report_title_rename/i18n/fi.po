@@ -1,0 +1,61 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_report_title_rename
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20260908\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-09 13:14+0000\n"
+"PO-Revision-Date: 2026-10-09 13:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_report_title_rename
+#: model:ir.model,name:purchase_report_title_rename.model_res_company
+msgid "Companies"
+msgstr "Yritykset"
+
+#. module: purchase_report_title_rename
+#: model:ir.model,name:purchase_report_title_rename.model_res_config_settings
+msgid "Config Settings"
+msgstr "Asetukset"
+
+#. module: purchase_report_title_rename
+#: model:ir.model.fields,field_description:purchase_report_title_rename.field_res_company__purchase_order_report_title
+#: model:ir.model.fields,field_description:purchase_report_title_rename.field_res_config_settings__purchase_order_report_title
+#: model_terms:ir.ui.view,arch_db:purchase_report_title_rename.res_config_settings_view_form
+msgid "Purchase Order Report Title"
+msgstr "Ostotilaus tulosteen otsikko"
+
+#. module: purchase_report_title_rename
+#: model_terms:ir.ui.view,arch_db:purchase_report_title_rename.res_config_settings_view_form
+msgid "Purchase Order Reports"
+msgstr "Ostotilaus- ja tarjouspyyntötulosteet"
+
+#. module: purchase_report_title_rename
+#: model:ir.model.fields,field_description:purchase_report_title_rename.field_res_company__purchase_rfq_report_title
+#: model:ir.model.fields,field_description:purchase_report_title_rename.field_res_config_settings__purchase_rfq_report_title
+#: model_terms:ir.ui.view,arch_db:purchase_report_title_rename.res_config_settings_view_form
+msgid "RFQ Report Title"
+msgstr "Tarjouspyyntö tulosteen otsikko"
+
+#. module: purchase_report_title_rename
+#: model_terms:ir.ui.view,arch_db:purchase_report_title_rename.res_config_settings_view_form
+msgid ""
+"Set title for Purchase Order print. Defaults to the original report title if"
+" left empty."
+msgstr ""
+"Määritä otsikko ostotilauksen tulosteelle. Jos kenttä jätetään tyhjäksi, käytetään oletusotsikkoa."
+
+#. module: purchase_report_title_rename
+#: model_terms:ir.ui.view,arch_db:purchase_report_title_rename.res_config_settings_view_form
+msgid ""
+"Set title for Request for Quotation print. Defaults to the original report "
+"title if left empty."
+msgstr ""
+"Määritä otsikko tarjouspyynnön tulosteelle. Jos kenttä jätetään tyhjäksi, käytetään oletusotsikkoa."

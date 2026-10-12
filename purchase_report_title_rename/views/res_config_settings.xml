@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.view.form.report.purchase.order</field>
+        <field name="model">res.config.settings</field>
+        <field
+            name="inherit_id"
+            ref="purchase.res_config_settings_view_form_purchase"
+        />
+        <field name="arch" type="xml">
+
+            <xpath expr="//app[@name='purchase']" position="inside">
+                <block title="Purchase Order Reports" name="purchase_report_settings">
+                    <setting
+                        id="purchase_order_report_title"
+                        string="Purchase Order Report Title"
+                        help="Set title for Purchase Order print. Defaults to the original report title if left empty."
+                    >
+                        <field name="purchase_order_report_title" />
+                    </setting>
+                    <setting
+                        id="purchase_rfq_report_title"
+                        string="RFQ Report Title"
+                        help="Set title for Request for Quotation print. Defaults to the original report title if left empty."
+                    >
+                        <field name="purchase_rfq_report_title" />
+                    </setting>
+                </block>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>
