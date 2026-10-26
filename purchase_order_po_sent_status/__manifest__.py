@@ -21,7 +21,7 @@
 {
     "name": "Use PO Sent status in Purchase Orders",
     "summary": "Add PO Sent status to Purchase Orders",
-    "version": "17.0.1.1.0",
+    "version": "17.0.1.1.1",
     "category": "Purchase Workflow",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
@@ -33,6 +33,7 @@
     ],
     "data": [
         "data/purchase_data.xml",
+        "report/purchase_order_report.xml",
         "views/purchase_order_view.xml",
     ],
 }
