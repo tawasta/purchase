@@ -35,17 +35,26 @@
             </td>
         </xpath>
 
-        <!--
-        <xpath expr="//th[@id='th_description']" position="before">
-            <th name="th_product_name" class="text-start"><strong>Name</strong></th>
+        <!-- Removing default code from description field -->
+        <xpath
+            expr="//td[@name='td_description']//span[@t-field='line.name']"
+            position="attributes"
+        >
+            <attribute name="t-if">False</attribute>
         </xpath>
-        <xpath expr="//td[@name='td_description']" position="before">
-            <td name="td_product_name" class="text-start">
-                <span t-field="line.product_id.name" />
-            </td>
+        <xpath
+            expr="//td[@name='td_description']//span[@t-field='line.name']"
+            position="before"
+        >
+            <t
+                t-set="code_prefix"
+                t-value="'[%s] ' % line.product_id.default_code if line.product_id.default_code else ''"
+            />
+            <t
+                t-set="clean_name"
+                t-value="line.name[len(code_prefix):] if code_prefix and line.name.startswith(code_prefix) else line.name"
+            />
+            <span t-esc="clean_name" />
         </xpath>
-        -->
-
-
     </template>
 </odoo>
