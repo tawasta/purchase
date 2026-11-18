@@ -22,7 +22,7 @@
     "name": "Purchase Order: Attached products",
     "summary": "Define products that will be auto-added when adding a certain "
     "product to PO line",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.1",
     "category": "Purchases",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",

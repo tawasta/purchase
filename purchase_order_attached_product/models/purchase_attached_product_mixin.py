@@ -14,25 +14,10 @@ class PurchaseAttachedProductMixin(models.AbstractModel):
 
     @api.model
     def _get_auto_refresh_attached_product_triggers(self) -> set:
-        """Returns set of fields which trigger the recomputation.
-        The method is overriden in the PO and PO line models
+        """Returns set of PO line fields which trigger the recomputation.
+        The method is overriden in the PO line model
         """
         return set()
-
-    def _get_recs_data(self) -> list:
-        """Allows to optimize the comparison before and after the write for the
-        minimum possible set of fields"""
-        triggers = self._get_auto_refresh_attached_product_triggers()
-        recs_data = []
-        for rec in self:
-            data = {}
-            for dotted_field_name in triggers:
-                val = rec.mapped(dotted_field_name)
-                if isinstance(val, models.AbstractModel):
-                    val = val.ids
-                data[dotted_field_name] = val
-            recs_data.append({rec: data})
-        return recs_data
 
     def _check_skip_attached_product_refresh(self):
         """Checks whether refresh should be skipped

@@ -16,17 +16,9 @@ class PurchaseOrder(models.Model):
     _name = "purchase.order"
     _inherit = ["purchase.order", "purchase.attached.product.mixin"]
 
-    @api.model
-    def _get_auto_refresh_attached_product_triggers(self) -> set:
-        """Normally, we won't be needing any field from purchase.order but order lines
-        but it's configurable anyway."""
-        triggers = super()._get_auto_refresh_attached_product_triggers()
-        order_line_triggers = (
-            self.order_line._get_auto_refresh_attached_product_triggers()
-        )
-        for trigger in order_line_triggers:
-            triggers.update({f"order_line.{trigger}"})
-        return triggers
+    def _get_attached_product_snapshot(self):
+        """Trigger field values of all lines of these orders."""
+        return self.order_line._get_attached_product_snapshot()
 
     def _get_attached_line_values_product(self, line, product):
         """Prepare the values for the attached line. This is used for creating or
@@ -208,10 +200,9 @@ class PurchaseOrder(models.Model):
         The line-level resync is skipped during the write to avoid doing it twice."""
         if self._check_skip_attached_product_refresh():
             return super().write(vals)
-        old_data = self._get_recs_data()
+        old_snapshot = self._get_attached_product_snapshot()
         self_ctx = self.with_context(skip_auto_refresh_purchase_attached_product=True)
         res = super(PurchaseOrder, self_ctx).write(vals)
-        new_data = self._get_recs_data()
-        if old_data != new_data:
+        if self._get_attached_product_snapshot() != old_snapshot:
             self.recompute_attached_products()
         return res
