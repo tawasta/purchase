@@ -58,13 +58,12 @@ class PurchaseOrderLine(models.Model):
         field changed."""
         if self._check_skip_attached_product_refresh():
             return super().write(vals)
-        old_data = self._get_recs_data()
+        old_snapshot = self._get_attached_product_snapshot()
         old_orders = self.order_id
         self_ctx = self.with_context(skip_auto_refresh_purchase_attached_product=True)
         res = super(PurchaseOrderLine, self_ctx).write(vals)
-        new_data = self._get_recs_data()
         new_orders = self.order_id
-        if old_data != new_data:
+        if self._get_attached_product_snapshot() != old_snapshot:
             (old_orders | new_orders).recompute_attached_products()
         return res
 
@@ -84,3 +83,9 @@ class PurchaseOrderLine(models.Model):
         triggers = super()._get_auto_refresh_attached_product_triggers()
         triggers.update({"product_id", "product_uom_id", "product_qty"})
         return triggers
+
+    def _get_attached_product_snapshot(self):
+        """Trigger field values of these lines, one dict per line with relational
+        values as plain ids, to compare before and after a write."""
+        triggers = sorted(self._get_auto_refresh_attached_product_triggers())
+        return self.read(triggers, load=None)

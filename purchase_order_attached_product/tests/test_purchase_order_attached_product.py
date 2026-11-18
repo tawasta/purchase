@@ -61,7 +61,9 @@ class TestPurchaseOrderAttachedProduct(TransactionCase):
         )
 
     def _add_main_line(self, uom, qty=1):
-        """Add product 1 in the given unit to the purchase order"""
+        """Add product 1 in the given unit to the purchase order and return the new
+        main line"""
+        old_lines = self.purchase.order_line
         self.purchase.write(
             {
                 "order_line": [
@@ -75,7 +77,8 @@ class TestPurchaseOrderAttachedProduct(TransactionCase):
                 ]
             }
         )
-        return self._get_line(self.purchase, self.product_1)
+        new_lines = self.purchase.order_line - old_lines
+        return new_lines.filtered(lambda x: not x.is_attached_line)
 
     def test_01_attach_product_modifiable(self):
         """Every time we add a product with attached products we'll adding extra lines
@@ -286,3 +289,22 @@ class TestPurchaseOrderAttachedProduct(TransactionCase):
         for qty in (2, 3):
             main_line.product_qty = qty
             self.assertEqual(len(self.purchase.order_line), 3)
+
+    def test_10_unit_change_saved_through_order(self):
+        """A unit change saved through the order (as the form does) is followed,
+        also when another line already has the new unit"""
+        self._enable_auto_update()
+        self.product_2.product_tmpl_id.uom_ids = self.uom_pack_6
+        self._add_main_line(self.uom_pack_6)
+        main_line = self._add_main_line(self.uom_unit)
+        self.purchase.write(
+            {
+                "order_line": [
+                    Command.update(main_line.id, {"product_uom_id": self.uom_pack_6.id})
+                ]
+            }
+        )
+        line_2 = main_line.attached_line_ids.filtered(
+            lambda x: x.product_id == self.product_2
+        )
+        self.assertEqual(line_2.product_uom_id, self.uom_pack_6)
