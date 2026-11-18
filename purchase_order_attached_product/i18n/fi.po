@@ -1,0 +1,73 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_order_attached_product
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-18 00:00+0000\n"
+"PO-Revision-Date: 2026-11-18 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: purchase_order_attached_product
+#: model:ir.model.fields,field_description:purchase_order_attached_product.field_purchase_order_line__attached_from_line_id
+msgid "Attached From Line"
+msgstr "Liitetty riviltä"
+
+#. module: purchase_order_attached_product
+#: model:ir.model.fields,field_description:purchase_order_attached_product.field_purchase_order_line__attached_line_ids
+msgid "Attached Line"
+msgstr "Liitetty rivi"
+
+#. module: purchase_order_attached_product
+#: model:ir.model.fields,field_description:purchase_order_attached_product.field_product_product__purchase_attached_product_ids
+#: model:ir.model.fields,field_description:purchase_order_attached_product.field_product_template__purchase_attached_product_ids
+#: model_terms:ir.ui.view,arch_db:purchase_order_attached_product.product_template_form_view
+msgid "Attached Purchase Products"
+msgstr "Liitetyt ostotuotteet"
+
+#. module: purchase_order_attached_product
+#: model:ir.model.fields,help:purchase_order_attached_product.field_purchase_order_line__is_attached_line
+msgid "Flag products that are attached to their main counterpart"
+msgstr "Merkitsee tuotteet, jotka on liitetty päätuotteeseensa"
+
+#. module: purchase_order_attached_product
+#: model:ir.model.fields,field_description:purchase_order_attached_product.field_purchase_order_line__is_attached_line
+msgid "Is Attached Line"
+msgstr "On liitetty rivi"
+
+#. module: purchase_order_attached_product
+#: model:ir.model,name:purchase_order_attached_product.model_purchase_attached_product_mixin
+msgid "Mixin class for purchase attached product features"
+msgstr "Mixin-luokka oston liitettyjen tuotteiden toiminnoille"
+
+#. module: purchase_order_attached_product
+#: model:ir.model,name:purchase_order_attached_product.model_product_template
+msgid "Product"
+msgstr "Tuote"
+
+#. module: purchase_order_attached_product
+#: model:ir.model.fields,help:purchase_order_attached_product.field_product_product__purchase_attached_product_ids
+#: model:ir.model.fields,help:purchase_order_attached_product.field_product_template__purchase_attached_product_ids
+msgid ""
+"Products that are added automatically to the purchase order with the same "
+"quantity."
+msgstr ""
+"Tuotteet, jotka lisätään ostotilaukselle automaattisesti samalla määrällä."
+
+#. module: purchase_order_attached_product
+#: model:ir.model,name:purchase_order_attached_product.model_purchase_order
+msgid "Purchase Order"
+msgstr "Ostotilaus"
+
+#. module: purchase_order_attached_product
+#: model:ir.model,name:purchase_order_attached_product.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Ostotilausrivi"
