@@ -6,17 +6,22 @@
 Purchase Report Line Revision Code
 ===================================
 
-* Adds product name, default code and revision code to purchase order
-  and request for quotation report lines.
+* Adds Product (internal reference) and Revision columns to purchase order
+  and request for quotation report lines
+* Removes the "[reference] " prefix from the line description
 
 Configuration
 =============
+\-
 
 Usage
 =====
+* Print a purchase order or a request for quotation. The lines show the
+  product code and the revision code of the product in their own columns.
 
 Known issues / Roadmap
 ======================
+\-
 
 Credits
 =======

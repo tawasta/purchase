@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Delivery Method",
     "summary": "Adds delivery method information to PO and RFQ reports",
-    "version": "19.0.1.0.1",
+    "version": "19.0.1.0.2",
     "category": "Purchase",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
@@ -30,11 +30,11 @@
     "installable": True,
     "depends": [
         "purchase",
+        "purchase_stock",
         "delivery_purchase",
     ],
     "data": [
         "report/purchase_order_report.xml",
         "report/request_for_quotation_report.xml",
     ],
-    "demo": [],
 }

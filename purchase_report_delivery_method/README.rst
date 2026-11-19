@@ -6,14 +6,16 @@
 Purchase Report Delivery Method
 ================================
 
+* Adds the delivery method of the purchase order to the PO and RFQ reports
+
 Configuration
 =============
 * Install module
 
 Usage
 =====
-* Delivery method information will appear in the PO and RFQ prints when this 
-module is installed.
+* Set a delivery method on a purchase order. It appears in the PO and RFQ
+  prints.
 
 Known issues / Roadmap
 ======================

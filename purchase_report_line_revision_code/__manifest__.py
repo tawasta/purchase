@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Line Revision Code",
     "summary": "Adds revision code to purchase order report lines",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.1",
     "category": "Reporting",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
