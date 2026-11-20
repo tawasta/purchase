@@ -21,7 +21,7 @@
 {
     "name": "Purchase Report Title",
     "summary": "Replaces default titles with a better purchase report title",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.1.0",
     "category": "Reporting",
     "website": "https://github.com/tawasta/purchase",
     "author": "Futural",
@@ -29,5 +29,8 @@
     "application": False,
     "installable": True,
     "depends": ["purchase"],
-    "data": ["report/purchase_order_report.xml"],
+    "data": [
+        "report/purchase_order_report.xml",
+        "views/res_config_settings.xml",
+    ],
 }
