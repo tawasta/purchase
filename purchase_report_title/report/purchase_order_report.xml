@@ -6,6 +6,10 @@
   >
     <xpath expr="//t[@t-set='o']" position="before">
       <t t-set="report_title">REQUEST FOR QUOTATION</t>
+      <t
+        t-set="report_title"
+        t-value="o.with_context(lang=o.partner_id.lang).company_id.purchase_rfq_report_title or report_title"
+      />
     </xpath>
     <xpath expr="//t[@t-set='layout_document_title']//span[1]" position="attributes">
       <attribute name="class">d-none</attribute>
@@ -17,6 +21,10 @@
   >
     <xpath expr="//t[@t-set='o']" position="before">
       <t t-set="report_title">PURCHASE ORDER</t>
+      <t
+        t-set="report_title"
+        t-value="o.with_context(lang=o.partner_id.lang).company_id.purchase_order_report_title or report_title"
+      />
     </xpath>
     <xpath
       expr='//t[@t-if="o.state in [&apos;draft&apos;, &apos;sent&apos;, &apos;to approve&apos;]"]'
