@@ -19,8 +19,10 @@ in other modules or outside Odoo? ---
 
 Usage
 =====
---- How a user can find the new possible features if one wants to
-test the module? ---
+The Purchase Order report is titled and named "Purchase Order" already in
+the "RFQ Sent" and "PO Sent" states, so the printout and the email attachment
+sent with "Send PO by Email" or "Print PO" are Purchase Orders.
+The "Request for Quotation" report is unaffected.
 
 Known issues / Roadmap
 ======================
@@ -37,6 +39,7 @@ Contributors
 ------------
 
 * Timo Kekäläinen <timo.kekalainen@tawasta.fi>
+* Valtteri Lattu <valtteri.lattu@futural.fi>
 
 Maintainer
 ----------
