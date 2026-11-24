@@ -21,9 +21,24 @@ Usage
 
 Known issues / Roadmap
 ======================
-* The module includes a migration script to update project_id field by its related
-  project.project record if this module has been used in 17 version. In this version
-  project_id field used account.analytic.account model.
+::
+
+    IMPORTANT IN 19 VERSION!!! project_purchase module messes up how project_id field
+    uses its related model, changing it from account.analytic.account
+    to project.project.
+
+    A person doing a version update from 17 version to 19 version should
+    use commands like these to set correct values to project_id
+    field:
+    ALTER TABLE purchase_order ADD COLUMN openupgrade_legacy_17_0_project_id;
+    UPDATE purchase_order SET openupgrade_legacy_17_0_project_id = project_id;
+    UPDATE purchase_order po
+        SET project_id = pp.id
+        FROM project_project pp
+        WHERE
+            pp.analytic_account_id = po.project_id;
+
+    Doing this with a migration script is not a good way, unfortunately.
 
 Credits
 =======
@@ -32,6 +47,7 @@ Contributors
 ------------
 
 * Timo Talvitie <timo.talvitie@futural.fi>
+* Timo Kekäläinen <timo.kekalainen@tawasta.fi>
 
 Maintainer
 ----------
